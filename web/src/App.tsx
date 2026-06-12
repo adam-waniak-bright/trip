@@ -21,8 +21,20 @@ export default function App() {
         </div>
       </header>
 
+      {/* Map */}
+      <section className="max-w-3xl mx-auto px-4 pt-8 pb-2">
+        <div className="bg-slate-900 rounded-xl overflow-hidden border border-slate-800">
+          <iframe
+            src="https://www.google.com/maps/d/embed?mid=16IQuqpejq6fe-leaWg6lxkww4-XdOP0&hl=en&ehbc=2E312F"
+            className="w-full h-[480px]"
+            title="Mapa trasy"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
       {/* Days */}
-      <main className="max-w-3xl mx-auto px-4 py-8 space-y-6">
+      <main className="max-w-3xl mx-auto px-4 py-6 space-y-6">
         {days.map(day => (
           <DayCard key={day.day} day={day} />
         ))}
