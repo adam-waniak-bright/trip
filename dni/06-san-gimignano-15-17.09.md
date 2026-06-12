@@ -49,11 +49,14 @@
 | 9:00 | Wyjazd do Sieny (~40 km, ~45 min) |
 | 10:00-12:30 | **Siena** - Piazza del Campo, Duomo, waskie uliczki |
 | 12:30-14:00 | **Obiad w Sienie** - pici, pappardelle al cinghiale, ribollita |
-| 14:30-16:00 | **Monteriggioni** (~15 min od Sieny) - mury obronne, spacer |
-| 16:30-18:00 | **Opcja:** przejazd przez Chianti - winnice, wzgorza, degustacja |
-| 18:30 | Powrot do bazy |
-| 19:00-20:30 | Zachod slonca nad toskanskimi wzgorzami |
-| 20:30 | Kolacja (gotowanie) |
+| 14:15-15:00 | **Monteriggioni** (~15 min od Sieny) - mury obronne, spacer |
+| 15:00-16:00 | Dojazd do Pienzy (~45 min od Monteriggioni) |
+| 16:00-17:30 | **Pienza** - "idealne miasto" renesansu, widok na Val d'Orcia, pecorino |
+| 17:30-18:30 | **Przejazd SP146** Pienza -> Montalcino - droga przez Val d'Orcia z cyprysami |
+| 18:30-19:30 | Powrot do bazy (~70 km) |
+| 20:00 | Kolacja (gotowanie) |
+
+**UWAGA:** Intensywny dzien (~170 km), ale jedyna szansa na Val d'Orcia - ikone Toskanii.
 
 ### Atrakcje
 #### Siena
@@ -69,10 +72,17 @@
 - Male, kameralne - 20-30 min wystarcza
 - **Koordynaty:** 43.3901, 11.2234
 
-#### Chianti (opcja)
-- Przejazd droga SR222 (Chiantigiana) - winnice, oliwki, cyprysy
-- Degustacja wina Chianti Classico w jednej z winiarni
-- Miasteczka: Greve in Chianti, Castellina in Chianti
+#### Pienza - MUST-SEE
+- "Idealne miasto" renesansu, UNESCO
+- Widok na Val d'Orcia z murow - ikoniczny krajobraz Toskanii
+- Pecorino di Pienza - slynny ser owczy, degustacja w sklepikach
+- Corso Rossellino - glowna ulica z katedra i palazzo
+- **Koordynaty:** 43.0766, 11.6789
+
+#### Val d'Orcia (przejazd droga SP146)
+- Droga Pienza -> Montalcino przez dolina Val d'Orcia
+- Lagodne wzgorza, cyprysy, wiejskie drogi - to te widoki z przewodnikow po Toskanii!
+- Mozliwosc zatrzymania sie na zdjecia przy drodze
 
 ---
 

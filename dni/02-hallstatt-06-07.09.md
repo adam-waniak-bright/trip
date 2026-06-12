@@ -37,24 +37,34 @@
 | Godzina | Plan |
 |---|---|
 | 8:00 | Sniadanie (gotowanie) |
-| 9:00-10:30 | Szlak na Hallstatt Skywalk / World Heritage View (~1h, latwy) |
-| 10:30-12:00 | Spacer po Hallstatt - waskie uliczki, rynek |
-| 12:00-13:30 | **Obiad w Hallstatt** - ryba z jeziora! |
-| 14:00-17:00 | **Opcja A:** Jaskinia lodowa Dachstein (kolejka + jaskinia, ~3h z dojazdem) |
-| | **Opcja B:** Plazowanie/kajaki na jeziorze Hallstattersee |
-| 17:00-19:00 | Relaks nad jeziorem |
+| 8:30 | Dojazd do kolejki Dachstein-Krippenstein w Obertraun |
+| 9:00-11:00 | **Five Fingers (Krippenstein, 2100m)** - kolejka na gore + 20 min spacer do platform |
+| 11:00-13:00 | **Jaskinia lodowa Dachstein** - zjazd kolejka na poziom Schonbergalm |
+| 13:00-13:30 | Zjazd kolejka do Obertraun |
+| 13:30-14:30 | **Obiad w Hallstatt** - ryba z jeziora! |
+| 14:30-16:30 | Spacer po Hallstatt - waskie uliczki, rynek |
+| 16:30-18:30 | Plazowanie/kajaki na jeziorze Hallstattersee |
 | 19:00 | Kolacja (gotowanie), wczesny sen - jutro caly dzien w drodze |
 
 ### Atrakcje
-#### Hallstatt Skywalk - World Heritage View
-- Punkt widokowy na Hallstatt i jezioro
-- Dojscie: latwy szlak ~1h z centrum lub kolejka
-- **Koordynaty:** 47.5613, 13.6435
+#### Five Fingers (Krippenstein) - MUST-SEE
+- 5 platform ze szkla i stali nad przepascia na 2100m n.p.m.
+- Panorama 360 stopni na Dachstein, Hallstattersee i okoliczne szczyty
+- Dojazd: kolejka Dachstein-Krippenstein z Obertraun (3 przystanki)
+- Z gornej stacji 20 min spaceru do platform
+- **Koszt:** ~35-40 EUR/os (kolejka w obie strony, wlicza tez jaskinię)
+- **UWAGA:** To NIE to samo co Hallstatt Skywalk (860m) - Five Fingers jest na 2100m i znacznie bardziej spektakularne
 
 #### Jaskinia lodowa Dachstein
-- Kolejka linowa z Obertraun + dojscie do jaskini
+- Na poziomie Schonbergalm (przystanek kolejki Krippenstein)
 - Temperatura w jaskini: ~0 st. - wziac ciepla kurtke!
-- **Koszt:** ~40 EUR/os (kolejka + jaskinia)
+- Wliczone w bilet kolejki lub niewielka doplata
+
+#### Hallstatt Skywalk - World Heritage View (opcjonalnie)
+- Punkt widokowy na Hallstatt i jezioro na 860m
+- Dojscie: latwy szlak ~1h z centrum (darmowy!)
+- Mozna zrobic wieczorem Dnia 1 lub rano Dnia 2 przed kolejka
+- **Koordynaty:** 47.5613, 13.6435
 
 #### Jezioro Hallstattersee
 - Kajaki / SUP - wypozyczyc na miejscu

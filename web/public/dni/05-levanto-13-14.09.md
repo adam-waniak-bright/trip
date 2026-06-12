@@ -15,9 +15,11 @@
 | 13:00-13:30 | Pociag Levanto -> Riomaggiore (~20 min) |
 | 13:30-15:00 | **Riomaggiore** - spacer po wiosce, obiad z widokiem na morze |
 | 15:00-15:30 | Pociag do Manarola |
-| 15:30-17:00 | **Manarola** - spacer, zdjecia z punktu widokowego (Via dell'Amore) |
-| 17:00-17:15 | Pociag do Vernazza |
-| 17:15-19:30 | **Vernazza** - spacer, kolacja z owocami morza nad morzem |
+| 15:30-16:30 | **Manarola** - spacer, zdjecia z punktu widokowego (Via dell'Amore) |
+| 16:30-16:45 | Pociag do Corniglia |
+| 16:45-17:30 | **Corniglia** - 5. wioska na szczycie klifu, panorama (autobus lub 382 schody z dworca) |
+| 17:30-17:45 | Pociag do Vernazza |
+| 17:45-19:30 | **Vernazza** - Castello Doria (widok na port, ~1.5 EUR), kolacja z owocami morza |
 | 19:30-20:00 | Pociag powrotny do Levanto |
 | 20:30 | Relaks |
 
@@ -38,8 +40,16 @@
 - Punkt widokowy: zejsc do portu i obejrzec sie
 - **Koordynaty:** 44.1068, 9.7285
 
+#### Corniglia
+- Jedyna wioska bez dostepu do morza - na szczycie klifu
+- Najciszejsza i najmniej komercyjna z 5 wiosek
+- Panorama na cale Cinque Terre
+- Dojscie z dworca: 382 schody (Lardarina) lub autobus wahadlowy
+- **Koordynaty:** 44.1200, 9.7100
+
 #### Vernazza
 - Najbardzej klimatyczna wioska - port z wiezyczka
+- **Castello Doria** - sredniowieczna wieza nad portem, ~1.5 EUR, 10 min, najlepszy widok na port
 - Najlepsze restauracje z owocami morza w Cinque Terre
 - Polecane: trofie al pesto, fritto misto, anchovies
 - **Koordynaty:** 44.1354, 9.6828
