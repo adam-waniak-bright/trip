@@ -103,18 +103,18 @@
 - **Wieczor:** kolacja w lokalnej trattoria, lokalne wino Vernaccia di San Gimignano
 - **Nocleg:** Camping Il Boschetto di Piemma, San Gimignano - baza na 3 noce
 
-### Dzien 11 | 16.09 (wtorek) - Toskania - Siena i okolice
-- **Rano:** dojazd do Sieny (~40 km) - Piazza del Campo, Duomo, waskie uliczki
-- **Obiad:** w Sienie (pici, pappardelle al cinghiale)
-- **Popoludnie:** Monteriggioni (mury obronne, 15 min od Sieny) lub wino w Chianti
-- **Wieczor:** powrot do bazy, zachod slonca nad toskanskimi wzgorzami
-- **Nocleg:** ten sam
-
-### Dzien 12 | 17.09 (sroda) - Toskania - Volterra i relaks
+### Dzien 11 | 16.09 (wtorek) - Toskania - Volterra, Pienza i Val d'Orcia
 - **Rano:** Volterra (~30 km) - etruskie miasto na wzgorzu, panoramy, alabaster
 - **Obiad:** w Volterra
-- **Popoludnie:** relaks - basen w agriturismo, spacer po okolicy, degustacja wina/oliwy
-- **Wieczor:** ostatnia kolacja toskanska
+- **Popoludnie:** Pienza (~80 km z Volterry) - "idealne miasto" renesansu, widok na Val d'Orcia, pecorino
+- **Wieczor:** przejazd SP146 przez Val d'Orcia o zachodzie slonca - cyprysy i zlociste wzgorza
+- **Nocleg:** ten sam
+
+### Dzien 12 | 17.09 (sroda) - Toskania - Siena i Monteriggioni
+- **Rano:** dojazd do Sieny (~40 km) - Piazza del Campo, Duomo, Torre del Mangia
+- **Obiad:** w Sienie (pici, pappardelle al cinghiale, ribollita)
+- **Popoludnie:** Monteriggioni (mury obronne, 15 min od Sieny), powrot do bazy
+- **Wieczor:** relaks na campingu, ostatnia kolacja toskanska, pakowanie
 - **Nocleg:** ten sam
 
   ### Dzien 13 | 18.09 (czwartek) - Toskania -> Wroclaw

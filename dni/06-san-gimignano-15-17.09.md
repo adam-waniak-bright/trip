@@ -40,23 +40,63 @@
 
 ---
 
-## Dzien 11 | 16.09 (wtorek) - Siena i okolice
+## Dzien 11 | 16.09 (wtorek) - Volterra, Pienza i Val d'Orcia
 
 ### Harmonogram
 | Godzina | Plan |
 |---|---|
 | 8:00 | Sniadanie (gotowanie) |
-| 9:00 | Wyjazd do Sieny (~40 km, ~45 min) |
-| 10:00-12:30 | **Siena** - Piazza del Campo, Duomo, waskie uliczki |
-| 12:30-14:00 | **Obiad w Sienie** - pici, pappardelle al cinghiale, ribollita |
-| 14:15-15:00 | **Monteriggioni** (~15 min od Sieny) - mury obronne, spacer |
-| 15:00-16:00 | Dojazd do Pienzy (~45 min od Monteriggioni) |
-| 16:00-17:30 | **Pienza** - "idealne miasto" renesansu, widok na Val d'Orcia, pecorino |
-| 17:30-18:30 | **Przejazd SP146** Pienza -> Montalcino - droga przez Val d'Orcia z cyprysami |
-| 18:30-19:30 | Powrot do bazy (~70 km) |
-| 20:00 | Kolacja (gotowanie) |
+| 8:30 | Wyjazd do Volterry (~30 km, ~40 min) |
+| 9:15-11:30 | **Volterra** - spacer po starym miescie, panoramy, Balze |
+| 11:30-12:30 | **Obiad w Volterra** |
+| 13:00 | Wyjazd do Pienzy (~80 km, ~1.5h) |
+| 14:30-16:30 | **Pienza** - "idealne miasto" renesansu, widok na Val d'Orcia, pecorino |
+| 16:30-17:30 | **Przejazd SP146** Pienza -> Montalcino - droga przez Val d'Orcia z cyprysami (zachod slonca ~19:15!) |
+| 17:30-19:00 | Powrot do bazy (~70 km) |
+| 19:30 | Kolacja (gotowanie) |
 
-**UWAGA:** Intensywny dzien (~170 km), ale jedyna szansa na Val d'Orcia - ikone Toskanii.
+**UWAGA:** ~200 km w ciagu dnia, ale Volterra rano + Val d'Orcia o zachodzie slonca to idealny podzial swiatla.
+
+### Atrakcje
+#### Volterra
+- Etruskie miasto na wzgorzu (osadzone od 800 p.n.e.!)
+- **Piazza dei Priori** - najstarszy ratusz w Toskanii
+- **Teatro Romano** - ruiny rzymskiego teatru
+- **Balze** - klify erozyjne na skraju miasta - spektakularne widoki
+- Alabaster - lokalne rzemioslo, warsztaty i sklepy
+- Mniej turystow niz San Gimignano - bardziej autentyczne
+- **Koordynaty:** 43.4043, 10.8550
+
+#### Pienza - MUST-SEE
+- "Idealne miasto" renesansu, UNESCO
+- Widok na Val d'Orcia z murow - ikoniczny krajobraz Toskanii
+- Pecorino di Pienza - slynny ser owczy, degustacja w sklepikach
+- Corso Rossellino - glowna ulica z katedra i palazzo
+- **Koordynaty:** 43.0766, 11.6789
+
+#### Val d'Orcia (przejazd droga SP146)
+- Droga Pienza -> Montalcino przez dolina Val d'Orcia
+- Lagodne wzgorza, cyprysy, wiejskie drogi - to te widoki z przewodnikow po Toskanii!
+- Mozliwosc zatrzymania sie na zdjecia przy drodze
+- **Najlepsze swiatlo:** popoludnie/zachod slonca - zlociste wzgorza
+
+---
+
+## Dzien 12 | 17.09 (sroda) - Siena i Monteriggioni
+
+### Harmonogram
+| Godzina | Plan |
+|---|---|
+| 8:30 | Sniadanie (gotowanie) |
+| 9:30 | Wyjazd do Sieny (~40 km, ~45 min) |
+| 10:15-13:00 | **Siena** - Piazza del Campo, Duomo, Torre del Mangia, waskie uliczki |
+| 13:00-14:30 | **Obiad w Sienie** - pici, pappardelle al cinghiale, ribollita |
+| 14:30-15:30 | Spacer po Sienie - spokojne tempo, zakupy, kawa |
+| 15:45-16:15 | **Monteriggioni** (~15 min od Sieny) - mury obronne, spacer |
+| 16:30 | Powrot do bazy |
+| 17:00-18:30 | **Relaks** - basen na campingu, spacer po okolicy |
+| 19:00 | **Ostatnia kolacja toskanska** (gotowanie z lokalnymi produktami) |
+| 21:00 | Pakowanie - jutro dlugi dzien powrotny |
 
 ### Atrakcje
 #### Siena
@@ -71,45 +111,6 @@
 - Spacer po murach (~4 EUR)
 - Male, kameralne - 20-30 min wystarcza
 - **Koordynaty:** 43.3901, 11.2234
-
-#### Pienza - MUST-SEE
-- "Idealne miasto" renesansu, UNESCO
-- Widok na Val d'Orcia z murow - ikoniczny krajobraz Toskanii
-- Pecorino di Pienza - slynny ser owczy, degustacja w sklepikach
-- Corso Rossellino - glowna ulica z katedra i palazzo
-- **Koordynaty:** 43.0766, 11.6789
-
-#### Val d'Orcia (przejazd droga SP146)
-- Droga Pienza -> Montalcino przez dolina Val d'Orcia
-- Lagodne wzgorza, cyprysy, wiejskie drogi - to te widoki z przewodnikow po Toskanii!
-- Mozliwosc zatrzymania sie na zdjecia przy drodze
-
----
-
-## Dzien 12 | 17.09 (sroda) - Volterra i relaks
-
-### Harmonogram
-| Godzina | Plan |
-|---|---|
-| 8:30 | Sniadanie (gotowanie) |
-| 9:30 | Wyjazd do Volterry (~30 km, ~40 min) |
-| 10:15-13:00 | **Volterra** - spacer po starym miescie, panoramy |
-| 13:00-14:00 | **Obiad w Volterra** |
-| 14:30 | Powrot na camping |
-| 15:00-18:00 | **Relaks** - basen na campingu, spacer po okolicy, czytanie |
-| 18:00-19:30 | **Opcja:** degustacja oliwy lub wina w okolicznym agriturismo |
-| 20:00 | **Ostatnia kolacja toskanska** (gotowanie z lokalnymi produktami) |
-| 21:00 | Pakowanie - jutro dlugi dzien powrotny |
-
-### Atrakcje
-#### Volterra
-- Etruskie miasto na wzgorzu (osadzone od 800 p.n.e.!)
-- **Piazza dei Priori** - najstarszy ratusz w Toskanii
-- **Teatro Romano** - ruiny rzymskiego teatru
-- **Balze** - klify erozyjne na skraju miasta - spektakularne widoki
-- Alabaster - lokalne rzemioslo, warsztaty i sklepy
-- Mniej turystow niz San Gimignano - bardziej autentyczne
-- **Koordynaty:** 43.4043, 10.8550
 
 #### Relaks na campingu
 - Camping Il Boschetto di Piemma - basen, bar, restauracja
