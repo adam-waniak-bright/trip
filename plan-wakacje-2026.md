@@ -4,7 +4,7 @@
 - **Kto:** 4 osoby dorosle (2 pary: Gdansk + Wroclaw)
 - **Kiedy:** 5.09 (dojazd GD->WRO) + 6-19.09 (road trip)
 - **Transport:** 1 samochod
-- **Budzet:** ~5000 zl/os (20 000 zl lacznie), elastyczny
+- **Budzet:** ~5 500-6 000 zl/os (~20 200 - 24 200 zl lacznie), elastyczny
 - **Styl:** road trip, turystyczne szlaki, miasteczka, plaże i jeziora
 - **Wyzywienie:** sniadania i kolacje - gotowanie, obiady - restauracje
 
@@ -12,16 +12,16 @@
 
 ## Szacunkowy budzet
 
-| Kategoria | Koszt (lacznie 4 os.) |
-|---|---|
-| Paliwo (~3500 km, 7l/100km, 1.6 EUR/l) | ~3 900 zl |
-| Winiety/autostrady (CZ, AT, IT) | ~1 200 zl |
-| Noclegi (13 nocy, mix camping/apartamenty) | ~6 000 - 9 000 zl |
-| Jedzenie (obiady restauracja + gotowanie) | ~5 000 - 6 000 zl |
-| Atrakcje, kolejki, wstepy | ~1 500 zl |
-| Rezerwa | ~1 500 zl |
-| **RAZEM** | **~19 000 - 23 000 zl** |
-| **Na osobe** | **~4 750 - 5 750 zl** |
+| Kategoria | Koszt (lacznie 4 os.) | Szczegoly |
+|---|---|---|
+| Paliwo (~3500 km, 7l/100km, ~1.6 EUR/l) | ~3 900 zl | |
+| Winiety / autostrady | ~1 000 zl | CZ 2x10 dni (34 EUR), AT 2-mies. (28 EUR), Grossglockner (40 EUR), IT bramki (~60 EUR) |
+| Noclegi (13 nocy) | ~6 000 - 9 000 zl | mix camping / apartamenty |
+| Jedzenie | ~5 000 - 6 000 zl | obiady restauracja + gotowanie sniadania/kolacje |
+| Atrakcje / wstepy / kolejki | ~2 800 zl | Five Fingers+jaskinia 160 EUR, Seceda 160 EUR, CT Card 116 EUR, reszta ~140 EUR |
+| Rezerwa | ~1 500 zl | |
+| **RAZEM** | **~20 200 - 24 200 zl** | |
+| **Na osobe** | **~5 050 - 6 050 zl** | |
 
 > Uwaga: camping obniza koszty noclegow o ~40%. Apartamenty z kuchnia to dobry kompromis.
 
