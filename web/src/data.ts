@@ -31,11 +31,11 @@ export const TAG_LABELS: Record<Tag, string> = {
 };
 
 export const TAG_COLORS: Record<Tag, string> = {
-  mountain: 'bg-emerald-900/60 text-emerald-300',
-  lake: 'bg-sky-900/60 text-sky-300',
-  city: 'bg-amber-900/60 text-amber-300',
-  beach: 'bg-violet-900/60 text-violet-300',
-  drive: 'bg-slate-700/60 text-slate-400',
+  mountain: 'bg-emerald-100 text-emerald-700',
+  lake: 'bg-sky-100 text-sky-700',
+  city: 'bg-amber-100 text-amber-700',
+  beach: 'bg-violet-100 text-violet-700',
+  drive: 'bg-stone-100 text-stone-500',
 };
 
 export interface BudgetItem { label: string; value: string }

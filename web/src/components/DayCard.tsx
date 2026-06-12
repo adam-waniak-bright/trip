@@ -10,7 +10,6 @@ function extractDaySection(markdown: string, dayNumber: number): string {
   const startIndex = lines.findIndex(l => l.startsWith(dayHeader));
   if (startIndex === -1) return markdown;
 
-  // Find the next ## header (next day or section)
   let endIndex = lines.length;
   for (let i = startIndex + 1; i < lines.length; i++) {
     if (lines[i].startsWith('## ') || lines[i].startsWith('---')) {
@@ -22,7 +21,6 @@ function extractDaySection(markdown: string, dayNumber: number): string {
   return lines.slice(startIndex, endIndex).join('\n');
 }
 
-// Cache fetched files to avoid re-fetching when multiple days share the same file
 const fileCache = new Map<string, string>();
 
 export function DayCard({ day }: { day: DayPlan }) {
@@ -50,7 +48,7 @@ export function DayCard({ day }: { day: DayPlan }) {
   }, [expanded, details, day.detailsFile, day.day]);
 
   return (
-    <section className="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 hover:border-slate-700 transition-colors">
+    <section className="bg-white rounded-xl overflow-hidden border border-stone-200 shadow-sm hover:shadow-md transition-shadow">
       {/* Clickable header */}
       <div
         className="cursor-pointer"
@@ -64,24 +62,24 @@ export function DayCard({ day }: { day: DayPlan }) {
             className="w-full h-full object-cover"
             loading="lazy"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-transparent to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
           <div className="absolute bottom-4 left-4 right-4">
             <div className="flex items-center gap-2 mb-1 flex-wrap">
-              <span className="text-xs font-bold px-2.5 py-1 rounded bg-slate-900/80 text-blue-300 backdrop-blur-sm">
+              <span className="text-xs font-bold px-2.5 py-1 rounded bg-white/90 text-amber-800 backdrop-blur-sm">
                 Dzien {day.day} | {day.date} ({day.weekday})
               </span>
               {day.overnight && (
-                <span className="text-xs px-2.5 py-1 rounded bg-slate-900/80 text-slate-400 backdrop-blur-sm">
+                <span className="text-xs px-2.5 py-1 rounded bg-white/80 text-stone-600 backdrop-blur-sm">
                   Nocleg: {day.overnight}
                 </span>
               )}
             </div>
-            <h2 className="text-xl font-bold text-white">{day.title}</h2>
-            <p className="text-sm text-slate-300">{day.route}</p>
+            <h2 className="text-xl font-bold text-white drop-shadow-md">{day.title}</h2>
+            <p className="text-sm text-white/80 drop-shadow">{day.route}</p>
           </div>
           {/* Expand indicator */}
           {day.detailsFile && (
-            <div className="absolute top-3 right-3 w-8 h-8 rounded-full bg-slate-900/70 backdrop-blur-sm flex items-center justify-center text-slate-300">
+            <div className="absolute top-3 right-3 w-8 h-8 rounded-full bg-white/80 backdrop-blur-sm flex items-center justify-center text-stone-600">
               <svg
                 className={`w-4 h-4 transition-transform ${expanded ? 'rotate-180' : ''}`}
                 fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}
@@ -94,7 +92,7 @@ export function DayCard({ day }: { day: DayPlan }) {
 
         {/* Summary content */}
         <div className="p-5">
-          <p className="text-slate-300 leading-relaxed mb-4">{day.desc}</p>
+          <p className="text-stone-600 leading-relaxed mb-4">{day.desc}</p>
 
           {/* Tags */}
           <div className="flex gap-2 flex-wrap mb-4">
@@ -108,19 +106,19 @@ export function DayCard({ day }: { day: DayPlan }) {
           {/* Attractions */}
           {day.attractions.length > 0 && (
             <div className="space-y-3">
-              <h3 className="text-sm uppercase tracking-widest text-slate-500 font-medium">Atrakcje</h3>
+              <h3 className="text-sm uppercase tracking-widest text-stone-400 font-medium">Atrakcje</h3>
               {day.attractions.map(attraction => (
                 <div key={attraction.name} className="flex items-start gap-3 group">
                   <div className="flex-1 min-w-0">
-                    <div className="font-medium text-blue-200">{attraction.name}</div>
-                    <p className="text-sm text-slate-400 mt-0.5">{attraction.desc}</p>
+                    <div className="font-medium text-stone-800">{attraction.name}</div>
+                    <p className="text-sm text-stone-500 mt-0.5">{attraction.desc}</p>
                   </div>
                   <a
                     href={getGoogleMapsUrl(attraction)}
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={e => e.stopPropagation()}
-                    className="shrink-0 mt-1 px-3 py-1.5 text-xs font-medium rounded-lg bg-slate-800 text-slate-300 hover:bg-slate-700 hover:text-white transition-colors"
+                    className="shrink-0 mt-1 px-3 py-1.5 text-xs font-medium rounded-lg bg-stone-100 text-stone-600 hover:bg-amber-100 hover:text-amber-800 transition-colors"
                     title={`Otworz ${attraction.name} w Google Maps`}
                   >
                     Maps
@@ -132,28 +130,28 @@ export function DayCard({ day }: { day: DayPlan }) {
 
           {/* Click hint */}
           {day.detailsFile && !expanded && (
-            <p className="text-xs text-slate-600 mt-3 text-center">Kliknij aby zobaczyc szczegoly</p>
+            <p className="text-xs text-stone-400 mt-3 text-center">Kliknij aby zobaczyc szczegoly</p>
           )}
         </div>
       </div>
 
       {/* Expanded details */}
       {expanded && (
-        <div className="border-t border-slate-800 p-5">
-          {loading && <p className="text-slate-500 text-sm">Ladowanie...</p>}
+        <div className="border-t border-stone-200 p-5 bg-stone-50">
+          {loading && <p className="text-stone-400 text-sm">Ladowanie...</p>}
           {details && (
-            <div className="prose prose-invert prose-sm max-w-none
-              prose-headings:text-blue-200 prose-headings:font-semibold
+            <div className="prose prose-stone prose-sm max-w-none
+              prose-headings:text-stone-800 prose-headings:font-semibold
               prose-h2:text-base prose-h2:mt-4 prose-h2:mb-2
-              prose-h3:text-sm prose-h3:text-slate-400 prose-h3:uppercase prose-h3:tracking-wider prose-h3:mt-4
-              prose-h4:text-sm prose-h4:text-blue-100 prose-h4:mt-3
-              prose-p:text-slate-300 prose-p:leading-relaxed
-              prose-li:text-slate-300 prose-li:marker:text-slate-600
-              prose-strong:text-blue-100
-              prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline
+              prose-h3:text-sm prose-h3:text-stone-500 prose-h3:uppercase prose-h3:tracking-wider prose-h3:mt-4
+              prose-h4:text-sm prose-h4:text-stone-700 prose-h4:mt-3
+              prose-p:text-stone-600 prose-p:leading-relaxed
+              prose-li:text-stone-600 prose-li:marker:text-stone-400
+              prose-strong:text-stone-800
+              prose-a:text-amber-700 prose-a:no-underline hover:prose-a:underline
               prose-table:w-full
-              prose-th:text-left prose-th:text-slate-400 prose-th:font-medium prose-th:border-slate-700 prose-th:px-3 prose-th:py-2
-              prose-td:border-slate-800 prose-td:text-slate-300 prose-td:px-3 prose-td:py-2
+              prose-th:text-left prose-th:text-stone-500 prose-th:font-medium prose-th:border-stone-300 prose-th:px-3 prose-th:py-2 prose-th:bg-stone-100
+              prose-td:border-stone-200 prose-td:text-stone-600 prose-td:px-3 prose-td:py-2
             ">
               <Markdown remarkPlugins={[remarkGfm]}>{details}</Markdown>
             </div>
