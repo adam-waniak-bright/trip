@@ -117,7 +117,7 @@
 - **Wieczor:** ostatnia kolacja toskanska
 - **Nocleg:** ten sam
 
-### Dzien 13 | 18.09 (czwartek) - Toskania -> Wroclaw
+  ### Dzien 13 | 18.09 (czwartek) - Toskania -> Wroclaw
 - **Trasa:** San Gimignano -> Bologna -> Brenner -> Wroclaw (~1300 km, ~13h)
 - **Kierowcy:** 3 kierowcow, zmiana co ~4-4.5h
 - **Po drodze:** przystanek w Bolonii lub Parmie na obiad (1-2h)
@@ -147,19 +147,27 @@
 
 ## Praktyczne wskazowki
 
-### Winiety i oplaty drogowe
-- **Czechy:** e-winieta 10 dni (~17 EUR) - kupic online przed wyjazdem
-- **Austria:** e-winieta 10 dni (~9.90 EUR) + Grossglockner (~40 EUR)
-- **Wlochy:** autostrady platne (bramki) - karta lub gotowka, szac. ~40-60 EUR lacznie
+### Winiety i oplaty drogowe - UWAGA NA TERMINY!
+- **Czechy:** e-winieta 10 dni (~17 EUR). Kupiona 6.09 wazna do 15.09 - na powrot 18.09 moze trzeba kupic druga!
+- **Austria:** e-winieta 10 dni (~9.90 EUR) + Grossglockner (~40 EUR). Tez wygasa przed powrotem przez Brenner!
+- Rozwazyc: 2-miesieczna AT (~28 EUR) vs 2x 10-dniowa (~20 EUR) - lub powrot przez Niemcy (bez winiety AT/CZ)
+- **Wlochy:** autostrady platne (bramki) - karta lub gotowka, szac. ~50-70 EUR lacznie (wlicza powrot przez Brenner)
 
 ### Co spakowac
 - Kuchenka turystyczna + garnki (sniadania/kolacje)
 - Namiot (jesli opcja campingowa)
 - Buty trekkingowe (Dolomity, szlaki)
 - Stroje kapielowe (Garda, Cinque Terre)
-- Cieplejsza warstwa (wieczory w gorach, wrzesien w Alpach moze byc chlodny 5-10 st.)
+- Ciepla kurtka / polar - na 2500m w Dolomitach moze byc 5-10 st.!
+- Kurtka przeciwdeszczowa - plan B na deszcz w gorach
 
 ### Wrzesien w Alpach/Wloszech
 - Temperatura: 15-25 st. (nizej w gorach, wyzej nad morzem)
 - Mniej turystow niz w sierpniu - duzy plus!
 - Wczesniejsze zachody slonca (~19:30) - planowac szlaki z rana
+
+### Glowne ryzyka
+1. **Powrot 18.09 (1300 km)** - najtrudniejszy dzien, miec plan B na nocleg po drodze
+2. **Garda w 1 dzien** - wybrac 1-2 atrakcje, nie probowac zobaczyc wszystkiego
+3. **4 dni szlakow w Dolomitach** - miec plan B na deszcz (miasta: Brixen, Bolzano)
+4. **Winiety** - sprawdzic terminy waznosci przed powrotem!
