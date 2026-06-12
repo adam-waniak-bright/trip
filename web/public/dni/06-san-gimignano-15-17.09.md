@@ -1,0 +1,112 @@
+# Nocleg 6: San Gimignano (Toskania) | 15-17.09 (poniedzialek-sroda)
+## Nocleg: Camping Il Boschetto di Piemma, San Gimignano
+## Ile nocy: 3
+
+---
+
+## Dzien 10 | 15.09 (poniedzialek) - Cinque Terre -> Toskania
+
+### Harmonogram
+| Godzina | Plan |
+|---|---|
+| 8:00 | Sniadanie (gotowanie) |
+| 8:30-9:30 | Ostatni spacer / plaza w Levanto |
+| 10:00 | Wyjazd do San Gimignano |
+| ~12:30 | Przyjazd, zakwaterowanie na campingu |
+| 13:00-13:30 | Dojazd do centrum San Gimignano (parking poza murami) |
+| 13:30-15:00 | **Obiad w San Gimignano** - lokalna trattoria |
+| 15:00-18:00 | **Spacer po San Gimignano** - wieze, Piazza della Cisterna, Duomo |
+| 18:00-19:00 | **Vernaccia di San Gimignano Wine Experience La Rocca** - degustacja wina |
+| 19:30 | Powrot na camping |
+| 20:00 | Kolacja (gotowanie) z lokalnym winem |
+
+### Trasa
+- Levanto -> San Gimignano: **~200 km, ~2.5h** (A12 + FI-PI-LI)
+
+### Atrakcje
+#### San Gimignano
+- "Sredniowieczny Manhattan" - 14 zachowanych wiez (z 72 oryginalnych!)
+- **Piazza della Cisterna** - trojkatny plac z studnia z XIII w.
+- **Piazza del Duomo** - katedra z freskami
+- **Torre Grossa** - najwyzsza wieza, mozna wejsc (~9 EUR), panorama na Toskanie
+- **Gelateria Dondoli** - wielokrotnie nagradzane lody (na Piazza della Cisterna)
+- Spacer po murach obronnych
+- **Koordynaty:** 43.4672, 11.0434
+
+#### Vernaccia Wine Experience
+- Degustacja lokalnego bialego wina Vernaccia di San Gimignano
+- W twierdzy La Rocca - widok na okolice
+- **Koordynaty:** 43.4676, 11.0415
+
+---
+
+## Dzien 11 | 16.09 (wtorek) - Siena i okolice
+
+### Harmonogram
+| Godzina | Plan |
+|---|---|
+| 8:00 | Sniadanie (gotowanie) |
+| 9:00 | Wyjazd do Sieny (~40 km, ~45 min) |
+| 10:00-12:30 | **Siena** - Piazza del Campo, Duomo, waskie uliczki |
+| 12:30-14:00 | **Obiad w Sienie** - pici, pappardelle al cinghiale, ribollita |
+| 14:30-16:00 | **Monteriggioni** (~15 min od Sieny) - mury obronne, spacer |
+| 16:30-18:00 | **Opcja:** przejazd przez Chianti - winnice, wzgorza, degustacja |
+| 18:30 | Powrot do bazy |
+| 19:00-20:30 | Zachod slonca nad toskanskimi wzgorzami |
+| 20:30 | Kolacja (gotowanie) |
+
+### Atrakcje
+#### Siena
+- **Piazza del Campo** - muszlowy plac, miejsce wysciguo konnych Palio
+- **Duomo di Siena** - jedna z najladniejszych katedr we Wloszech (marmurowa posadzka!)
+- **Torre del Mangia** - wieza ratuszowa, panorama (~10 EUR, 400 schodow)
+- Ulice: waskie, strome, pelne klimatu
+- **Koordynaty:** 43.3185, 11.3306
+
+#### Monteriggioni
+- Sredniowieczna wioska otoczona murami obronnymi (Dante wspominal w Boskiej Komedii)
+- Spacer po murach (~4 EUR)
+- Male, kameralne - 20-30 min wystarcza
+- **Koordynaty:** 43.3901, 11.2234
+
+#### Chianti (opcja)
+- Przejazd droga SR222 (Chiantigiana) - winnice, oliwki, cyprysy
+- Degustacja wina Chianti Classico w jednej z winiarni
+- Miasteczka: Greve in Chianti, Castellina in Chianti
+
+---
+
+## Dzien 12 | 17.09 (sroda) - Volterra i relaks
+
+### Harmonogram
+| Godzina | Plan |
+|---|---|
+| 8:30 | Sniadanie (gotowanie) |
+| 9:30 | Wyjazd do Volterry (~30 km, ~40 min) |
+| 10:15-13:00 | **Volterra** - spacer po starym miescie, panoramy |
+| 13:00-14:00 | **Obiad w Volterra** |
+| 14:30 | Powrot na camping |
+| 15:00-18:00 | **Relaks** - basen na campingu, spacer po okolicy, czytanie |
+| 18:00-19:30 | **Opcja:** degustacja oliwy lub wina w okolicznym agriturismo |
+| 20:00 | **Ostatnia kolacja toskanska** (gotowanie z lokalnymi produktami) |
+| 21:00 | Pakowanie - jutro dlugi dzien powrotny |
+
+### Atrakcje
+#### Volterra
+- Etruskie miasto na wzgorzu (osadzone od 800 p.n.e.!)
+- **Piazza dei Priori** - najstarszy ratusz w Toskanii
+- **Teatro Romano** - ruiny rzymskiego teatru
+- **Balze** - klify erozyjne na skraju miasta - spektakularne widoki
+- Alabaster - lokalne rzemioslo, warsztaty i sklepy
+- Mniej turystow niz San Gimignano - bardziej autentyczne
+- **Koordynaty:** 43.4043, 10.8550
+
+#### Relaks na campingu
+- Camping Il Boschetto di Piemma - basen, bar, restauracja
+- Okolica: toskanskie wzgorza, oliwki, cyprysy
+
+### Nocleg
+- **Lokalizacja:** Camping Il Boschetto di Piemma, San Gimignano
+- **Koordynaty:** 43.4534, 11.0538
+- **Typ:** camping
+- **Szac. koszt:** 200-350 zl/noc (4 osoby)
