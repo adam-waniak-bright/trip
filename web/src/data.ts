@@ -14,6 +14,9 @@ export interface DayPlan {
   route: string;
   desc: string;
   tags: Tag[];
+  // Aby zmienic zdjecie: wejdz na unsplash.com, wyszukaj lokalizacje,
+  // kliknij zdjecie, skopiuj ID z URL (np. unsplash.com/photos/ABC123)
+  // i wstaw: https://images.unsplash.com/photo-ABC123?w=800&q=80
   image: string;
   imageAlt: string;
   attractions: Attraction[];
@@ -41,7 +44,6 @@ export interface BudgetItem { label: string; value: string }
 export const config = {
   title: 'Road Trip 2026',
   subtitle: 'Austria & Wlochy | 5-19 wrzesien',
-  googleMapsUrl: 'https://www.google.com/maps/d/viewer?mid=YOUR_MAP_ID',
   summary: [
     { label: 'Czas trwania', value: '14 dni' },
     { label: 'Dystans', value: '~3 500 km' },
@@ -70,14 +72,12 @@ export const config = {
   ],
 };
 
-function mapsUrl(query: string) {
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
-}
-
 export function getGoogleMapsUrl(attraction: Attraction) {
-  return mapsUrl(attraction.mapsQuery);
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(attraction.mapsQuery)}`;
 }
 
+// Zdjecia z Unsplash - ID zweryfikowane z wynikow wyszukiwania
+// Aby zmienic: unsplash.com -> szukaj -> kliknij zdjecie -> ID z URL
 export const days: DayPlan[] = [
   {
     day: 0, date: '5.09', weekday: 'PT',
@@ -85,8 +85,8 @@ export const days: DayPlan[] = [
     route: '460 km | ~5h',
     desc: 'Dojazd z Gdanska do Wroclawia. Nocleg u znajomych, pakowanie auta, zakupy na droge.',
     tags: ['drive'],
-    image: 'https://images.unsplash.com/photo-1607427293702-036707e560d7?w=800&q=80',
-    imageAlt: 'Wroclaw rynek',
+    image: '/trip/images/road.jpg',
+    imageAlt: 'Poczatek road tripu',
     overnight: 'Wroclaw (u znajomych)',
     attractions: [],
   },
@@ -96,8 +96,8 @@ export const days: DayPlan[] = [
     route: '620 km | ~6.5h',
     desc: 'Przystanek w Czeskim Krumlowie - spacer po bajkowym starym miescie z zamkiem nad Weltawa. Wieczor nad jeziorem Hallstatt o zachodzie slonca.',
     tags: ['city', 'lake', 'drive'],
-    image: 'https://images.unsplash.com/photo-1562624475-96c2bc08fab9?w=800&q=80',
-    imageAlt: 'Czeski Krumlov stare miasto nad Weltawa',
+    image: '/trip/images/Krumlov.jpg',
+    imageAlt: 'Czeski Krumlov - zamek i stare miasto nad Weltawa',
     overnight: 'Hallstatt / Obertraun',
     attractions: [
       { name: 'Czeski Krumlov', desc: 'Bajkowe stare miasto (UNESCO), zamek nad Weltawa, renesansowe kamienice', mapsQuery: 'Cesky Krumlov Old Town' },
@@ -110,8 +110,8 @@ export const days: DayPlan[] = [
     route: 'Dzien na miejscu',
     desc: 'Punkt widokowy Hallstatt Skywalk z panorama na jezioro i miasteczko. Jaskinia lodowa Dachstein lub kajaki na jeziorze.',
     tags: ['mountain', 'lake'],
-    image: 'https://images.unsplash.com/photo-1508050919630-b135583b29ab?w=800&q=80',
-    imageAlt: 'Hallstatt miasteczko nad jeziorem',
+    image: '/trip/images/Hallstatt.jpg',
+    imageAlt: 'Hallstatt - miasteczko nad jeziorem w Alpach',
     overnight: 'Hallstatt / Obertraun',
     attractions: [
       { name: 'Hallstatt Skywalk', desc: 'Punkt widokowy World Heritage View, latwy szlak ~1h', mapsQuery: 'Hallstatt Skywalk World Heritage View' },
@@ -125,8 +125,8 @@ export const days: DayPlan[] = [
     route: '280 km | caly dzien',
     desc: 'Przejazd najpieksniejsza droga alpejska w Austrii. Widok na lodowiec Pasterze i najwyzszy szczyt Austrii - Grossglockner (3798m). Krotkie szlaki po drodze.',
     tags: ['mountain', 'drive'],
-    image: 'https://images.unsplash.com/photo-1600180758890-6b94519a8ba6?w=800&q=80',
-    imageAlt: 'Grossglockner High Alpine Road z widokiem na gory',
+    image: '/trip/images/Grossglockner.jpg',
+    imageAlt: 'Grossglockner High Alpine Road',
     overnight: 'Brixen / Val di Funes (baza na 4 noce)',
     attractions: [
       { name: 'Grossglockner Hochalpenstrasse', desc: 'Najpieksniejsza droga alpejska w Austrii (48 km). Oplata ~40 EUR/auto', mapsQuery: 'Grossglockner High Alpine Road' },
@@ -139,8 +139,8 @@ export const days: DayPlan[] = [
     route: '~60 km z bazy',
     desc: 'Rano szlak wokol turkusowego Lago di Braies (przyjechac przed 9!). Popoludnie w Val di Funes - kosciolek St. Magdalena z widokiem na masyw Odle.',
     tags: ['mountain', 'lake'],
-    image: 'https://images.unsplash.com/photo-1529963183134-61a90db47eaf?w=800&q=80',
-    imageAlt: 'Lago di Braies drewniane lodki na turkusowym jeziorze',
+    image: '/trip/images/Lago di Braies.jpg',
+    imageAlt: 'Lago di Braies - turkusowe jezioro z lodkami',
     overnight: 'Brixen / Val di Funes',
     attractions: [
       { name: 'Lago di Braies', desc: 'Turkusowe jezioro alpejskie, szlak wokol ~1.5h. Przyjechac przed 9 rano!', mapsQuery: 'Lago di Braies' },
@@ -153,8 +153,8 @@ export const days: DayPlan[] = [
     route: 'Szlak ~10 km, ~4h',
     desc: 'Ikoniczny szlak Dolomitow - petla wokol Tre Cime. Dobrze utrzymany, niesamowite widoki. Obiad w schronisku.',
     tags: ['mountain'],
-    image: 'https://images.unsplash.com/photo-1570939274717-7eda259b50ed?w=800&q=80',
-    imageAlt: 'Tre Cime di Lavaredo trzy szczyty Dolomitow',
+    image: '/trip/images/tre-cime.jpg',
+    imageAlt: 'Tre Cime di Lavaredo - trzy szczyty Dolomitow',
     overnight: 'Brixen / Val di Funes',
     attractions: [
       { name: 'Tre Cime di Lavaredo', desc: 'Petla ~10 km, ~4h. Start z Rifugio Auronzo (parking ~30 EUR). Nie wymaga doswiadczenia.', mapsQuery: 'Tre Cime di Lavaredo' },
@@ -167,8 +167,8 @@ export const days: DayPlan[] = [
     route: 'Szlak 5h lub 3-4h',
     desc: 'Do wyboru wg pogody i sil: Sorapis - turkusowe jezioro w skalnym kotle (trudniejszy). Federa - latwiejszy szlak widokowy od Passo Giau.',
     tags: ['mountain'],
-    image: 'https://images.unsplash.com/photo-1596394723269-e1e8c8e2f8a7?w=800&q=80',
-    imageAlt: 'Lake Sorapis turkusowe jezioro otoczone skalami',
+    image: '/trip/images/Lake Sorapis.jpg',
+    imageAlt: 'Lake Sorapis - turkusowe jezioro w Dolomitach',
     overnight: 'Brixen / Val di Funes',
     attractions: [
       { name: 'Lake Sorapis', desc: 'Szlak 215 z Passo Tre Croci, ~12 km, ~5h. Turkusowe jezioro w skalnym kotle. Odcinki z linami.', mapsQuery: 'Lago di Sorapis' },
@@ -181,8 +181,8 @@ export const days: DayPlan[] = [
     route: '200 km | ~3h',
     desc: 'Popoludnie w Sirmione - zamek Scaligero na wodzie, ruiny rzymskie. Wieczor w Bardolino - promenada, wino.',
     tags: ['lake', 'city', 'drive'],
-    image: 'https://images.unsplash.com/photo-1578393098337-5594f82c0a9e?w=800&q=80',
-    imageAlt: 'Sirmione polwysep na Jeziorze Garda',
+    image: '/trip/images/Garda.jpg',
+    imageAlt: 'Sirmione - zamek Scaligero na Jeziorze Garda',
     overnight: 'Bardolino',
     attractions: [
       { name: 'Sirmione', desc: 'Zamek Scaligero (XIII w.) na wodzie, Grotte di Catullo, waskie uliczki', mapsQuery: 'Sirmione Castle' },
@@ -195,8 +195,8 @@ export const days: DayPlan[] = [
     route: '330 km | ~3.5h',
     desc: 'Popoludnie w kolorowych wioskach: Riomaggiore, Manarola. Kolacja z owocami morza w Vernazza.',
     tags: ['beach', 'city', 'drive'],
-    image: 'https://images.unsplash.com/photo-1533587851505-d119e13fa0d7?w=800&q=80',
-    imageAlt: 'Vernazza port z kolorowymi domami Cinque Terre',
+    image: '/trip/images/Vernazza.jpg',
+    imageAlt: 'Vernazza - kolorowy port w Cinque Terre',
     overnight: 'Levanto',
     attractions: [
       { name: 'Riomaggiore', desc: 'Kolorowe domy spadajace ku morzu', mapsQuery: 'Riomaggiore Cinque Terre' },
@@ -210,8 +210,8 @@ export const days: DayPlan[] = [
     route: 'Szlaki + plaza',
     desc: 'Sentiero Azzurro: Monterosso -> Vernazza - najladniejszy odcinek szlaku nadmorskiego (~1.5h). Plaza w Monterosso.',
     tags: ['beach', 'mountain'],
-    image: 'https://images.unsplash.com/photo-1592399515611-2dce8dd9b055?w=800&q=80',
-    imageAlt: 'Monterosso al Mare plaza z parasolami',
+    image: '/trip/images/Monterosso.jpg',
+    imageAlt: 'Monterosso al Mare - plaza w Cinque Terre',
     overnight: 'Levanto',
     attractions: [
       { name: 'Sentiero Azzurro', desc: 'Monterosso -> Vernazza, ~3.5 km, ~1.5h. Widoki na wybrzeze i winnice', mapsQuery: 'Sentiero Azzurro Cinque Terre' },
@@ -224,8 +224,8 @@ export const days: DayPlan[] = [
     route: '200 km | ~2.5h',
     desc: 'Spacer po San Gimignano - "sredniowieczny Manhattan" z 14 wiezami. Degustacja wina Vernaccia w twierdzy La Rocca.',
     tags: ['city', 'drive'],
-    image: 'https://images.unsplash.com/photo-1595854341625-f2f0fc010c16?w=800&q=80',
-    imageAlt: 'San Gimignano sredniowieczne wieze na tle Toskanii',
+    image: '/trip/images/Gimignano.jpg',
+    imageAlt: 'San Gimignano - sredniowieczne wieze w Toskanii',
     overnight: 'Camping Il Boschetto di Piemma (baza na 3 noce)',
     attractions: [
       { name: 'San Gimignano', desc: '14 sredniowiecznych wiez, Piazza della Cisterna, Gelateria Dondoli', mapsQuery: 'San Gimignano' },
@@ -238,8 +238,8 @@ export const days: DayPlan[] = [
     route: '~40 km do Sieny',
     desc: 'Siena: muszlowy Piazza del Campo, Duomo z marmurowa posadzka. Monteriggioni: sredniowieczna wioska otoczona murami.',
     tags: ['city'],
-    image: 'https://images.unsplash.com/photo-1551536986-52d48a009bc1?w=800&q=80',
-    imageAlt: 'Siena Piazza del Campo widok z gory',
+    image: '/trip/images/Siena.jpg',
+    imageAlt: 'Siena - Piazza del Campo',
     overnight: 'Camping Il Boschetto di Piemma',
     attractions: [
       { name: 'Siena - Piazza del Campo', desc: 'Muszlowy plac, miejsce wyscigow Palio. Torre del Mangia (400 schodow)', mapsQuery: 'Piazza del Campo Siena' },
@@ -253,8 +253,8 @@ export const days: DayPlan[] = [
     route: '~30 km do Volterry',
     desc: 'Volterra - etruskie miasto na wzgorzu z panoramami na Toskanie. Popoludnie: relaks na campingu, degustacja wina i oliwy.',
     tags: ['city'],
-    image: 'https://images.unsplash.com/photo-1467803738586-46b7eb7b16a1?w=800&q=80',
-    imageAlt: 'Toskanskie wzgorza z cyprysami o zachodzie slonca',
+    image: '/trip/images/Tuscany.jpg',
+    imageAlt: 'Toskania - wzgorza z cyprysami',
     overnight: 'Camping Il Boschetto di Piemma',
     attractions: [
       { name: 'Volterra', desc: 'Etruskie miasto (800 p.n.e.!), Teatro Romano, Balze - klify erozyjne', mapsQuery: 'Volterra Italy' },
@@ -266,8 +266,8 @@ export const days: DayPlan[] = [
     route: '1300 km | ~13-16h',
     desc: 'Dlugi dzien powrotny. 3 kierowcow, zmiana co ~4.5h. Przystanek w Parmie na obiad - parmezan, prosciutto, tortelli.',
     tags: ['drive'],
-    image: 'https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80',
-    imageAlt: 'Droga przez gory - road trip',
+    image: '/trip/images/road.jpg',
+    imageAlt: 'Road trip - droga przez Alpy',
     overnight: 'Wroclaw (u znajomych)',
     attractions: [
       { name: 'Parma', desc: 'Przystanek na obiad: Prosciutto di Parma, Parmigiano, tortelli d\'erbetta', mapsQuery: 'Parma Italy center' },
@@ -279,8 +279,8 @@ export const days: DayPlan[] = [
     route: '460 km | ~5h',
     desc: 'Spokojny poranek we Wroclawiu, pozegnanie z para wroclawska. Wyjazd po obiedzie, przyjazd do Gdanska wieczorem.',
     tags: ['drive'],
-    image: 'https://images.unsplash.com/photo-1596484552834-6a58f850e0a1?w=800&q=80',
-    imageAlt: 'Gdansk',
+    image: '/trip/images/gdansk.jpg',
+    imageAlt: 'Gdansk - powrot do domu',
     attractions: [],
   },
 ];
