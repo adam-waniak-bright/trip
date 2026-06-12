@@ -71,7 +71,7 @@ export const config = {
     { dates: '5.09', place: 'Wroclaw', nights: 1, type: 'u znajomych', cost: '0 zl' },
     { dates: '6-7.09', place: 'Hallstatt / Obertraun', nights: 2, type: 'camping/apartament', cost: '300-500 zl/noc' },
     { dates: '8-11.09', place: 'Brixen / Val di Funes', nights: 4, type: 'apartament/camping', cost: '300-500 zl/noc' },
-    { dates: '12.09', place: 'Bardolino (Garda)', nights: 1, type: 'camping/apartament', cost: '200-350 zl/noc' },
+    { dates: '12.09', place: 'Lazise / Bardolino (Garda)', nights: 1, type: 'Camping Lido Lazise / apartament', cost: '200-350 zl/noc' },
     { dates: '13-14.09', place: 'Levanto (Cinque Terre)', nights: 2, type: 'apartament', cost: '400-600 zl/noc' },
     { dates: '15-17.09', place: 'San Gimignano (camping)', nights: 3, type: 'Camping Il Boschetto di Piemma', cost: '200-350 zl/noc' },
     { dates: '18.09', place: 'Wroclaw', nights: 1, type: 'u znajomych', cost: '0 zl' },
@@ -281,7 +281,7 @@ export const days: DayPlan[] = [
     intensity: 'moderate',
     image: '/trip/images/Garda.jpg',
     imageAlt: 'Sirmione - zamek Scaligero na Jeziorze Garda',
-    overnight: 'Bardolino',
+    overnight: 'Camping Lido Lazise / Bardolino',
     detailsFile: '04-bardolino-12.09.md',
     attractions: [
       { name: 'Sirmione', desc: 'Zamek Scaligero (XIII w.) na wodzie, Grotte di Catullo, waskie uliczki', longDesc: 'Polwysep wcinajacy sie w Jezioro Garda z XIII-wiecznym zamkiem Scaligero na wodzie. Na czubku polwyspu ruiny rzymskiej willi Grotte di Catullo (I w. p.n.e.) z pieknymi widokami na jezioro. Waskie uliczki z lodziarniami i sklepami. Wejscie do zamku ~8 EUR.', cost: 'Zamek ~8 EUR/os', duration: '2.5-3h', mapsQuery: 'Sirmione Castle' },

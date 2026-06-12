@@ -137,7 +137,7 @@
 | 5.09 | Wroclaw | u znajomych | 0 zl |
 | 6-7.09 | Hallstatt/Obertraun | camping/apartament | 300-500 zl |
 | 8-11.09 | Dolomity (Brixen/Val di Funes) | apartament/camping | 300-500 zl |
-| 12.09 | Bardolino (Jezioro Garda) | camping/apartament | 200-350 zl |
+| 12.09 | Lazise / Bardolino (Garda) | Camping Lido Lazise / apartament | 200-350 zl |
 | 13-14.09 | La Spezia/Levanto | apartament | 400-600 zl |
 | 15-17.09 | San Gimignano (Camping Il Boschetto di Piemma) | camping | 200-350 zl |
 | 18.09 | Wroclaw | u znajomych | 0 zl |

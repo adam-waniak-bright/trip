@@ -48,6 +48,9 @@ Monte Baldo mozna pominac - macie juz 4 dni gor w Dolomitach.
 - **UWAGA:** Malcesine jest na polnoc od Bardolino = dodatkowe 40 min jazdy w kazda strone
 
 ### Nocleg
-- **Lokalizacja:** Bardolino
+- **Lokalizacja:** Lazise / Bardolino
+- **Opcja camping:** Camping Lido, Via Peschiera 2, 37017 Lazise VR
+  - ~10 min od Bardolino, ~20 min od Sirmione
+  - **Koordynaty:** 45.4936, 10.7333
 - **Typ:** camping lub apartament
 - **Szac. koszt:** 200-350 zl/noc (4 osoby)
