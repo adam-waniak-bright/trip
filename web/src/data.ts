@@ -4,6 +4,9 @@ export type Intensity = 'chill' | 'moderate' | 'active' | 'intense';
 export interface Attraction {
   name: string;
   desc: string;
+  longDesc?: string;
+  cost?: string;
+  duration?: string;
   mapsQuery: string;
 }
 
@@ -124,8 +127,8 @@ export const days: DayPlan[] = [
     overnight: 'Hallstatt / Obertraun',
     detailsFile: '02-hallstatt-06-07.09.md',
     attractions: [
-      { name: 'Czeski Krumlov', desc: 'Bajkowe stare miasto (UNESCO), zamek nad Weltawa, renesansowe kamienice', mapsQuery: 'Cesky Krumlov Old Town' },
-      { name: 'Jezioro Hallstatt', desc: 'Spacer nad jeziorem o zachodzie slonca', mapsQuery: 'Hallstatt Lake Austria' },
+      { name: 'Czeski Krumlov', desc: 'Bajkowe stare miasto (UNESCO), zamek nad Weltawa, renesansowe kamienice', longDesc: 'Jedno z najlepiej zachowanych sredniowiecznych miast w Europie. Zamek z wieza widokowa nad meandrem Weltawy, renesansowe kamienice i waskie brukowane uliczki. Wystarczy 1-2h na spacer po starym miescie i zdjecia z mostu.', duration: '1-2h', mapsQuery: 'Cesky Krumlov Old Town' },
+      { name: 'Jezioro Hallstatt', desc: 'Spacer nad jeziorem o zachodzie slonca', longDesc: 'Alpejskie jezioro otoczone gorami, z widokiem na jedno z najczesciej fotografowanych miasteczek na swiecie. Wieczorny spacer promenada przy zlotym swietle zachodzacego slonca to idealny poczatek tripu.', duration: '1-2h spacer', mapsQuery: 'Hallstatt Lake Austria' },
     ],
     tips: [
       'Wyjazd o 7:00 z Wroclawia zeby zdazyc na spacer po Krumlowie',
@@ -149,9 +152,9 @@ export const days: DayPlan[] = [
     overnight: 'Hallstatt / Obertraun',
     detailsFile: '02-hallstatt-06-07.09.md',
     attractions: [
-      { name: 'Five Fingers (Krippenstein)', desc: '5 platform ze szkla nad przepascia na 2100m. Kolejka z Obertraun ~35-40 EUR/os', mapsQuery: '5fingers Krippenstein' },
-      { name: 'Jaskinia lodowa Dachstein', desc: 'Kolejka Krippenstein, przystanek Schonbergalm (po drodze na Five Fingers). Temp. ~0 st.!', mapsQuery: 'Dachstein Ice Cave' },
-      { name: 'Jezioro Hallstattersee', desc: 'Kajaki, SUP, plazowanie w Obertraun', mapsQuery: 'Hallstattersee' },
+      { name: 'Five Fingers (Krippenstein)', desc: '5 platform ze szkla nad przepascia na 2100m. Kolejka z Obertraun ~35-40 EUR/os', longDesc: 'Piec stalowo-szklanych platform wystajacych 4m nad przepascia na wysokosci 2100m. Panorama 360 stopni na masyw Dachstein, jezioro Hallstattersee i okoliczne szczyty. Dojazd kolejka linowa z Obertraun (3 przystanki). Z gornej stacji 20 min spaceru do platform.', cost: '~35-40 EUR/os (kolejka w obie strony + jaskinia)', duration: '2-3h (kolejka + spacer)', mapsQuery: '5fingers Krippenstein' },
+      { name: 'Jaskinia lodowa Dachstein', desc: 'Kolejka Krippenstein, przystanek Schonbergalm (po drodze na Five Fingers). Temp. ~0 st.!', longDesc: 'Naturalna jaskinia z lodowymi formacjami siegajacymi 500 lat wstecz. Znajduje sie na poziomie Schonbergalm - posrednim przystanku kolejki na Krippenstein. Temperatura w srodku okolo 0 st. - koniecznie zabrac ciepla kurtke! Wliczona w bilet kolejki lub niewielka doplata.', cost: 'Wliczona w bilet kolejki', duration: '~45 min zwiedzanie', mapsQuery: 'Dachstein Ice Cave' },
+      { name: 'Jezioro Hallstattersee', desc: 'Kajaki, SUP, plazowanie w Obertraun', longDesc: 'Krystalicznie czyste jezioro alpejskie idealne na popoludniowy relaks. Mozna wypozyczyc kajaki lub SUP na miejscu. Plaza w Obertraun jest spokojniejsza i mniej zatloczona niz bezposrednio w Hallstatt.', duration: '2h plazowanie/kajaki', mapsQuery: 'Hallstattersee' },
     ],
     tips: [
       'Zabrac ciepla kurtke do jaskini lodowej - temperatura ~0 st.!',
@@ -176,8 +179,8 @@ export const days: DayPlan[] = [
     overnight: 'Brixen / Val di Funes (baza na 4 noce)',
     detailsFile: '03-brixen-08-11.09.md',
     attractions: [
-      { name: 'Grossglockner Hochalpenstrasse', desc: 'Najpieksniejsza droga alpejska w Austrii (48 km). Oplata ~40 EUR/auto', mapsQuery: 'Grossglockner High Alpine Road' },
-      { name: 'Kaiser-Franz-Josefs-Hohe', desc: 'Widok na lodowiec Pasterze i Grossglockner (3798m)', mapsQuery: 'Kaiser Franz Josefs Höhe' },
+      { name: 'Grossglockner Hochalpenstrasse', desc: 'Najpieksniejsza droga alpejska w Austrii (48 km). Oplata ~40 EUR/auto', longDesc: 'Legendarna droga alpejska z 36 zakretami, prowadzaca przez przeleczy na wysokosci ponad 2500m. Po drodze liczne punkty widokowe i krotkie szlaki. Otwarta tylko od maja do pazdziernika. Przystanki: Edelweissspitze (2571m), Fuscher Torl. Na 2500m moze byc 5-10 st. nawet we wrzesniu!', cost: '~40 EUR/auto', duration: 'Caly dzien (przejazd + przystanki)', mapsQuery: 'Grossglockner High Alpine Road' },
+      { name: 'Kaiser-Franz-Josefs-Hohe', desc: 'Widok na lodowiec Pasterze i Grossglockner (3798m)', longDesc: 'Punkt widokowy na koncu drogi Grossglockner z panorama na lodowiec Pasterze (najwiekszy w Alpach Wschodnich) i najwyzszy szczyt Austrii. Szlak Gamsgrubenweg (~45 min, latwy) oferuje najlepsze widoki z bliska. Restauracja i wystawa na miejscu.', duration: '1.5-2h (szlak + widoki)', mapsQuery: 'Kaiser Franz Josefs Höhe' },
     ],
     tips: [
       'Cieplo sie ubrac - na 2500m moze byc 5-10 st. nawet we wrzesniu!',
@@ -202,9 +205,9 @@ export const days: DayPlan[] = [
     overnight: 'Brixen / Val di Funes',
     detailsFile: '03-brixen-08-11.09.md',
     attractions: [
-      { name: 'Lago di Braies', desc: 'Turkusowe jezioro alpejskie, szlak wokol ~1.5h. Przyjechac przed 9 rano!', mapsQuery: 'Lago di Braies' },
-      { name: 'Seceda (Ortisei)', desc: 'Grzbiet Odle na 2519m - najslynniejszy widok Dolomitow. Kolejka ~40 EUR/os. Rezerwacja online!', mapsQuery: 'Seceda Ortisei' },
-      { name: 'Val di Funes - St. Magdalena', desc: 'Ikoniczny kosciolek z widokiem na masyw Odle', mapsQuery: 'Chiesa di Santa Maddalena Val di Funes' },
+      { name: 'Lago di Braies', desc: 'Turkusowe jezioro alpejskie, szlak wokol ~1.5h. Przyjechac przed 9 rano!', longDesc: 'Jedno z najladniejszych jezior w Dolomitach - intensywnie turkusowa woda otoczona skalami. Latwy szlak wokol jeziora (~3.5 km, ~1.5h). Koniecznie przyjechac przed 9 rano - pozniej setki autokarow turystycznych, brak miejsc parkingowych. Parking platny, jesli pelny - dalszy parking z shuttlem.', cost: 'Parking platny', duration: '~1.5h szlak wokol', mapsQuery: 'Lago di Braies' },
+      { name: 'Seceda (Ortisei)', desc: 'Grzbiet Odle na 2519m - najslynniejszy widok Dolomitow. Kolejka ~40 EUR/os. Rezerwacja online!', longDesc: 'Skalny grzbiet Odle/Geisler na wysokosci 2519m - prawdopodobnie najczesciej fotografowany widok w Dolomitach. Grzbiet wyglada jak zeby smoka. Kolejka linowa z Ortisei, z gornej stacji 20 min spaceru do punktu widokowego. Od 2026 wymagana rezerwacja online z okienkami czasowymi!', cost: '~40 EUR/os (kolejka w obie strony)', duration: '2-3h (kolejka + spacer)', mapsQuery: 'Seceda Ortisei' },
+      { name: 'Val di Funes - St. Magdalena', desc: 'Ikoniczny kosciolek z widokiem na masyw Odle', longDesc: 'Prawdopodobnie najczesciej fotografowany kosciol w Alpach - maly bialy kosciolek na tle poteznego masywu Odle. Spacer po dolinie od Malga Zannes z widokiem na Odle to 1-2h relaksu w pieknym otoczeniu.', duration: '1-2h spacer', mapsQuery: 'Chiesa di Santa Maddalena Val di Funes' },
     ],
     tips: [
       'Lago di Braies: przyjechac PRZED 9 rano! Potem setki autokarow i brak parkingu',
@@ -229,9 +232,9 @@ export const days: DayPlan[] = [
     overnight: 'Brixen / Val di Funes',
     detailsFile: '03-brixen-08-11.09.md',
     attractions: [
-      { name: 'Lago di Antorno', desc: 'Przystanek po drodze (5 min) - Tre Cime w odbiciu wody. Bezplatny!', mapsQuery: 'Lago Antorno Misurina' },
-      { name: 'Tre Cime di Lavaredo', desc: 'Petla ~10 km, ~4h. Start z Rifugio Auronzo (parking ~30 EUR). Nie wymaga doswiadczenia.', mapsQuery: 'Tre Cime di Lavaredo' },
-      { name: 'Rifugio Locatelli', desc: 'Schronisko z najlepszym widokiem na Tre Cime - obiad!', mapsQuery: 'Rifugio Locatelli' },
+      { name: 'Lago di Antorno', desc: 'Przystanek po drodze (5 min) - Tre Cime w odbiciu wody. Bezplatny!', longDesc: 'Male jezioro przy szosie, 3 km przed Tre Cime (okolice Misurina). W spokojny poranek Tre Cime odbijaja sie w wodzie - swietne zdjecie na poczatek dnia. Bezplatny parking przy drodze, 5 min spaceru.', duration: '5-10 min', mapsQuery: 'Lago Antorno Misurina' },
+      { name: 'Tre Cime di Lavaredo', desc: 'Petla ~10 km, ~4h. Start z Rifugio Auronzo (parking ~30 EUR). Nie wymaga doswiadczenia.', longDesc: 'Symbol Dolomitow - petla wokol trzech ikonicznych szczytow (Cima Grande 2999m, Cima Ovest 2973m, Cima Piccola 2857m). Szlak dobrze utrzymany, w stylu drogi do Morskiego Oka - nie wymaga doswiadczenia wysokogorskiego. Start z Rifugio Auronzo (2320m), najwyzszy punkt ~2450m. Po drodze schroniska z jedzeniem i widokami.', cost: 'Parking ~30 EUR/auto', duration: '~10 km, 3.5-4h petla', mapsQuery: 'Tre Cime di Lavaredo' },
+      { name: 'Rifugio Locatelli', desc: 'Schronisko z najlepszym widokiem na Tre Cime - obiad!', longDesc: 'Schronisko gorskie polozene naprzeciwko Tre Cime - najlepszy punkt widokowy na cala scianie polnocna. Idealne miejsce na obiad w polowie petli. Serwuja zupy, pasty, strudel. Trzy szczyty widac stad jak na dloni.', duration: 'Przystanek na szlaku', mapsQuery: 'Rifugio Locatelli' },
     ],
     tips: [
       'Start szlaku z Rifugio Auronzo (2320m) - parking ~30 EUR',
@@ -256,8 +259,8 @@ export const days: DayPlan[] = [
     overnight: 'Brixen / Val di Funes',
     detailsFile: '03-brixen-08-11.09.md',
     attractions: [
-      { name: 'Lake Sorapis', desc: 'Szlak 215 z Passo Tre Croci, ~12 km, ~5h. Turkusowe jezioro w skalnym kotle. Odcinki z linami.', mapsQuery: 'Lago di Sorapis' },
-      { name: 'Lago Federa', desc: 'Szlak od Passo Giau, ~8 km, ~3-4h. Latwiejszy, widokowy.', mapsQuery: 'Lago Federa' },
+      { name: 'Lake Sorapis', desc: 'Szlak 215 z Passo Tre Croci, ~12 km, ~5h. Turkusowe jezioro w skalnym kotle. Odcinki z linami.', longDesc: 'Turkusowe jezioro w skalnym kotle - kolor wody to efekt zawiesiny dolomitowej, wyglada jak na Karaibach. Szlak 215 z Passo Tre Croci, miejscami z linami stalowymi (nie wymagaja sprzetu ferratowego, ale trzeba uwazac). Trudniejszy z dwoch opcji na ten dzien - wybrac jesli pogoda sloneczna i pelno sil.', duration: '~12 km, ~5h w obie strony', mapsQuery: 'Lago di Sorapis' },
+      { name: 'Lago Federa', desc: 'Szlak od Passo Giau, ~8 km, ~3-4h. Latwiejszy, widokowy.', longDesc: 'Widokowy szlak grzbietowy z panorama na Dolomity. Latwiejszy niz Sorapis, ale tez piekny. Przy jeziorze stoi Rifugio Croda da Lago z obiadem i widokiem. Dobra opcja po 2 dniach intensywnych szlakow lub przy chmurach (mniej spektakularny, ale wciaz wart spaceru).', duration: '~8 km, ~3-4h w obie strony', mapsQuery: 'Lago Federa' },
     ],
     tips: [
       'Po 2 dniach szlakow nogi moga byc ciezkie - ocenic sily rano przed wyborem',
@@ -281,8 +284,8 @@ export const days: DayPlan[] = [
     overnight: 'Bardolino',
     detailsFile: '04-bardolino-12.09.md',
     attractions: [
-      { name: 'Sirmione', desc: 'Zamek Scaligero (XIII w.) na wodzie, Grotte di Catullo, waskie uliczki', mapsQuery: 'Sirmione Castle' },
-      { name: 'Bardolino', desc: 'Promenada nad jeziorem, lokalne wino Bardolino', mapsQuery: 'Bardolino Lake Garda' },
+      { name: 'Sirmione', desc: 'Zamek Scaligero (XIII w.) na wodzie, Grotte di Catullo, waskie uliczki', longDesc: 'Polwysep wcinajacy sie w Jezioro Garda z XIII-wiecznym zamkiem Scaligero na wodzie. Na czubku polwyspu ruiny rzymskiej willi Grotte di Catullo (I w. p.n.e.) z pieknymi widokami na jezioro. Waskie uliczki z lodziarniami i sklepami. Wejscie do zamku ~8 EUR.', cost: 'Zamek ~8 EUR/os', duration: '2.5-3h', mapsQuery: 'Sirmione Castle' },
+      { name: 'Bardolino', desc: 'Promenada nad jeziorem, lokalne wino Bardolino', longDesc: 'Kameralne miasteczko na wschodnim brzegu Gardy. Dluga promenada nad jeziorem idealna na wieczorny spacer. Znane z lokalnego czerwonego wina Bardolino - warto sprobowac w jednej z enotek na promenadzie.', duration: 'Wieczor', mapsQuery: 'Bardolino Lake Garda' },
     ],
     tips: [
       'Tylko 1 dzien na Garde - realistycznie zmiescicie 1-2 atrakcje, nie wszystkie',
@@ -307,9 +310,9 @@ export const days: DayPlan[] = [
     overnight: 'Levanto',
     detailsFile: '05-levanto-13-14.09.md',
     attractions: [
-      { name: 'Riomaggiore', desc: 'Kolorowe domy spadajace ku morzu, przekaska z widokiem', mapsQuery: 'Riomaggiore Cinque Terre' },
-      { name: 'Manarola', desc: 'Najladniejsza wioska na zdjecia, widok z Via dell\'Amore, obiad', mapsQuery: 'Manarola Cinque Terre' },
-      { name: 'Corniglia', desc: '5. wioska na szczycie klifu - najciszejsza, panorama na CT', mapsQuery: 'Corniglia Cinque Terre' },
+      { name: 'Riomaggiore', desc: 'Kolorowe domy spadajace ku morzu, przekaska z widokiem', longDesc: 'Najpoludniowsza wioska Cinque Terre. Kolorowe domy kaskadowo opadaja ku morzu tworzac ikoniczny widok. Mala kamienista plaza na dole. Swietna na szybka przekaske z widokiem na wybrzeze.', duration: '~45 min', mapsQuery: 'Riomaggiore Cinque Terre' },
+      { name: 'Manarola', desc: 'Najladniejsza wioska na zdjecia, widok z Via dell\'Amore, obiad', longDesc: 'Najladniejsza z 5 wiosek do fotografowania - kolorowe domy na tle skalistego klifu. Najlepszy punkt widokowy: zejsc do portu i obejrzec sie. Lokalne deserowe wino Sciacchetra warte sprobowania. Dobra na spokojny obiad z widokiem.', duration: '~1.5h z obiadem', mapsQuery: 'Manarola Cinque Terre' },
+      { name: 'Corniglia', desc: '5. wioska na szczycie klifu - najciszejsza, panorama na CT', longDesc: 'Jedyna wioska bez dostepu do morza - stoi na 100m klifie. Najciszejsza i najmniej komercyjna z 5 wiosek, z panorama na cale Cinque Terre. Dojscie z dworca: 382 schody (Lardarina) lub autobus wahadlowy.', duration: '~1h', mapsQuery: 'Corniglia Cinque Terre' },
     ],
     tips: [
       'Kupic Cinque Terre Card (~16 EUR/os) na stacji w Levanto - sprawdzic 2-dniowa (~29 EUR/os)',
@@ -335,9 +338,9 @@ export const days: DayPlan[] = [
     overnight: 'Levanto',
     detailsFile: '05-levanto-13-14.09.md',
     attractions: [
-      { name: 'Sentiero Azzurro', desc: 'Monterosso -> Vernazza, ~3.5 km, ~1.5h. Widoki na wybrzeze i winnice', mapsQuery: 'Sentiero Azzurro Cinque Terre' },
-      { name: 'Vernazza', desc: 'Castello Doria (1.5 EUR, najlepszy widok na port) + obiad z owocami morza', mapsQuery: 'Vernazza Cinque Terre' },
-      { name: 'Monterosso al Mare', desc: 'Najlepsza piasczysta plaza w Cinque Terre', mapsQuery: 'Monterosso al Mare beach' },
+      { name: 'Sentiero Azzurro', desc: 'Monterosso -> Vernazza, ~3.5 km, ~1.5h. Widoki na wybrzeze i winnice', longDesc: 'Najladniejszy odcinek Niebieskiego Szlaku laczacego 5 wiosek. Widoki na strome wybrzeze, tarasy z winnicami i otwarte morze. Umiarkowany - schody i podejscia, ale nie wymaga kondycji gorskiej. Wymaga Cinque Terre Card.', cost: 'Wymaga CT Card', duration: '~3.5 km, ~1.5h', mapsQuery: 'Sentiero Azzurro Cinque Terre' },
+      { name: 'Vernazza', desc: 'Castello Doria (1.5 EUR, najlepszy widok na port) + obiad z owocami morza', longDesc: 'Najbardzej klimatyczna wioska Cinque Terre - maly port z sredniowieczna wiezyczka. Castello Doria nad portem to 10 min wejscia z najlepszym widokiem na zatoczke. Najlepsze restauracje z owocami morza w CT - sprobowac trofie al pesto, fritto misto, anchovies.', cost: 'Castello ~1.5 EUR/os', duration: '~2h (zwiedzanie + obiad)', mapsQuery: 'Vernazza Cinque Terre' },
+      { name: 'Monterosso al Mare', desc: 'Najlepsza piasczysta plaza w Cinque Terre', longDesc: 'Najwieksza i najstarsza z 5 wiosek - jedyna z prawdziwa duza piasczysta plaza. Lezaki + parasol ~15-20 EUR za zestaw, albo darmowa czesc plazy z wlasnym recznikiem. Stare miasto tez warte spaceru po plazowaniu.', cost: 'Lezaki ~15-20 EUR/zestaw', duration: '3h plazowanie', mapsQuery: 'Monterosso al Mare beach' },
     ],
     tips: [
       'Sprawdzic status Sentiero Azzurro na cinqueterre.eu tydzien przed i rano - bywa zamykany po deszczach',
@@ -361,8 +364,8 @@ export const days: DayPlan[] = [
     overnight: 'Camping Il Boschetto di Piemma (baza na 3 noce)',
     detailsFile: '06-san-gimignano-15-17.09.md',
     attractions: [
-      { name: 'San Gimignano', desc: '14 sredniowiecznych wiez, Piazza della Cisterna, Gelateria Dondoli', mapsQuery: 'San Gimignano' },
-      { name: 'Vernaccia Wine Experience', desc: 'Degustacja bialego wina w twierdzy La Rocca z widokiem', mapsQuery: 'Vernaccia di San Gimignano Wine Experience' },
+      { name: 'San Gimignano', desc: '14 sredniowiecznych wiez, Piazza della Cisterna, Gelateria Dondoli', longDesc: 'Sredniowieczny Manhattan - kiedys 72 wieze, zostalo 14. Kazda rodzina budowala wyzsza od sasiada jako symbol prestizu. Piazza della Cisterna (trojkatny plac z XIII-wieczna studnia), Duomo z freskami, Torre Grossa z panorama na cala Toskanie. Gelateria Dondoli na glownym placu to wielokrotny mistrz swiata gelato.', cost: 'Torre Grossa ~9 EUR/os', duration: '3-4h', mapsQuery: 'San Gimignano' },
+      { name: 'Vernaccia Wine Experience', desc: 'Degustacja bialego wina w twierdzy La Rocca z widokiem', longDesc: 'Degustacja lokalnego bialego wina Vernaccia di San Gimignano - najstarszego wloskiego wina z certyfikatem DOCG (od 1966). W twierdzy La Rocca na wzgorzu nad miastem, z widokiem na toskanskie wzgorza. Idealne na zakonczenie dnia.', duration: '~1h', mapsQuery: 'Vernaccia di San Gimignano Wine Experience' },
     ],
     tips: [
       'Parking poza murami miasta - do centrum 5-10 min spaceru',
@@ -387,9 +390,9 @@ export const days: DayPlan[] = [
     overnight: 'Camping Il Boschetto di Piemma',
     detailsFile: '06-san-gimignano-15-17.09.md',
     attractions: [
-      { name: 'Volterra', desc: 'Etruskie miasto (800 p.n.e.!), Teatro Romano, Balze - klify erozyjne', mapsQuery: 'Volterra Italy' },
-      { name: 'Pienza', desc: 'Idealne miasto renesansu (UNESCO). Widok na Val d\'Orcia, pecorino', mapsQuery: 'Pienza Italy' },
-      { name: 'Val d\'Orcia (SP146)', desc: 'Ikoniczny krajobraz Toskanii - wzgorza, cyprysy. Najlepsze swiatlo o zachodzie!', mapsQuery: 'Val d\'Orcia' },
+      { name: 'Volterra', desc: 'Etruskie miasto (800 p.n.e.!), Teatro Romano, Balze - klify erozyjne', longDesc: 'Jedno z najstarszych miast w Toskanii - Etruskowie zalozyli je ok. 800 p.n.e. Piazza dei Priori z najstarszym ratuszem w Toskanii, ruiny rzymskiego Teatro Romano, i Balze - spektakularne klify erozyjne na skraju miasta. Slynie tez z lokalnego rzemiosla alabastrowego. Mniej turystow niz San Gimignano - bardziej autentyczne.', duration: '2-2.5h', mapsQuery: 'Volterra Italy' },
+      { name: 'Pienza', desc: 'Idealne miasto renesansu (UNESCO). Widok na Val d\'Orcia, pecorino', longDesc: 'Jedyne "idealne miasto" renesansu w Europie - zaprojektowane od zera przez papieza Piusa II w XV w. Corso Rossellino (glowna ulica) z katedra i palazzo. Widok na Val d\'Orcia z murow to ikoniczny krajobraz Toskanii. Koniecznie sprobowac pecorino di Pienza - slynny ser owczy, degustacja w sklepikach.', duration: '1.5-2h', mapsQuery: 'Pienza Italy' },
+      { name: 'Val d\'Orcia (SP146)', desc: 'Ikoniczny krajobraz Toskanii - wzgorza, cyprysy. Najlepsze swiatlo o zachodzie!', longDesc: 'Droga SP146 z Pienzy do Montalcino przez najslynniejszy krajobraz Toskanii - lagodne wzgorza, samotne cyprysy, wiejskie drogi. To te widoki z kazdego przewodnika po Wloszech. Mozliwosc zatrzymania sie na zdjecia. Najlepsze swiatlo popoludniu i o zachodzie slonca (~19:15) - zlociste wzgorza.', duration: '~1h przejazd z przystankami', mapsQuery: 'Val d\'Orcia' },
     ],
     tips: [
       'Volterra rano, Pienza popoludniu - idealny podzial swiatla do zdjec',
@@ -414,9 +417,9 @@ export const days: DayPlan[] = [
     overnight: 'Camping Il Boschetto di Piemma',
     detailsFile: '06-san-gimignano-15-17.09.md',
     attractions: [
-      { name: 'Siena - Piazza del Campo', desc: 'Muszlowy plac, miejsce wyscigow Palio. Torre del Mangia (400 schodow)', mapsQuery: 'Piazza del Campo Siena' },
-      { name: 'Duomo di Siena', desc: 'Jedna z najladniejszych katedr we Wloszech, marmurowa posadzka', mapsQuery: 'Duomo di Siena' },
-      { name: 'Monteriggioni', desc: 'Sredniowieczna wioska otoczona murami obronnymi', mapsQuery: 'Monteriggioni' },
+      { name: 'Siena - Piazza del Campo', desc: 'Muszlowy plac, miejsce wyscigow Palio. Torre del Mangia (400 schodow)', longDesc: 'Jeden z najpiekniejszych placow na swiecie - w ksztalcie muszli, opadajacy ku ratuszowi. Dwa razy w roku (lipiec i sierpien) odbywa sie tu Palio - wyscig konny z tradycja od 1633 r. Torre del Mangia (102m, 400 schodow) oferuje panorame na cala Siene i okolice - warto wejsc!', cost: 'Torre ~10 EUR/os', duration: '2-3h z wieza', mapsQuery: 'Piazza del Campo Siena' },
+      { name: 'Duomo di Siena', desc: 'Jedna z najladniejszych katedr we Wloszech, marmurowa posadzka', longDesc: 'Gotyko-romansko katedra z fasada z bialego i zielonego marmuru. Wnetrze zapiera dech - 56 marmurowych paneli posadzkowych (odslanianych od pol. sierpnia do konca pazdziernika - trafiacie idealnie!). Kazateelnica Nicoli Pisano, freski Pinturicchia w Bibliotece Piccolomini.', duration: '~1h', mapsQuery: 'Duomo di Siena' },
+      { name: 'Monteriggioni', desc: 'Sredniowieczna wioska otoczona murami obronnymi', longDesc: 'Sredniowieczna wioska calkowicie otoczona murami obronnymi z 14 wiezami - Dante wspominal ja w Boskiej Komedii, porownujac wieze do olbrzymow strzegacych piekla. Spacer po murach (~4 EUR) i po malym placu wewnatrz. Kameralne - 20-30 min wystarczy.', cost: 'Mury ~4 EUR/os', duration: '20-30 min', mapsQuery: 'Monteriggioni' },
     ],
     tips: [
       'Siena na spokojnie - wiecej czasu na Duomo, Torre del Mangia i spacer',
@@ -442,7 +445,7 @@ export const days: DayPlan[] = [
     overnight: 'Wroclaw (u znajomych)',
     detailsFile: '07-powrot-18-19.09.md',
     attractions: [
-      { name: 'Parma', desc: 'Przystanek na obiad: Prosciutto di Parma, Parmigiano, tortelli d\'erbetta', mapsQuery: 'Parma Italy center' },
+      { name: 'Parma', desc: 'Przystanek na obiad: Prosciutto di Parma, Parmigiano, tortelli d\'erbetta', longDesc: 'Stolica wloskiego jedzenia - Prosciutto di Parma i Parmigiano Reggiano to znaki towarowe chronione prawem UE. Przystanek na 1-1.5h na obiad w prosciutterii lub trattori w centrum. Must try: Prosciutto di Parma, Parmigiano Reggiano, tortelli d\'erbetta. Jesli czas pozwala - Piazza del Duomo (10 min spacer).', duration: '1-1.5h na obiad', mapsQuery: 'Parma Italy center' },
     ],
     tips: [
       'Wyjazd o 7:00 rano - kazda godzina opoznienia = przyjazd po polnocy',

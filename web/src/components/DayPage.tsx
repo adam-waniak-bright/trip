@@ -149,21 +149,43 @@ export function DayPage({ dayNumber, onBack }: { dayNumber: number; onBack: () =
         {/* Attractions */}
         {day.attractions.length > 0 && (
           <Section title="Atrakcje" icon="map">
-            <div className="space-y-3">
+            <div className="space-y-4">
               {day.attractions.map(attraction => (
-                <div key={attraction.name} className="flex items-start gap-3 p-3 rounded-lg bg-stone-50 border border-stone-100">
-                  <div className="flex-1 min-w-0">
-                    <div className="font-medium text-stone-800">{attraction.name}</div>
-                    <p className="text-sm text-stone-500 mt-0.5">{attraction.desc}</p>
+                <div key={attraction.name} className="p-4 rounded-lg bg-stone-50 border border-stone-100">
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="font-semibold text-stone-800">{attraction.name}</div>
+                    <a
+                      href={getGoogleMapsUrl(attraction)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="shrink-0 px-3 py-1.5 text-xs font-medium rounded-lg bg-white text-stone-600 border border-stone-200 hover:bg-amber-50 hover:text-amber-800 hover:border-amber-200 transition-colors"
+                    >
+                      Maps
+                    </a>
                   </div>
-                  <a
-                    href={getGoogleMapsUrl(attraction)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="shrink-0 mt-1 px-3 py-1.5 text-xs font-medium rounded-lg bg-white text-stone-600 border border-stone-200 hover:bg-amber-50 hover:text-amber-800 hover:border-amber-200 transition-colors"
-                  >
-                    Maps
-                  </a>
+                  <p className="text-sm text-stone-600 mt-2 leading-relaxed">
+                    {attraction.longDesc || attraction.desc}
+                  </p>
+                  {(attraction.cost || attraction.duration) && (
+                    <div className="flex gap-3 mt-3 flex-wrap">
+                      {attraction.duration && (
+                        <span className="inline-flex items-center gap-1 text-xs px-2 py-1 rounded bg-stone-100 text-stone-500">
+                          <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          {attraction.duration}
+                        </span>
+                      )}
+                      {attraction.cost && (
+                        <span className="inline-flex items-center gap-1 text-xs px-2 py-1 rounded bg-amber-50 text-amber-700">
+                          <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          {attraction.cost}
+                        </span>
+                      )}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
