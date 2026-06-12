@@ -1,6 +1,29 @@
 import { useState, useEffect } from 'react';
 import Markdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { TAG_LABELS, TAG_COLORS, getGoogleMapsUrl, type DayPlan } from '../data';
+
+/** Extract the section for a specific day from a multi-day markdown file */
+function extractDaySection(markdown: string, dayNumber: number): string {
+  const lines = markdown.split('\n');
+  const dayHeader = `## Dzien ${dayNumber} |`;
+  const startIndex = lines.findIndex(l => l.startsWith(dayHeader));
+  if (startIndex === -1) return markdown;
+
+  // Find the next ## header (next day or section)
+  let endIndex = lines.length;
+  for (let i = startIndex + 1; i < lines.length; i++) {
+    if (lines[i].startsWith('## ') || lines[i].startsWith('---')) {
+      endIndex = i;
+      break;
+    }
+  }
+
+  return lines.slice(startIndex, endIndex).join('\n');
+}
+
+// Cache fetched files to avoid re-fetching when multiple days share the same file
+const fileCache = new Map<string, string>();
 
 export function DayCard({ day }: { day: DayPlan }) {
   const [expanded, setExpanded] = useState(false);
@@ -9,16 +32,22 @@ export function DayCard({ day }: { day: DayPlan }) {
 
   useEffect(() => {
     if (expanded && !details && day.detailsFile) {
+      const cached = fileCache.get(day.detailsFile);
+      if (cached) {
+        setDetails(extractDaySection(cached, day.day));
+        return;
+      }
       setLoading(true);
       fetch(`/trip/dni/${day.detailsFile}`)
         .then(r => r.text())
         .then(text => {
-          setDetails(text);
+          fileCache.set(day.detailsFile!, text);
+          setDetails(extractDaySection(text, day.day));
           setLoading(false);
         })
         .catch(() => setLoading(false));
     }
-  }, [expanded, details, day.detailsFile]);
+  }, [expanded, details, day.detailsFile, day.day]);
 
   return (
     <section className="bg-slate-900 rounded-xl overflow-hidden border border-slate-800 hover:border-slate-700 transition-colors">
@@ -37,7 +66,7 @@ export function DayCard({ day }: { day: DayPlan }) {
           />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-transparent to-transparent" />
           <div className="absolute bottom-4 left-4 right-4">
-            <div className="flex items-center gap-2 mb-1">
+            <div className="flex items-center gap-2 mb-1 flex-wrap">
               <span className="text-xs font-bold px-2.5 py-1 rounded bg-slate-900/80 text-blue-300 backdrop-blur-sm">
                 Dzien {day.day} | {day.date} ({day.weekday})
               </span>
@@ -115,18 +144,18 @@ export function DayCard({ day }: { day: DayPlan }) {
           {details && (
             <div className="prose prose-invert prose-sm max-w-none
               prose-headings:text-blue-200 prose-headings:font-semibold
-              prose-h1:text-lg prose-h1:border-b prose-h1:border-slate-700 prose-h1:pb-2
-              prose-h2:text-base prose-h2:mt-6
-              prose-h3:text-sm prose-h3:text-slate-400 prose-h3:uppercase prose-h3:tracking-wider
+              prose-h2:text-base prose-h2:mt-4 prose-h2:mb-2
+              prose-h3:text-sm prose-h3:text-slate-400 prose-h3:uppercase prose-h3:tracking-wider prose-h3:mt-4
+              prose-h4:text-sm prose-h4:text-blue-100 prose-h4:mt-3
               prose-p:text-slate-300 prose-p:leading-relaxed
               prose-li:text-slate-300 prose-li:marker:text-slate-600
               prose-strong:text-blue-100
               prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline
-              prose-table:text-sm
-              prose-th:text-slate-400 prose-th:font-medium prose-th:border-slate-700
-              prose-td:border-slate-800 prose-td:text-slate-300
+              prose-table:w-full
+              prose-th:text-left prose-th:text-slate-400 prose-th:font-medium prose-th:border-slate-700 prose-th:px-3 prose-th:py-2
+              prose-td:border-slate-800 prose-td:text-slate-300 prose-td:px-3 prose-td:py-2
             ">
-              <Markdown>{details}</Markdown>
+              <Markdown remarkPlugins={[remarkGfm]}>{details}</Markdown>
             </div>
           )}
         </div>
