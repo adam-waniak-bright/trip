@@ -1,13 +1,53 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { DayCard } from './components/DayCard';
+import { DayPage } from './components/DayPage';
 import { Budget } from './components/Budget';
 import { Overnights } from './components/Overnights';
 import { config, days } from './data';
 
-type Page = 'plan' | 'overnights';
+type Route = { page: 'plan' | 'overnights' } | { page: 'day'; dayNumber: number };
+
+function parseHash(): Route {
+  const hash = window.location.hash;
+  const dayMatch = hash.match(/^#\/day\/(\d+)$/);
+  if (dayMatch) return { page: 'day', dayNumber: parseInt(dayMatch[1]) };
+  if (hash === '#/overnights') return { page: 'overnights' };
+  return { page: 'plan' };
+}
 
 export default function App() {
-  const [page, setPage] = useState<Page>('plan');
+  const [route, setRoute] = useState<Route>(parseHash);
+
+  useEffect(() => {
+    const onHashChange = () => {
+      setRoute(parseHash());
+      window.scrollTo(0, 0);
+    };
+    window.addEventListener('hashchange', onHashChange);
+    return () => window.removeEventListener('hashchange', onHashChange);
+  }, []);
+
+  const navigate = (r: Route) => {
+    if (r.page === 'day') {
+      window.location.hash = `#/day/${r.dayNumber}`;
+    } else if (r.page === 'overnights') {
+      window.location.hash = '#/overnights';
+    } else {
+      window.location.hash = '#/';
+    }
+  };
+
+  // Day detail page
+  if (route.page === 'day') {
+    return (
+      <DayPage
+        dayNumber={route.dayNumber}
+        onBack={() => navigate({ page: 'plan' })}
+      />
+    );
+  }
+
+  const currentPage = route.page;
 
   return (
     <div className="min-h-screen bg-stone-50 text-stone-800">
@@ -29,9 +69,9 @@ export default function App() {
         {/* Navigation */}
         <nav className="flex justify-center gap-1 mt-6">
           <button
-            onClick={() => setPage('plan')}
+            onClick={() => navigate({ page: 'plan' })}
             className={`px-5 py-2 text-sm font-medium rounded-lg transition-colors ${
-              page === 'plan'
+              currentPage === 'plan'
                 ? 'bg-amber-100 text-amber-800'
                 : 'text-stone-500 hover:bg-stone-100'
             }`}
@@ -39,9 +79,9 @@ export default function App() {
             Plan podrozy
           </button>
           <button
-            onClick={() => setPage('overnights')}
+            onClick={() => navigate({ page: 'overnights' })}
             className={`px-5 py-2 text-sm font-medium rounded-lg transition-colors ${
-              page === 'overnights'
+              currentPage === 'overnights'
                 ? 'bg-amber-100 text-amber-800'
                 : 'text-stone-500 hover:bg-stone-100'
             }`}
@@ -52,7 +92,7 @@ export default function App() {
       </header>
 
       <main className="max-w-3xl mx-auto px-4 py-8">
-        {page === 'plan' && (
+        {currentPage === 'plan' && (
           <div className="space-y-6">
             {/* Map */}
             <div className="bg-white rounded-xl overflow-hidden border border-stone-200 shadow-sm">
@@ -73,7 +113,7 @@ export default function App() {
           </div>
         )}
 
-        {page === 'overnights' && <Overnights />}
+        {currentPage === 'overnights' && <Overnights />}
       </main>
 
       {/* Footer */}

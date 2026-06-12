@@ -22,6 +22,8 @@ export interface DayPlan {
   overnight?: string;
   // Plik md ze szczegolami (w public/dni/)
   detailsFile?: string;
+  tips?: string[];
+  funFacts?: string[];
 }
 
 export const TAG_LABELS: Record<Tag, string> = {
@@ -99,6 +101,16 @@ export const days: DayPlan[] = [
     overnight: 'Wroclaw (u znajomych)',
     detailsFile: '01-wroclaw-05.09.md',
     attractions: [],
+    tips: [
+      'Kupic e-winiete czeska i austriacka online PRZED wyjazdem',
+      'Pobrac mapy offline (Google Maps / Maps.me) na caly trip',
+      'Przygotowac gotowke EUR na autostrady wloskie i Grossglockner',
+      'Spakowac: buty trekkingowe, ciepla kurtka, kurtka przeciwdeszczowa, stroje kapielowe',
+    ],
+    funFacts: [
+      'Lacznie pokonacie ~3500 km - to jak przejechac cala Polske wzdluz i wszerz',
+      'Odwiedzicie 4 kraje w 14 dni: Polske, Czechy, Austrie i Wlochy',
+    ],
   },
   {
     day: 1, date: '6.09', weekday: 'SB',
@@ -114,6 +126,15 @@ export const days: DayPlan[] = [
     attractions: [
       { name: 'Czeski Krumlov', desc: 'Bajkowe stare miasto (UNESCO), zamek nad Weltawa, renesansowe kamienice', mapsQuery: 'Cesky Krumlov Old Town' },
       { name: 'Jezioro Hallstatt', desc: 'Spacer nad jeziorem o zachodzie slonca', mapsQuery: 'Hallstatt Lake Austria' },
+    ],
+    tips: [
+      'Wyjazd o 7:00 z Wroclawia zeby zdazyc na spacer po Krumlowie',
+      'W Krumlowie wystarczy 1-2h - nie probujcie zobaczyc wszystkiego',
+      'Zachod slonca nad Hallstatt to najlepszy moment na zdjecia - dotrzyjcie przed 18:30',
+    ],
+    funFacts: [
+      'Czeski Krumlov ma drugi co do wielkosci zamek w Czechach (po Hradczanach)',
+      'Hallstatt jest tak popularne, ze Chinczycy zbudowali jego kopie w prowincji Guangdong',
     ],
   },
   {
@@ -132,6 +153,16 @@ export const days: DayPlan[] = [
       { name: 'Jaskinia lodowa Dachstein', desc: 'Ta sama kolejka co Five Fingers, poziom Schonbergalm. Temp. ~0 st.!', mapsQuery: 'Dachstein Ice Cave' },
       { name: 'Jezioro Hallstattersee', desc: 'Kajaki, SUP, plazowanie w Obertraun', mapsQuery: 'Hallstattersee' },
     ],
+    tips: [
+      'Zabrac ciepla kurtke do jaskini lodowej - temperatura ~0 st.!',
+      'Five Fingers to NIE to samo co Hallstatt Skywalk (860m) - Five Fingers jest na 2100m',
+      'Plaza w Obertraun jest spokojniejsza niz w Hallstatt',
+    ],
+    funFacts: [
+      'Hallstatt to najstarsza osada solna na swiecie - wydobycie soli trwa tu od 7000 lat',
+      'Five Fingers zawdziecza nazwe 5 platformom wystajacym nad przepascia jak palce dloni',
+      'Jaskinia lodowa Dachstein ma w srodku lodowe formacje siegajace 500 lat wstecz',
+    ],
   },
   {
     day: 3, date: '8.09', weekday: 'PN',
@@ -147,6 +178,16 @@ export const days: DayPlan[] = [
     attractions: [
       { name: 'Grossglockner Hochalpenstrasse', desc: 'Najpieksniejsza droga alpejska w Austrii (48 km). Oplata ~40 EUR/auto', mapsQuery: 'Grossglockner High Alpine Road' },
       { name: 'Kaiser-Franz-Josefs-Hohe', desc: 'Widok na lodowiec Pasterze i Grossglockner (3798m)', mapsQuery: 'Kaiser Franz Josefs Höhe' },
+    ],
+    tips: [
+      'Cieplo sie ubrac - na 2500m moze byc 5-10 st. nawet we wrzesniu!',
+      'Grossglockner Road: oplata ~40 EUR za auto, platnosc karta lub gotowka',
+      'Szlak Gamsgrubenweg (~45 min) to najlepszy krotki szlak przy Kaiser-Franz-Josefs-Hohe',
+    ],
+    funFacts: [
+      'Grossglockner (3798m) to najwyzszy szczyt Austrii',
+      'Droga Grossglockner Hochalpenstrasse ma 48 km i 36 zakretow - otwarta tylko od maja do pazdziernika',
+      'Lodowiec Pasterze kurczy sie o 10-15m rocznie - za 50 lat moze calkowicie zniknac',
     ],
   },
   {
@@ -165,6 +206,16 @@ export const days: DayPlan[] = [
       { name: 'Seceda (Ortisei)', desc: 'Grzbiet Odle na 2519m - najslynniejszy widok Dolomitow. Kolejka ~40 EUR/os. Rezerwacja online!', mapsQuery: 'Seceda Ortisei' },
       { name: 'Val di Funes - St. Magdalena', desc: 'Ikoniczny kosciolek z widokiem na masyw Odle', mapsQuery: 'Chiesa di Santa Maddalena Val di Funes' },
     ],
+    tips: [
+      'Lago di Braies: przyjechac PRZED 9 rano! Potem setki autokarow i brak parkingu',
+      'Seceda: od 2026 wymagana rezerwacja online z okienkami czasowymi - zarezerwowac PRZED wyjazdem!',
+      'Intensywny dzien logistycznie (~120 km petla) - jesli zmeczeni po Braies, pominac Secede',
+    ],
+    funFacts: [
+      'Lago di Braies stalo sie slawne dzieki wloskiemu serialowi "Un passo dal cielo"',
+      'Seceda to jeden z najczesciej fotografowanych widokow w Dolomitach - grzbiet Odle wyglada jak zeby smoka',
+      'Kosciolek St. Magdalena w Val di Funes to prawdopodobnie najczesciej fotografowany kosciol w Alpach',
+    ],
   },
   {
     day: 5, date: '10.09', weekday: 'SR',
@@ -182,6 +233,16 @@ export const days: DayPlan[] = [
       { name: 'Tre Cime di Lavaredo', desc: 'Petla ~10 km, ~4h. Start z Rifugio Auronzo (parking ~30 EUR). Nie wymaga doswiadczenia.', mapsQuery: 'Tre Cime di Lavaredo' },
       { name: 'Rifugio Locatelli', desc: 'Schronisko z najlepszym widokiem na Tre Cime - obiad!', mapsQuery: 'Rifugio Locatelli' },
     ],
+    tips: [
+      'Start szlaku z Rifugio Auronzo (2320m) - parking ~30 EUR',
+      'Szlak dobrze utrzymany (styl "Morskie Oko") - nie wymaga doswiadczenia wysokogorskiego',
+      'Przystanek na Lago di Antorno po drodze - 5 min, swietne zdjecie Tre Cime w odbiciu',
+    ],
+    funFacts: [
+      'Tre Cime di Lavaredo (Drei Zinnen) to symbol Dolomitow - pojawiaja sie na co 3. pocztowce z regionu',
+      'Podczas I wojny swiatowej Wlosi i Austriacy walczyli na szczytach Tre Cime - do dzis widac resztki okopow',
+      'Najwyzszy z trzech szczytow (Cima Grande) ma 2999m - brakuje 1m do okraglych 3000',
+    ],
   },
   {
     day: 6, date: '11.09', weekday: 'CZ',
@@ -198,6 +259,15 @@ export const days: DayPlan[] = [
       { name: 'Lake Sorapis', desc: 'Szlak 215 z Passo Tre Croci, ~12 km, ~5h. Turkusowe jezioro w skalnym kotle. Odcinki z linami.', mapsQuery: 'Lago di Sorapis' },
       { name: 'Lago Federa', desc: 'Szlak od Passo Giau, ~8 km, ~3-4h. Latwiejszy, widokowy.', mapsQuery: 'Lago Federa' },
     ],
+    tips: [
+      'Po 2 dniach szlakow nogi moga byc ciezkie - ocenic sily rano przed wyborem',
+      'Slonecznie + duzo sil = Sorapis (mocniejsze wrazenia). Zmeczenie/chmury = Federa (latwiejszy)',
+      'Sorapis: odcinki z linami stalowymi - nie wymagaja sprzetu ferratowego, ale trzeba uwazac',
+    ],
+    funFacts: [
+      'Kolor wody Lake Sorapis to efekt zawiesiny dolomitowej - turkusowy jak na Karaibach, ale w gorach',
+      'Dolomity zawdzieczaja nazwe francuskiemu geologowi Deodat de Dolomieu, ktory zbadal sklad skal w XVIII w.',
+    ],
   },
   {
     day: 7, date: '12.09', weekday: 'PT',
@@ -213,6 +283,16 @@ export const days: DayPlan[] = [
     attractions: [
       { name: 'Sirmione', desc: 'Zamek Scaligero (XIII w.) na wodzie, Grotte di Catullo, waskie uliczki', mapsQuery: 'Sirmione Castle' },
       { name: 'Bardolino', desc: 'Promenada nad jeziorem, lokalne wino Bardolino', mapsQuery: 'Bardolino Lake Garda' },
+    ],
+    tips: [
+      'Tylko 1 dzien na Garde - realistycznie zmiescicie 1-2 atrakcje, nie wszystkie',
+      'Sirmione bliziej Bardolino = lepsza logistyka niz Malcesine',
+      'Monte Baldo mozna pominac - macie juz 4 dni gor w Dolomitach',
+    ],
+    funFacts: [
+      'Jezioro Garda to najwieksze jezioro we Wloszech - 370 km2, wieksze niz Malta',
+      'Zamek Scaligero w Sirmione to jeden z najlepiej zachowanych zamkow na wodzie we Wloszech',
+      'Grotte di Catullo to ruiny rzymskiej willi z I w. p.n.e. - nalezaly (podobno) do poety Katullusa',
     ],
   },
   {
@@ -232,6 +312,17 @@ export const days: DayPlan[] = [
       { name: 'Corniglia', desc: '5. wioska na szczycie klifu - najciszejsza, panorama na CT', mapsQuery: 'Corniglia Cinque Terre' },
       { name: 'Vernazza', desc: 'Castello Doria (1.5 EUR, najlepszy widok) + owoce morza', mapsQuery: 'Vernazza Cinque Terre' },
     ],
+    tips: [
+      'Kupic Cinque Terre Card (~16 EUR/os) na stacji w Levanto - wlicza szlaki + pociagi',
+      'Pociagi kursuja co 15-20 min miedzy wioskami - wygodniejsze niz szlaki z plecakiem',
+      'Corniglia: 382 schody z dworca lub autobus wahadlowy - zdecydowac przed wejsciem',
+      'W Vernazza sprobowac: trofie al pesto, fritto misto, anchovies',
+    ],
+    funFacts: [
+      'Cinque Terre to 5 wiosek na klifach liguryjskiego wybrzeza - UNESCO od 1997',
+      'Tarasy uprawne (winnice) w CT budowane sa od XII w. - laczna dlugosc murkow to ~6700 km!',
+      'Corniglia to jedyna wioska bez dostepu do morza - stoi na 100m klifie',
+    ],
   },
   {
     day: 9, date: '14.09', weekday: 'ND',
@@ -248,6 +339,15 @@ export const days: DayPlan[] = [
       { name: 'Sentiero Azzurro', desc: 'Monterosso -> Vernazza, ~3.5 km, ~1.5h. Widoki na wybrzeze i winnice', mapsQuery: 'Sentiero Azzurro Cinque Terre' },
       { name: 'Monterosso al Mare', desc: 'Najlepsza piasczysta plaza w Cinque Terre', mapsQuery: 'Monterosso al Mare beach' },
     ],
+    tips: [
+      'Sentiero Azzurro Monterosso->Vernazza to najladniejszy odcinek - reszta opcjonalna',
+      'Lezaki + parasol na plazy w Monterosso ~15-20 EUR za zestaw, albo darmowa czesc z wlasnym recznikiem',
+      'Levanto tez ma ladna piasczysta plaze - mniej turystow, dobra na wieczorny relaks',
+    ],
+    funFacts: [
+      'Sentiero Azzurro (Niebieski Szlak) biegnie wzdluz calego wybrzeza CT - laczy 5 wiosek na 12 km',
+      'Monterosso to najwieksza i najstarsza z 5 wiosek - jedyna z prawdziwa piasczysta plaza',
+    ],
   },
   {
     day: 10, date: '15.09', weekday: 'PN',
@@ -263,6 +363,16 @@ export const days: DayPlan[] = [
     attractions: [
       { name: 'San Gimignano', desc: '14 sredniowiecznych wiez, Piazza della Cisterna, Gelateria Dondoli', mapsQuery: 'San Gimignano' },
       { name: 'Vernaccia Wine Experience', desc: 'Degustacja bialego wina w twierdzy La Rocca z widokiem', mapsQuery: 'Vernaccia di San Gimignano Wine Experience' },
+    ],
+    tips: [
+      'Parking poza murami miasta - do centrum 5-10 min spaceru',
+      'Gelateria Dondoli na Piazza della Cisterna - wielokrotnie nagradzane lody, warto stac w kolejce',
+      'Torre Grossa (~9 EUR) - jedyna wieza do zwiedzania, panorama na cala Toskanie',
+    ],
+    funFacts: [
+      'San Gimignano mialo kiedys 72 wieze - zostalo 14. Kazda rodzina budowala wyzsza od sasiada',
+      'Vernaccia di San Gimignano to najstarsze wloskie biale wino z certyfikatem DOCG (od 1966)',
+      'Dante Alighieri odwiedzil San Gimignano w 1300 r. jako ambasador Florencji',
     ],
   },
   {
@@ -281,6 +391,16 @@ export const days: DayPlan[] = [
       { name: 'Pienza', desc: 'Idealne miasto renesansu (UNESCO). Widok na Val d\'Orcia, pecorino', mapsQuery: 'Pienza Italy' },
       { name: 'Val d\'Orcia (SP146)', desc: 'Ikoniczny krajobraz Toskanii - wzgorza, cyprysy. Najlepsze swiatlo o zachodzie!', mapsQuery: 'Val d\'Orcia' },
     ],
+    tips: [
+      'Volterra rano, Pienza popoludniu - idealny podzial swiatla do zdjec',
+      'W Pienzy sprobowac pecorino di Pienza - slynny ser owczy, degustacja w sklepikach na Corso Rossellino',
+      'Przejazd SP146 przez Val d\'Orcia o zachodzie slonca (~19:15) - zlociste wzgorza z cyprysami',
+    ],
+    funFacts: [
+      'Volterra to jedno z najstarszych miast w Toskanii - Etruskowie zalozyli je ok. 800 p.n.e.',
+      'Pienza zostala zaprojektowana jako "idealne miasto" przez papieza Piusa II w XV w. - jedyne takie w Europie',
+      'Val d\'Orcia jest na liscie UNESCO - to ten krajobraz z cyprysami, ktory kojarzy sie z Toskania',
+    ],
   },
   {
     day: 12, date: '17.09', weekday: 'SR',
@@ -298,6 +418,17 @@ export const days: DayPlan[] = [
       { name: 'Duomo di Siena', desc: 'Jedna z najladniejszych katedr we Wloszech, marmurowa posadzka', mapsQuery: 'Duomo di Siena' },
       { name: 'Monteriggioni', desc: 'Sredniowieczna wioska otoczona murami obronnymi', mapsQuery: 'Monteriggioni' },
     ],
+    tips: [
+      'Siena na spokojnie - wiecej czasu na Duomo, Torre del Mangia i spacer',
+      'Torre del Mangia: 400 schodow, ~10 EUR - panorama warta wysilku',
+      'Monteriggioni po drodze powrotnej - 20-30 min wystarczy',
+      'Wieczorem pakowanie - jutro dlugi dzien powrotny!',
+    ],
+    funFacts: [
+      'Na Piazza del Campo odbywa sie Palio - wyscig konny z tradycja od 1633 r., 2x w roku',
+      'Posadzka Duomo di Siena to 56 marmurowych paneli - odslanianych tylko we wrzesniu!',
+      'Monteriggioni pojawia sie w Boskiej Komedii Dantego - porownuje wieze do olbrzymow strzegacych piekla',
+    ],
   },
   {
     day: 13, date: '18.09', weekday: 'CZ',
@@ -313,6 +444,16 @@ export const days: DayPlan[] = [
     attractions: [
       { name: 'Parma', desc: 'Przystanek na obiad: Prosciutto di Parma, Parmigiano, tortelli d\'erbetta', mapsQuery: 'Parma Italy center' },
     ],
+    tips: [
+      'Wyjazd o 7:00 rano - kazdea godzina opoznienia = przyjazd po polnocy',
+      '3 kierowcow, zmiana co ~4.5h. Jesli kierowca czuje zmeczenie - natychmiastowa zmiana!',
+      'Plan B: jesli o 17-18:00 zmeczenie - nocleg w Monachium/Regensburgu',
+      'Sprawdzic waznosc winiet czeskiej i austriackiej - moze trzeba kupic drugie!',
+    ],
+    funFacts: [
+      'Parma to stolica wloskiego jedzenia - Prosciutto di Parma i Parmigiano Reggiano to znaki towarowe chronione prawem UE',
+      'Przejezdzacie obok Brenneru (1370m) - najwazniejszej przeleczy alpejskiej, uzywanej od czasow rzymskich',
+    ],
   },
   {
     day: 14, date: '19.09', weekday: 'PT',
@@ -325,5 +466,12 @@ export const days: DayPlan[] = [
     imageAlt: 'Gdansk - powrot do domu',
     detailsFile: '07-powrot-18-19.09.md',
     attractions: [],
+    tips: [
+      'Spokojny poranek - odpoczynek po wczorajszym maratonie',
+      'Rozliczenie kosztow tripu przed wyjazdem - latwiej na swiezo',
+    ],
+    funFacts: [
+      'Lacznie przejechaliscie ~3500 km, odwiedziliscie 4 kraje i zobaczyliscie Alpy, Dolomity, morze i toskanskie wzgorza',
+    ],
   },
 ];
