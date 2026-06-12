@@ -1,4 +1,5 @@
 export type Tag = 'mountain' | 'lake' | 'city' | 'beach' | 'drive';
+export type Intensity = 'chill' | 'moderate' | 'active' | 'intense';
 
 export interface Attraction {
   name: string;
@@ -14,6 +15,7 @@ export interface DayPlan {
   route: string;
   desc: string;
   tags: Tag[];
+  intensity: Intensity;
   image: string;
   imageAlt: string;
   attractions: Attraction[];
@@ -71,6 +73,13 @@ export const config = {
   ],
 };
 
+export const INTENSITY_CONFIG: Record<Intensity, { label: string; icon: string; color: string }> = {
+  chill: { label: 'Luzik', icon: '😎', color: 'bg-green-100 text-green-700' },
+  moderate: { label: 'Umiarkowany', icon: '🚶', color: 'bg-sky-100 text-sky-700' },
+  active: { label: 'Aktywny', icon: '🥾', color: 'bg-amber-100 text-amber-700' },
+  intense: { label: 'Intensywny', icon: '🔥', color: 'bg-red-100 text-red-700' },
+};
+
 export function getGoogleMapsUrl(attraction: Attraction) {
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(attraction.mapsQuery)}`;
 }
@@ -84,6 +93,7 @@ export const days: DayPlan[] = [
     route: '460 km | ~5h',
     desc: 'Dojazd z Gdanska do Wroclawia. Nocleg u znajomych, pakowanie auta, zakupy na droge.',
     tags: ['drive'],
+    intensity: 'moderate',
     image: '/trip/images/road.jpg',
     imageAlt: 'Poczatek road tripu',
     overnight: 'Wroclaw (u znajomych)',
@@ -96,6 +106,7 @@ export const days: DayPlan[] = [
     route: '620 km | ~6.5h',
     desc: 'Przystanek w Czeskim Krumlowie - spacer po bajkowym starym miescie z zamkiem nad Weltawa. Wieczor nad jeziorem Hallstatt o zachodzie slonca.',
     tags: ['city', 'lake', 'drive'],
+    intensity: 'active',
     image: '/trip/images/Krumlov.jpg',
     imageAlt: 'Czeski Krumlov - zamek i stare miasto nad Weltawa',
     overnight: 'Hallstatt / Obertraun',
@@ -111,6 +122,7 @@ export const days: DayPlan[] = [
     route: 'Dzien na miejscu',
     desc: 'Five Fingers (2100m) - 5 platform nad przepascia z panorama 360. Jaskinia lodowa Dachstein. Spacer po Hallstatt.',
     tags: ['mountain', 'lake'],
+    intensity: 'active',
     image: '/trip/images/Hallstatt.jpg',
     imageAlt: 'Hallstatt - miasteczko nad jeziorem w Alpach',
     overnight: 'Hallstatt / Obertraun',
@@ -127,6 +139,7 @@ export const days: DayPlan[] = [
     route: '280 km | caly dzien',
     desc: 'Przejazd najpieksniejsza droga alpejska w Austrii. Widok na lodowiec Pasterze i najwyzszy szczyt Austrii - Grossglockner (3798m). Krotkie szlaki po drodze.',
     tags: ['mountain', 'drive'],
+    intensity: 'active',
     image: '/trip/images/Grossglockner.jpg',
     imageAlt: 'Grossglockner High Alpine Road',
     overnight: 'Brixen / Val di Funes (baza na 4 noce)',
@@ -142,6 +155,7 @@ export const days: DayPlan[] = [
     route: '~60 km z bazy',
     desc: 'Rano Lago di Braies (przyjechac przed 9!). Kolejka na Secede (2519m) - najslynniejszy widok Dolomitow. Val di Funes.',
     tags: ['mountain', 'lake'],
+    intensity: 'intense',
     image: '/trip/images/Lago di Braies.jpg',
     imageAlt: 'Lago di Braies - turkusowe jezioro z lodkami',
     overnight: 'Brixen / Val di Funes',
@@ -158,6 +172,7 @@ export const days: DayPlan[] = [
     route: 'Szlak ~10 km, ~4h',
     desc: 'Ikoniczny szlak Dolomitow - petla wokol Tre Cime. Przystanek na Lago di Antorno po drodze. Obiad w schronisku.',
     tags: ['mountain'],
+    intensity: 'active',
     image: '/trip/images/tre-cime.jpg',
     imageAlt: 'Tre Cime di Lavaredo - trzy szczyty Dolomitow',
     overnight: 'Brixen / Val di Funes',
@@ -174,6 +189,7 @@ export const days: DayPlan[] = [
     route: 'Szlak 5h lub 3-4h',
     desc: 'Do wyboru wg pogody i sil: Sorapis - turkusowe jezioro w skalnym kotle (trudniejszy). Federa - latwiejszy szlak widokowy od Passo Giau.',
     tags: ['mountain'],
+    intensity: 'active',
     image: '/trip/images/Lake Sorapis.jpg',
     imageAlt: 'Lake Sorapis - turkusowe jezioro w Dolomitach',
     overnight: 'Brixen / Val di Funes',
@@ -189,6 +205,7 @@ export const days: DayPlan[] = [
     route: '200 km | ~3h',
     desc: 'Popoludnie w Sirmione - zamek Scaligero na wodzie, ruiny rzymskie. Wieczor w Bardolino - promenada, wino.',
     tags: ['lake', 'city', 'drive'],
+    intensity: 'moderate',
     image: '/trip/images/Garda.jpg',
     imageAlt: 'Sirmione - zamek Scaligero na Jeziorze Garda',
     overnight: 'Bardolino',
@@ -204,6 +221,7 @@ export const days: DayPlan[] = [
     route: '330 km | ~3.5h',
     desc: 'Wszystkie 5 wiosek: Riomaggiore, Manarola, Corniglia, Vernazza. Castello Doria + kolacja z owocami morza.',
     tags: ['beach', 'city', 'drive'],
+    intensity: 'intense',
     image: '/trip/images/Vernazza.jpg',
     imageAlt: 'Vernazza - kolorowy port w Cinque Terre',
     overnight: 'Levanto',
@@ -221,6 +239,7 @@ export const days: DayPlan[] = [
     route: 'Szlaki + plaza',
     desc: 'Sentiero Azzurro: Monterosso -> Vernazza - najladniejszy odcinek szlaku nadmorskiego (~1.5h). Plaza w Monterosso.',
     tags: ['beach', 'mountain'],
+    intensity: 'moderate',
     image: '/trip/images/Monterosso.jpg',
     imageAlt: 'Monterosso al Mare - plaza w Cinque Terre',
     overnight: 'Levanto',
@@ -236,6 +255,7 @@ export const days: DayPlan[] = [
     route: '200 km | ~2.5h',
     desc: 'Spacer po San Gimignano - "sredniowieczny Manhattan" z 14 wiezami. Degustacja wina Vernaccia w twierdzy La Rocca.',
     tags: ['city', 'drive'],
+    intensity: 'moderate',
     image: '/trip/images/Gimignano.jpg',
     imageAlt: 'San Gimignano - sredniowieczne wieze w Toskanii',
     overnight: 'Camping Il Boschetto di Piemma (baza na 3 noce)',
@@ -247,34 +267,36 @@ export const days: DayPlan[] = [
   },
   {
     day: 11, date: '16.09', weekday: 'WT',
-    title: 'Toskania - Siena i okolice',
-    route: '~40 km do Sieny',
-    desc: 'Siena: Piazza del Campo, Duomo. Monteriggioni. Pienza - idealne miasto renesansu. Przejazd przez Val d\'Orcia.',
+    title: 'Toskania - Volterra, Pienza i Val d\'Orcia',
+    route: '~200 km petla',
+    desc: 'Volterra rano - etruskie miasto z panoramami. Pienza popoludniu - idealne miasto renesansu. Val d\'Orcia o zachodzie slonca.',
     tags: ['city'],
+    intensity: 'active',
     image: '/trip/images/Siena.jpg',
-    imageAlt: 'Siena - Piazza del Campo',
+    imageAlt: 'Toskania - Val d\'Orcia',
+    overnight: 'Camping Il Boschetto di Piemma',
+    detailsFile: '06-san-gimignano-15-17.09.md',
+    attractions: [
+      { name: 'Volterra', desc: 'Etruskie miasto (800 p.n.e.!), Teatro Romano, Balze - klify erozyjne', mapsQuery: 'Volterra Italy' },
+      { name: 'Pienza', desc: 'Idealne miasto renesansu (UNESCO). Widok na Val d\'Orcia, pecorino', mapsQuery: 'Pienza Italy' },
+      { name: 'Val d\'Orcia (SP146)', desc: 'Ikoniczny krajobraz Toskanii - wzgorza, cyprysy. Najlepsze swiatlo o zachodzie!', mapsQuery: 'Val d\'Orcia' },
+    ],
+  },
+  {
+    day: 12, date: '17.09', weekday: 'SR',
+    title: 'Toskania - Siena i Monteriggioni',
+    route: '~40 km do Sieny',
+    desc: 'Siena na spokojnie: Piazza del Campo, Duomo, Torre del Mangia. Monteriggioni po drodze. Relaks i pakowanie wieczorem.',
+    tags: ['city'],
+    intensity: 'moderate',
+    image: '/trip/images/Tuscany.jpg',
+    imageAlt: 'Toskania - wzgorza z cyprysami',
     overnight: 'Camping Il Boschetto di Piemma',
     detailsFile: '06-san-gimignano-15-17.09.md',
     attractions: [
       { name: 'Siena - Piazza del Campo', desc: 'Muszlowy plac, miejsce wyscigow Palio. Torre del Mangia (400 schodow)', mapsQuery: 'Piazza del Campo Siena' },
       { name: 'Duomo di Siena', desc: 'Jedna z najladniejszych katedr we Wloszech, marmurowa posadzka', mapsQuery: 'Duomo di Siena' },
       { name: 'Monteriggioni', desc: 'Sredniowieczna wioska otoczona murami obronnymi', mapsQuery: 'Monteriggioni' },
-      { name: 'Pienza', desc: 'Idealne miasto renesansu (UNESCO). Widok na Val d\'Orcia, pecorino', mapsQuery: 'Pienza Italy' },
-      { name: 'Val d\'Orcia (SP146)', desc: 'Ikoniczny krajobraz Toskanii - wzgorza, cyprysy. Przejazd Pienza-Montalcino', mapsQuery: 'Val d\'Orcia' },
-    ],
-  },
-  {
-    day: 12, date: '17.09', weekday: 'SR',
-    title: 'Toskania - Volterra i relaks',
-    route: '~30 km do Volterry',
-    desc: 'Volterra - etruskie miasto na wzgorzu z panoramami na Toskanie. Popoludnie: relaks na campingu, degustacja wina i oliwy.',
-    tags: ['city'],
-    image: '/trip/images/Tuscany.jpg',
-    imageAlt: 'Toskania - wzgorza z cyprysami',
-    overnight: 'Camping Il Boschetto di Piemma',
-    detailsFile: '06-san-gimignano-15-17.09.md',
-    attractions: [
-      { name: 'Volterra', desc: 'Etruskie miasto (800 p.n.e.!), Teatro Romano, Balze - klify erozyjne', mapsQuery: 'Volterra Italy' },
     ],
   },
   {
@@ -283,6 +305,7 @@ export const days: DayPlan[] = [
     route: '1300 km | ~13-16h',
     desc: 'Dlugi dzien powrotny. 3 kierowcow, zmiana co ~4.5h. Przystanek w Parmie na obiad - parmezan, prosciutto, tortelli.',
     tags: ['drive'],
+    intensity: 'intense',
     image: '/trip/images/road.jpg',
     imageAlt: 'Road trip - droga przez Alpy',
     overnight: 'Wroclaw (u znajomych)',
@@ -297,6 +320,7 @@ export const days: DayPlan[] = [
     route: '460 km | ~5h',
     desc: 'Spokojny poranek we Wroclawiu, pozegnanie z para wroclawska. Wyjazd po obiedzie, przyjazd do Gdanska wieczorem.',
     tags: ['drive'],
+    intensity: 'chill',
     image: '/trip/images/gdansk.jpg',
     imageAlt: 'Gdansk - powrot do domu',
     detailsFile: '07-powrot-18-19.09.md',

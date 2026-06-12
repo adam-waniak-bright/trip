@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { TAG_LABELS, TAG_COLORS, getGoogleMapsUrl, type DayPlan } from '../data';
+import { TAG_LABELS, TAG_COLORS, INTENSITY_CONFIG, getGoogleMapsUrl, type DayPlan } from '../data';
 
 /** Extract the section for a specific day from a multi-day markdown file */
 function extractDaySection(markdown: string, dayNumber: number): string {
@@ -67,6 +67,9 @@ export function DayCard({ day }: { day: DayPlan }) {
             <div className="flex items-center gap-2 mb-1 flex-wrap">
               <span className="text-xs font-bold px-2.5 py-1 rounded bg-white/90 text-amber-800 backdrop-blur-sm">
                 Dzien {day.day} | {day.date} ({day.weekday})
+              </span>
+              <span className={`text-xs font-medium px-2.5 py-1 rounded backdrop-blur-sm ${INTENSITY_CONFIG[day.intensity].color}`}>
+                {INTENSITY_CONFIG[day.intensity].icon} {INTENSITY_CONFIG[day.intensity].label}
               </span>
               {day.overnight && (
                 <span className="text-xs px-2.5 py-1 rounded bg-white/80 text-stone-600 backdrop-blur-sm">
