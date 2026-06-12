@@ -150,7 +150,7 @@ export const days: DayPlan[] = [
     detailsFile: '02-hallstatt-06-07.09.md',
     attractions: [
       { name: 'Five Fingers (Krippenstein)', desc: '5 platform ze szkla nad przepascia na 2100m. Kolejka z Obertraun ~35-40 EUR/os', mapsQuery: '5fingers Krippenstein' },
-      { name: 'Jaskinia lodowa Dachstein', desc: 'Ta sama kolejka co Five Fingers, poziom Schonbergalm. Temp. ~0 st.!', mapsQuery: 'Dachstein Ice Cave' },
+      { name: 'Jaskinia lodowa Dachstein', desc: 'Kolejka Krippenstein, przystanek Schonbergalm (po drodze na Five Fingers). Temp. ~0 st.!', mapsQuery: 'Dachstein Ice Cave' },
       { name: 'Jezioro Hallstattersee', desc: 'Kajaki, SUP, plazowanie w Obertraun', mapsQuery: 'Hallstattersee' },
     ],
     tips: [
@@ -193,8 +193,8 @@ export const days: DayPlan[] = [
   {
     day: 4, date: '9.09', weekday: 'WT',
     title: 'Lago di Braies & Val di Funes',
-    route: '~60 km z bazy',
-    desc: 'Rano Lago di Braies (przyjechac przed 9!). Kolejka na Secede (2519m) - najslynniejszy widok Dolomitow. Val di Funes.',
+    route: '~120 km petla z bazy',
+    desc: 'Rano Lago di Braies (przyjechac przed 9!). Kolejka na Seceda (2519m) - najslynniejszy widok Dolomitow. Kosciolek St. Magdalena w Val di Funes.',
     tags: ['mountain', 'lake'],
     intensity: 'intense',
     image: '/trip/images/Lago di Braies.jpg',
@@ -220,8 +220,8 @@ export const days: DayPlan[] = [
   {
     day: 5, date: '10.09', weekday: 'SR',
     title: 'Tre Cime di Lavaredo',
-    route: 'Szlak ~10 km, ~4h',
-    desc: 'Ikoniczny szlak Dolomitow - petla wokol Tre Cime. Przystanek na Lago di Antorno po drodze. Obiad w schronisku.',
+    route: '~90 km dojazd + szlak ~10 km, ~4h',
+    desc: 'Ikoniczny szlak Dolomitow - petla wokol Tre Cime di Lavaredo (2999m). Dobrze utrzymany, nie wymaga doswiadczenia. Obiad w schronisku z widokiem.',
     tags: ['mountain'],
     intensity: 'active',
     image: '/trip/images/tre-cime.jpg',
@@ -426,7 +426,7 @@ export const days: DayPlan[] = [
     ],
     funFacts: [
       'Na Piazza del Campo odbywa sie Palio - wyscig konny z tradycja od 1633 r., 2x w roku',
-      'Posadzka Duomo di Siena to 56 marmurowych paneli - odslanianych tylko we wrzesniu!',
+      'Posadzka Duomo di Siena to 56 marmurowych paneli - odslanianych od polowy sierpnia do konca pazdziernika. Trafiacie idealnie!',
       'Monteriggioni pojawia sie w Boskiej Komedii Dantego - porownuje wieze do olbrzymow strzegacych piekla',
     ],
   },
@@ -445,7 +445,7 @@ export const days: DayPlan[] = [
       { name: 'Parma', desc: 'Przystanek na obiad: Prosciutto di Parma, Parmigiano, tortelli d\'erbetta', mapsQuery: 'Parma Italy center' },
     ],
     tips: [
-      'Wyjazd o 7:00 rano - kazdea godzina opoznienia = przyjazd po polnocy',
+      'Wyjazd o 7:00 rano - kazda godzina opoznienia = przyjazd po polnocy',
       '3 kierowcow, zmiana co ~4.5h. Jesli kierowca czuje zmeczenie - natychmiastowa zmiana!',
       'Plan B: jesli o 17-18:00 zmeczenie - nocleg w Monachium/Regensburgu',
       'Sprawdzic waznosc winiet czeskiej i austriackiej - moze trzeba kupic drugie!',

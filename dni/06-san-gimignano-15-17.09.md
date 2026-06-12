@@ -100,7 +100,7 @@
 
 ### Atrakcje
 #### Siena
-- **Piazza del Campo** - muszlowy plac, miejsce wysciguo konnych Palio
+- **Piazza del Campo** - muszlowy plac, miejsce wyscigow konnych Palio
 - **Duomo di Siena** - jedna z najladniejszych katedr we Wloszech (marmurowa posadzka!)
 - **Torre del Mangia** - wieza ratuszowa, panorama (~10 EUR, 400 schodow)
 - Ulice: waskie, strome, pelne klimatu
