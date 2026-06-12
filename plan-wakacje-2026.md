@@ -83,17 +83,16 @@
 - **Nocleg:** Bardolino (camping lub apartament)
 
 ### Dzien 8 | 13.09 (sobota) - Garda -> Cinque Terre
-- **Trasa:** Garda -> Cinque Terre (~330 km, ~3.5-4h)
-- **Plan:** dojazd do La Spezia / Riomaggiore (parking w La Spezia, do wiosek pociagiem)
-- **Popoludnie:** zwiedzanie Riomaggiore i Manarola (spacer miedzy wioskami)
-- **Wieczor:** kolacja z owocami morza w Vernazza
-- **Nocleg:** La Spezia lub Levanto (tansze niz same wioski Cinque Terre)
+- **Trasa:** Garda -> Cinque Terre (~330 km, ~3.5h)
+- **Plan:** dojazd do Levanto, do wiosek pociagiem
+- **Popoludnie:** Riomaggiore, Manarola, Corniglia (3 wioski pociagiem)
+- **Wieczor:** relaks / plaza w Levanto
+- **Nocleg:** Levanto
 
-### Dzien 9 | 14.09 (niedziela) - Cinque Terre
-- **Caly dzien:** szlak pieszy Sentiero Azzurro (czesc lub calosc)
-  - Monterosso -> Vernazza: najladniejszy odcinek (~1.5h, umiarkowany)
-  - Plazowanie w Monterosso (najlepsza plaza w Cinque Terre)
-- **Transport:** Cinque Terre Card (~16 EUR/os, wlicza szlaki + pociagi miedzy wioskami)
+### Dzien 9 | 14.09 (niedziela) - Cinque Terre - szlak, Vernazza i plaza
+- **Rano:** szlak Sentiero Azzurro Monterosso -> Vernazza (~1.5h, najladniejszy odcinek)
+- **Popoludnie:** Vernazza - Castello Doria + obiad z owocami morza, potem plaza w Monterosso
+- **Transport:** Cinque Terre Card (~16 EUR/os, sprawdzic 2-dniowa ~29 EUR/os)
 - **Nocleg:** ten sam
 
 ### Dzien 10 | 15.09 (poniedzialek) - Cinque Terre -> Toskania
