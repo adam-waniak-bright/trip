@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import {
   overnights,
+  getCheckInOut,
   ACCOMMODATION_LABELS,
   ACCOMMODATION_COLORS,
   type AccommodationType,
@@ -66,6 +67,14 @@ export function Overnights() {
               <p className="text-sm text-stone-500">
                 {location.dates} | {location.nights} {location.nights === 1 ? 'noc' : location.nights < 5 ? 'noce' : 'nocy'}
               </p>
+              {(() => {
+                const cio = getCheckInOut(location);
+                return cio ? (
+                  <p className="text-xs text-stone-400 mt-0.5">
+                    Zameldowanie {cio.checkIn} &middot; wymeldowanie {cio.checkOut} rano
+                  </p>
+                ) : null;
+              })()}
             </div>
             {location.confirmed && (
               <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-emerald-100 text-emerald-700">

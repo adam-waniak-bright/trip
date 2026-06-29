@@ -82,6 +82,18 @@ export interface OvernightLocation {
   options: OvernightOption[];
 }
 
+// Wylicza daty zameldowania i wymeldowania z zakresu `dates` + liczby nocy.
+// Zakres "6-7.09" + 2 noce => zameldowanie 6.09, wymeldowanie 8.09 (rano).
+// Zwraca null dla noclegow bez sensownego check-in/out (np. u znajomych).
+export function getCheckInOut(location: OvernightLocation): { checkIn: string; checkOut: string } | null {
+  if (location.options.every(o => o.type === 'prywatnie')) return null;
+  const match = location.dates.match(/^(\d+)/);
+  if (!match) return null;
+  const startDay = parseInt(match[1], 10);
+  const checkOutDay = startDay + location.nights;
+  return { checkIn: `${startDay}.09`, checkOut: `${checkOutDay}.09` };
+}
+
 export const overnights: OvernightLocation[] = [
   {
     dates: '5.09',
