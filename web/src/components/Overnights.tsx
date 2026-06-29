@@ -1,169 +1,59 @@
-interface OvernightOption {
-  name: string;
-  type: string;
-  price: string;
-  url: string;
-  note?: string;
-}
+import { useMemo, useState } from 'react';
+import {
+  overnights,
+  ACCOMMODATION_LABELS,
+  ACCOMMODATION_COLORS,
+  type AccommodationType,
+} from '../data';
 
-interface OvernightLocation {
-  dates: string;
-  place: string;
-  nights: number;
-  confirmed?: boolean;
-  options: OvernightOption[];
-}
-
-const overnights: OvernightLocation[] = [
-  {
-    dates: '5.09',
-    place: 'Wroclaw',
-    nights: 1,
-    confirmed: true,
-    options: [
-      { name: 'U znajomych', type: 'prywatnie', price: '0 zl', url: '', note: 'Potwierdzone' },
-    ],
-  },
-  {
-    dates: '6-7.09',
-    place: 'Hallstatt / Obertraun',
-    nights: 2,
-    options: [
-      {
-        name: 'Camping Klausner-Holl',
-        type: 'camping',
-        price: '~106 EUR / 2 noce (2 os.)',
-        url: 'https://camping.hallstatt.net/',
-        note: 'Bezposrednio w Hallstatt, nad jeziorem',
-      },
-      {
-        name: 'Camping am See',
-        type: 'camping',
-        price: '~25-35 EUR / noc',
-        url: 'https://www.obertraun.net/unterkunftsverzeichnis/camping/obertraun/camping-am-see/',
-        note: '70 miejsc, prywatna plaza, u stop Dachstein',
-      },
-      {
-        name: 'Park am See',
-        type: 'camping / glamping',
-        price: '~45-80 EUR / noc',
-        url: 'https://www.booking.com/hotel/at/park-am-see.html',
-        note: 'Odnowione wagony, restauracja, sauna, plaza prywatna',
-      },
-    ],
-  },
-  {
-    dates: '8-11.09',
-    place: 'Brixen / Val di Funes',
-    nights: 4,
-    options: [
-      {
-        name: 'Camping Brixen',
-        type: 'camping',
-        price: '~25-35 EUR / noc',
-        url: 'https://www.bookingsuedtirol.com/en/bressanonebrixen/camping',
-        note: 'Campingi w okolicach Brixen',
-      },
-      {
-        name: 'Living Puez (Val di Funes)',
-        type: 'apartament',
-        price: '~70-100 EUR / noc',
-        url: 'https://www.booking.com/searchresults.html?ss=Val+di+Funes',
-        note: 'Apartament z kuchnia, widok na gory, parking',
-      },
-      {
-        name: 'MiraOdle Apartments (Villnoss)',
-        type: 'apartament',
-        price: '~80-120 EUR / noc',
-        url: 'https://www.booking.com/searchresults.html?ss=Villnoss+Val+di+Funes',
-        note: 'Ogrod, taras, widok na Odle, parking i WiFi',
-      },
-    ],
-  },
-  {
-    dates: '12.09',
-    place: 'Bardolino (Jezioro Garda)',
-    nights: 1,
-    options: [
-      {
-        name: 'Camping Serenella',
-        type: 'camping',
-        price: '~30-50 EUR / noc',
-        url: 'https://www.gardalake.com/place/camping-serenella-bardolino/',
-        note: '2 baseny, nad jeziorem, bar i restauracja',
-      },
-      {
-        name: 'Campeggio San Nicolo',
-        type: 'camping',
-        price: '~25-40 EUR / noc',
-        url: 'https://www.booking.com/searchresults.html?ss=Campeggio+San+Nicolo+Bardolino',
-        note: 'Nad jeziorem, domki z kuchnia, grill',
-      },
-      {
-        name: 'Camping Cisano & San Vito',
-        type: 'camping',
-        price: '~35-55 EUR / noc',
-        url: 'https://www.booking.com/searchresults.html?ss=Camping+Cisano+San+Vito+Bardolino',
-        note: 'Prywatna plaza, baseny, boiska - wiekszy i drozszy',
-      },
-    ],
-  },
-  {
-    dates: '13-14.09',
-    place: 'Levanto (Cinque Terre)',
-    nights: 2,
-    options: [
-      {
-        name: 'Apartament w centrum Levanto',
-        type: 'apartament (Booking/Airbnb)',
-        price: '~80-130 EUR / noc',
-        url: 'https://www.booking.com/searchresults.html?ss=Levanto&group_adults=4&checkin=2026-09-13&checkout=2026-09-15',
-        note: 'Szukac z kuchnia, 2 sypialnie, 4 osoby. Levanto tansze niz wioski CT',
-      },
-      {
-        name: 'Resort Costa Morroni',
-        type: 'apartament 4 os.',
-        price: '~90-140 EUR / noc',
-        url: 'https://www.booking.com/searchresults.html?ss=Costa+Morroni+Levanto',
-        note: 'Apartamenty na wzgorzu, basen, widok na morze',
-      },
-    ],
-  },
-  {
-    dates: '15-17.09',
-    place: 'San Gimignano',
-    nights: 3,
-    confirmed: true,
-    options: [
-      {
-        name: 'Camping Il Boschetto di Piemma',
-        type: 'camping',
-        price: '~35-50 EUR / noc',
-        url: 'https://www.booking.com/hotel/it/camping-il-boschetto-di-piemma.html',
-        note: 'WYBRANY! 2 baseny, restauracja, 2.5 km od San Gimignano. Ocena 8.1 na Booking.',
-      },
-    ],
-  },
-  {
-    dates: '18.09',
-    place: 'Wroclaw',
-    nights: 1,
-    confirmed: true,
-    options: [
-      { name: 'U znajomych', type: 'prywatnie', price: '0 zl', url: '', note: 'Potwierdzone' },
-    ],
-  },
-];
+type Filter = AccommodationType | 'all';
 
 export function Overnights() {
+  const [filter, setFilter] = useState<Filter>('all');
+
+  // Typy faktycznie wystepujace w danych (bez 'prywatnie' - nie filtrujemy noclegow u znajomych)
+  const availableTypes = useMemo(() => {
+    const set = new Set<AccommodationType>();
+    overnights.forEach(loc => loc.options.forEach(o => set.add(o.type)));
+    set.delete('prywatnie');
+    return (Object.keys(ACCOMMODATION_LABELS) as AccommodationType[]).filter(t => set.has(t));
+  }, []);
+
+  // Lokalizacje z opcjami przefiltrowanymi wg typu; puste lokalizacje znikaja
+  const visibleLocations = useMemo(() => {
+    if (filter === 'all') return overnights;
+    return overnights
+      .map(loc => ({ ...loc, options: loc.options.filter(o => o.type === filter) }))
+      .filter(loc => loc.options.length > 0);
+  }, [filter]);
+
+  const totalNights = overnights.reduce((sum, loc) => sum + loc.nights, 0);
+  const freeNights = overnights
+    .filter(loc => loc.options.every(o => o.type === 'prywatnie'))
+    .reduce((sum, loc) => sum + loc.nights, 0);
+
   return (
     <div className="space-y-6">
       <div className="text-center mb-8">
         <h1 className="text-3xl font-bold text-stone-900">Noclegi</h1>
-        <p className="text-stone-500 mt-2">7 lokalizacji, 14 nocy (2 za darmo u znajomych)</p>
+        <p className="text-stone-500 mt-2">
+          {overnights.length} lokalizacji, {totalNights} nocy ({freeNights} za darmo u znajomych)
+        </p>
       </div>
 
-      {overnights.map(location => (
+      {/* Filtr wg typu obiektu */}
+      <div className="flex justify-center gap-1 flex-wrap">
+        <FilterButton active={filter === 'all'} onClick={() => setFilter('all')}>
+          Wszystkie
+        </FilterButton>
+        {availableTypes.map(type => (
+          <FilterButton key={type} active={filter === type} onClick={() => setFilter(type)}>
+            {ACCOMMODATION_LABELS[type]}
+          </FilterButton>
+        ))}
+      </div>
+
+      {visibleLocations.map(location => (
         <section
           key={location.dates}
           className={`bg-white rounded-xl border shadow-sm p-6 ${
@@ -199,8 +89,14 @@ export function Overnights() {
               >
                 <div className="flex items-start justify-between gap-3">
                   <div className="flex-1 min-w-0">
-                    <div className="font-medium text-stone-800">{option.name}</div>
-                    <div className="text-xs text-stone-400 mt-0.5">{option.type}</div>
+                    <div className="flex items-center gap-2 flex-wrap">
+                      <span className="font-medium text-stone-800">{option.name}</span>
+                      <span
+                        className={`text-[11px] font-medium px-2 py-0.5 rounded-full ${ACCOMMODATION_COLORS[option.type]}`}
+                      >
+                        {ACCOMMODATION_LABELS[option.type]}
+                      </span>
+                    </div>
                     {option.note && (
                       <p className="text-sm text-stone-600 mt-1">{option.note}</p>
                     )}
@@ -225,5 +121,26 @@ export function Overnights() {
         </section>
       ))}
     </div>
+  );
+}
+
+function FilterButton({
+  active,
+  onClick,
+  children,
+}: {
+  active: boolean;
+  onClick: () => void;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      onClick={onClick}
+      className={`px-4 py-1.5 text-sm font-medium rounded-lg transition-colors ${
+        active ? 'bg-amber-100 text-amber-800' : 'text-stone-500 hover:bg-stone-100'
+      }`}
+    >
+      {children}
+    </button>
   );
 }
