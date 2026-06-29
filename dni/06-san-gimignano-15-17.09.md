@@ -1,10 +1,10 @@
-# Nocleg 6: San Gimignano (Toskania) | 15-17.09 (poniedzialek-sroda)
+# Nocleg 6: San Gimignano (Toskania) | 15-17.09 (wtorek-czwartek)
 ## Nocleg: Camping Il Boschetto di Piemma, San Gimignano
 ## Ile nocy: 3
 
 ---
 
-## Dzien 10 | 15.09 (poniedzialek) - Cinque Terre -> Toskania
+## Dzien 10 | 15.09 (wtorek) - Cinque Terre -> Toskania
 
 ### Harmonogram
 | Godzina | Plan |
@@ -40,7 +40,7 @@
 
 ---
 
-## Dzien 11 | 16.09 (wtorek) - Volterra, Pienza i Val d'Orcia
+## Dzien 11 | 16.09 (sroda) - Volterra, Pienza i Val d'Orcia
 
 ### Harmonogram
 | Godzina | Plan |
@@ -82,7 +82,7 @@
 
 ---
 
-## Dzien 12 | 17.09 (sroda) - Siena i Monteriggioni
+## Dzien 12 | 17.09 (czwartek) - Siena i Monteriggioni
 
 ### Harmonogram
 | Godzina | Plan |

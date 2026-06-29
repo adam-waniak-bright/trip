@@ -1,9 +1,9 @@
-# Nocleg 1: Wroclaw | 5.09 (piatek)
+# Nocleg 1: Wroclaw | 5.09 (sobota)
 ## Nocleg: u znajomych we Wroclawiu
 
 ---
 
-## Dzien 0 | 5.09 (piatek) - Gdansk -> Wroclaw
+## Dzien 0 | 5.09 (sobota) - Gdansk -> Wroclaw
 
 ### Harmonogram
 | Godzina | Plan |

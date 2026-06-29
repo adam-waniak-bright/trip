@@ -1,10 +1,10 @@
-# Nocleg 5: Levanto (Cinque Terre) | 13-14.09 (sobota-niedziela)
+# Nocleg 5: Levanto (Cinque Terre) | 13-14.09 (niedziela-poniedzialek)
 ## Nocleg: Levanto
 ## Ile nocy: 2
 
 ---
 
-## Dzien 8 | 13.09 (sobota) - Garda -> Cinque Terre
+## Dzien 8 | 13.09 (niedziela) - Garda -> Cinque Terre
 
 ### Harmonogram
 | Godzina | Plan |
@@ -53,7 +53,7 @@
 
 ---
 
-## Dzien 9 | 14.09 (niedziela) - Cinque Terre - szlak, Vernazza i plaza
+## Dzien 9 | 14.09 (poniedzialek) - Cinque Terre - szlak, Vernazza i plaza
 
 ### Harmonogram
 | Godzina | Plan |

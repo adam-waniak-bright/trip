@@ -1,10 +1,10 @@
-# Nocleg 2: Hallstatt / Obertraun | 6-7.09 (sobota-niedziela)
+# Nocleg 2: Hallstatt / Obertraun | 6-7.09 (niedziela-poniedzialek)
 ## Nocleg: okolice Hallstatt / Obertraun (camping lub apartament)
 ## Ile nocy: 2
 
 ---
 
-## Dzien 1 | 6.09 (sobota) - Wroclaw -> Hallstatt
+## Dzien 1 | 6.09 (niedziela) - Wroclaw -> Hallstatt
 
 ### Harmonogram
 | Godzina | Plan |
@@ -31,7 +31,7 @@
 
 ---
 
-## Dzien 2 | 7.09 (niedziela) - Hallstatt i okolice
+## Dzien 2 | 7.09 (poniedzialek) - Hallstatt i okolice
 
 ### Harmonogram
 | Godzina | Plan |

@@ -341,7 +341,7 @@ export function getGoogleMapsUrl(attraction: Attraction) {
 // Aby zmienic: unsplash.com -> szukaj -> kliknij zdjecie -> ID z URL
 export const days: DayPlan[] = [
   {
-    day: 0, date: '5.09', weekday: 'PT',
+    day: 0, date: '5.09', weekday: 'SB',
     title: 'Gdansk -> Wroclaw',
     route: '460 km | ~5h',
     desc: 'Dojazd z Gdanska do Wroclawia. Nocleg u znajomych, pakowanie auta, zakupy na droge.',
@@ -364,7 +364,7 @@ export const days: DayPlan[] = [
     ],
   },
   {
-    day: 1, date: '6.09', weekday: 'SB',
+    day: 1, date: '6.09', weekday: 'ND',
     title: 'Wroclaw -> Czeski Krumlov -> Hallstatt',
     route: '620 km | ~6.5h',
     desc: 'Przystanek w Czeskim Krumlowie - spacer po bajkowym starym miescie z zamkiem nad Weltawa. Wieczor nad jeziorem Hallstatt o zachodzie slonca.',
@@ -389,7 +389,7 @@ export const days: DayPlan[] = [
     ],
   },
   {
-    day: 2, date: '7.09', weekday: 'ND',
+    day: 2, date: '7.09', weekday: 'PN',
     title: 'Hallstatt i okolice',
     route: 'Dzien na miejscu',
     desc: 'Five Fingers (2100m) - 5 platform nad przepascia z panorama 360. Jaskinia lodowa Dachstein. Spacer po Hallstatt.',
@@ -416,7 +416,7 @@ export const days: DayPlan[] = [
     ],
   },
   {
-    day: 3, date: '8.09', weekday: 'PN',
+    day: 3, date: '8.09', weekday: 'WT',
     title: 'Grossglockner -> Dolomity',
     route: '280 km | caly dzien',
     desc: 'Przejazd najpieksniejsza droga alpejska w Austrii. Widok na lodowiec Pasterze i najwyzszy szczyt Austrii - Grossglockner (3798m). Krotkie szlaki po drodze.',
@@ -442,7 +442,7 @@ export const days: DayPlan[] = [
     ],
   },
   {
-    day: 4, date: '9.09', weekday: 'WT',
+    day: 4, date: '9.09', weekday: 'SR',
     title: 'Lago di Braies & Val di Funes',
     route: '~120 km petla z bazy',
     desc: 'Rano Lago di Braies (przyjechac przed 9!). Kolejka na Seceda (2519m) - najslynniejszy widok Dolomitow. Kosciolek St. Magdalena w Val di Funes.',
@@ -469,7 +469,7 @@ export const days: DayPlan[] = [
     ],
   },
   {
-    day: 5, date: '10.09', weekday: 'SR',
+    day: 5, date: '10.09', weekday: 'CZ',
     title: 'Tre Cime di Lavaredo',
     route: '~90 km dojazd + szlak ~10 km, ~4h',
     desc: 'Ikoniczny szlak Dolomitow - petla wokol Tre Cime di Lavaredo (2999m). Dobrze utrzymany, nie wymaga doswiadczenia. Obiad w schronisku z widokiem.',
@@ -496,7 +496,7 @@ export const days: DayPlan[] = [
     ],
   },
   {
-    day: 6, date: '11.09', weekday: 'CZ',
+    day: 6, date: '11.09', weekday: 'PT',
     title: 'Lake Sorapis lub Lago Federa',
     route: 'Szlak 5h lub 3-4h',
     desc: 'Do wyboru wg pogody i sil: Sorapis - turkusowe jezioro w skalnym kotle (trudniejszy). Federa - latwiejszy szlak widokowy od Passo Giau.',
@@ -521,7 +521,7 @@ export const days: DayPlan[] = [
     ],
   },
   {
-    day: 7, date: '12.09', weekday: 'PT',
+    day: 7, date: '12.09', weekday: 'SB',
     title: 'Dolomity -> Jezioro Garda',
     route: '200 km | ~3h',
     desc: 'Popoludnie w Sirmione - zamek Scaligero na wodzie, ruiny rzymskie. Wieczor w Bardolino - promenada, wino.',
@@ -547,7 +547,7 @@ export const days: DayPlan[] = [
     ],
   },
   {
-    day: 8, date: '13.09', weekday: 'SB',
+    day: 8, date: '13.09', weekday: 'ND',
     title: 'Garda -> Cinque Terre',
     route: '330 km | ~3.5h',
     desc: 'Trzy wioski popoludniu: Riomaggiore, Manarola, Corniglia. Wieczor na plazy w Levanto.',
@@ -575,7 +575,7 @@ export const days: DayPlan[] = [
     ],
   },
   {
-    day: 9, date: '14.09', weekday: 'ND',
+    day: 9, date: '14.09', weekday: 'PN',
     title: 'Cinque Terre - szlak, Vernazza i plaza',
     route: 'Szlak + Vernazza + plaza',
     desc: 'Sentiero Azzurro: Monterosso -> Vernazza (~1.5h). Castello Doria + obiad z owocami morza. Popoludnie na plazy w Monterosso.',
@@ -601,7 +601,7 @@ export const days: DayPlan[] = [
     ],
   },
   {
-    day: 10, date: '15.09', weekday: 'PN',
+    day: 10, date: '15.09', weekday: 'WT',
     title: 'Cinque Terre -> Toskania',
     route: '200 km | ~2.5h',
     desc: 'Spacer po San Gimignano - "sredniowieczny Manhattan" z 14 wiezami. Degustacja wina Vernaccia w twierdzy La Rocca.',
@@ -627,7 +627,7 @@ export const days: DayPlan[] = [
     ],
   },
   {
-    day: 11, date: '16.09', weekday: 'WT',
+    day: 11, date: '16.09', weekday: 'SR',
     title: 'Toskania - Volterra, Pienza i Val d\'Orcia',
     route: '~200 km petla',
     desc: 'Volterra rano - etruskie miasto z panoramami. Pienza popoludniu - idealne miasto renesansu. Val d\'Orcia o zachodzie slonca.',
@@ -654,7 +654,7 @@ export const days: DayPlan[] = [
     ],
   },
   {
-    day: 12, date: '17.09', weekday: 'SR',
+    day: 12, date: '17.09', weekday: 'CZ',
     title: 'Toskania - Siena i Monteriggioni',
     route: '~40 km do Sieny',
     desc: 'Siena na spokojnie: Piazza del Campo, Duomo, Torre del Mangia. Monteriggioni po drodze. Relaks i pakowanie wieczorem.',
@@ -682,7 +682,7 @@ export const days: DayPlan[] = [
     ],
   },
   {
-    day: 13, date: '18.09', weekday: 'CZ',
+    day: 13, date: '18.09', weekday: 'PT',
     title: 'Toskania -> Wroclaw',
     route: '1300 km | ~13-16h',
     desc: 'Dlugi dzien powrotny. 3 kierowcow, zmiana co ~4.5h. Przystanek w Parmie na obiad - parmezan, prosciutto, tortelli.',
@@ -707,7 +707,7 @@ export const days: DayPlan[] = [
     ],
   },
   {
-    day: 14, date: '19.09', weekday: 'PT',
+    day: 14, date: '19.09', weekday: 'SB',
     title: 'Wroclaw -> Gdansk',
     route: '460 km | ~5h',
     desc: 'Spokojny poranek we Wroclawiu, pozegnanie z para wroclawska. Wyjazd po obiedzie, przyjazd do Gdanska wieczorem.',

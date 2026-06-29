@@ -29,26 +29,26 @@
 
 ## Trasa
 
-### Dzien 0 | 5.09 (piatek) - Dojazd do Wroclawia
+### Dzien 0 | 5.09 (sobota) - Dojazd do Wroclawia
 - **Trasa:** Gdansk -> Wroclaw (~460 km, ~5h)
 - **Nocleg:** u znajomych we Wroclawiu
 - **Plan:** dojazd, pakowanie auta, odpoczynek przed tripa
 
 ---
 
-### Dzien 1 | 6.09 (sobota) - Wroclaw -> Hallstatt
+### Dzien 1 | 6.09 (niedziela) - Wroclaw -> Hallstatt
 - **Trasa:** Wroclaw -> Hallstatt (~620 km, ~6.5h przez Czechy)
 - **Po drodze:** Przystanek w Czeskim Krumlowie (1-2h spacer po starym miescie - piekne miasteczko z zamkiem nad Weltawa)
 - **Nocleg:** okolice Hallstatt / Obertraun (camping lub apartament)
 - **Wieczor:** spacer nad jeziorem Hallstatt o zachodzie slonca
 
-### Dzien 2 | 7.09 (niedziela) - Hallstatt i okolice
+### Dzien 2 | 7.09 (poniedzialek) - Hallstatt i okolice
 - **Rano:** szlak na punkt widokowy Hallstatt Skywalk (World Heritage View) - latwy, ~1h
 - **Obiad:** w Hallstatt (ryba z jeziora!)
 - **Popoludnie:** jaskinia lodowa Dachstein (kolejka linowa + jaskinia) LUB plazowanie/kajaki na jeziorze Hallstattersee
 - **Nocleg:** ten sam co poprzedniego dnia
 
-### Dzien 3 | 8.09 (poniedzialek) - Hallstatt -> Grossglockner -> Dolomity
+### Dzien 3 | 8.09 (wtorek) - Hallstatt -> Grossglockner -> Dolomity
 - **Trasa:** Hallstatt -> Grossglockner High Alpine Road -> Bressanone/Brixen (~280 km, caly dzien)
 - **Highlight:** przejazd Grossglockner Hochalpenstrasse - najpiękniejsza droga alpejska w Austrii
   - Przystanek na Kaiser-Franz-Josefs-Hohe - widok na lodowiec Pasterze i Grossglockner (3798m)
@@ -56,13 +56,13 @@
 - **Oplata:** ~40 EUR za auto (Grossglockner)
 - **Nocleg:** okolice Bressanone/Brixen lub Val di Funes (apartament/camping) - baza na 4 noce
 
-### Dzien 4 | 9.09 (wtorek) - Dolomity - Lago di Braies & Val di Funes
+### Dzien 4 | 9.09 (sroda) - Dolomity - Lago di Braies & Val di Funes
 - **Trasa:** dojazd do Lago di Braies (~60 km z Brixen)
 - **Rano:** szlak wokol Lago di Braies (turkusowe jezioro, latwy szlak ~1.5h). Przyjechac przed 9 rano!
 - **Popoludnie:** Villnoss/Val di Funes - widok na Odle (ikona Dolomitow, kosciolek St. Magdalena)
 - **Nocleg:** ten sam (Brixen/Val di Funes)
 
-### Dzien 5 | 10.09 (sroda) - Dolomity - Tre Cime di Lavaredo
+### Dzien 5 | 10.09 (czwartek) - Dolomity - Tre Cime di Lavaredo
 - **Trasa:** dojazd do Rifugio Auronzo (parking, oplata ~30 EUR)
 - **Szlak:** petla wokol Tre Cime di Lavaredo - ikoniczny szlak Dolomitow
   - ~10 km, ~3.5-4h, umiarkowany (styl "Morskie Oko" - dobrze utrzymany, niesamowite widoki)
@@ -70,60 +70,60 @@
 - **Obiad:** w jednym ze schronisk na szlaku
 - **Nocleg:** ten sam (Brixen/Val di Funes)
 
-### Dzien 6 | 11.09 (czwartek) - Dolomity - Lake Sorapis lub Lago Federa
+### Dzien 6 | 11.09 (piatek) - Dolomity - Lake Sorapis lub Lago Federa
 - **Opcja A:** Lake Sorapis - szlak z Passo Tre Croci (szlak 215, ~5h w obie strony, turkusowe jezioro)
 - **Opcja B:** Lago Federa - szlak od Passo Giau (~3-4h, widokowy szlak)
 - **Wybor:** w zaleznosci od pogody i sil - Sorapis bardziej spektakularny, Federa latwiejszy
 - **Nocleg:** ten sam (Brixen/Val di Funes)
 
-### Dzien 7 | 12.09 (piatek) - Dolomity -> Jezioro Garda
+### Dzien 7 | 12.09 (sobota) - Dolomity -> Jezioro Garda
 - **Trasa:** Dolomity -> Lago di Garda (~200 km, ~3h)
 - **Popoludnie:** Sirmione - polwysep z zamkiem Scaligero, termy, waskie uliczki
 - **Wieczor:** Malcesine lub Bardolino - kolacja z widokiem na jezioro, spacer
 - **Nocleg:** Bardolino (camping lub apartament)
 
-### Dzien 8 | 13.09 (sobota) - Garda -> Cinque Terre
+### Dzien 8 | 13.09 (niedziela) - Garda -> Cinque Terre
 - **Trasa:** Garda -> Cinque Terre (~330 km, ~3.5h)
 - **Plan:** dojazd do Levanto, do wiosek pociagiem
 - **Popoludnie:** Riomaggiore, Manarola, Corniglia (3 wioski pociagiem)
 - **Wieczor:** relaks / plaza w Levanto
 - **Nocleg:** Levanto
 
-### Dzien 9 | 14.09 (niedziela) - Cinque Terre - szlak, Vernazza i plaza
+### Dzien 9 | 14.09 (poniedzialek) - Cinque Terre - szlak, Vernazza i plaza
 - **Rano:** szlak Sentiero Azzurro Monterosso -> Vernazza (~1.5h, najladniejszy odcinek)
 - **Popoludnie:** Vernazza - Castello Doria + obiad z owocami morza, potem plaza w Monterosso
 - **Transport:** Cinque Terre Card (~16 EUR/os, sprawdzic 2-dniowa ~29 EUR/os)
 - **Nocleg:** ten sam
 
-### Dzien 10 | 15.09 (poniedzialek) - Cinque Terre -> Toskania
+### Dzien 10 | 15.09 (wtorek) - Cinque Terre -> Toskania
 - **Rano:** ostatni spacer / plaza w Cinque Terre
 - **Trasa:** La Spezia -> San Gimignano (~200 km, ~2.5h)
 - **Popoludnie:** spacer po San Gimignano - sredniowieczne wieze, Piazza della Cisterna
 - **Wieczor:** kolacja w lokalnej trattoria, lokalne wino Vernaccia di San Gimignano
 - **Nocleg:** Camping Il Boschetto di Piemma, San Gimignano - baza na 3 noce
 
-### Dzien 11 | 16.09 (wtorek) - Toskania - Volterra, Pienza i Val d'Orcia
+### Dzien 11 | 16.09 (sroda) - Toskania - Volterra, Pienza i Val d'Orcia
 - **Rano:** Volterra (~30 km) - etruskie miasto na wzgorzu, panoramy, alabaster
 - **Obiad:** w Volterra
 - **Popoludnie:** Pienza (~80 km z Volterry) - "idealne miasto" renesansu, widok na Val d'Orcia, pecorino
 - **Wieczor:** przejazd SP146 przez Val d'Orcia o zachodzie slonca - cyprysy i zlociste wzgorza
 - **Nocleg:** ten sam
 
-### Dzien 12 | 17.09 (sroda) - Toskania - Siena i Monteriggioni
+### Dzien 12 | 17.09 (czwartek) - Toskania - Siena i Monteriggioni
 - **Rano:** dojazd do Sieny (~40 km) - Piazza del Campo, Duomo, Torre del Mangia
 - **Obiad:** w Sienie (pici, pappardelle al cinghiale, ribollita)
 - **Popoludnie:** Monteriggioni (mury obronne, 15 min od Sieny), powrot do bazy
 - **Wieczor:** relaks na campingu, ostatnia kolacja toskanska, pakowanie
 - **Nocleg:** ten sam
 
-  ### Dzien 13 | 18.09 (czwartek) - Toskania -> Wroclaw
+  ### Dzien 13 | 18.09 (piatek) - Toskania -> Wroclaw
 - **Trasa:** San Gimignano -> Bologna -> Brenner -> Wroclaw (~1300 km, ~13h)
 - **Kierowcy:** 3 kierowcow, zmiana co ~4-4.5h
 - **Po drodze:** przystanek w Bolonii lub Parmie na obiad (1-2h)
 - **Przyjazd do Wroclawia:** pozna noc
 - **Nocleg:** Wroclaw (u znajomych)
 
-### Dzien 14 | 19.09 (piatek) - Wroclaw -> Gdansk
+### Dzien 14 | 19.09 (sobota) - Wroclaw -> Gdansk
 - **Trasa:** Wroclaw -> Gdansk (~460 km, ~5h)
 - **Plan:** spokojny poranek we Wroclawiu, wyjazd po obiedzie
 - **Przyjazd do Gdanska:** wieczor

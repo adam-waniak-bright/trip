@@ -1,10 +1,10 @@
-# Nocleg 4: Bardolino (Jezioro Garda) | 12.09 (piatek)
+# Nocleg 4: Bardolino (Jezioro Garda) | 12.09 (sobota)
 ## Nocleg: Bardolino
 ## Ile nocy: 1
 
 ---
 
-## Dzien 7 | 12.09 (piatek) - Dolomity -> Jezioro Garda
+## Dzien 7 | 12.09 (sobota) - Dolomity -> Jezioro Garda
 
 ### UWAGA: Tylko 1 dzien na Garde
 Macie ~7h na miejscu (dojazd 3h + zakwaterowanie). Realistycznie zmiescicie **1-2 atrakcje**, nie wszystkie.
