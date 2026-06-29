@@ -1,30 +1,59 @@
-# Nocleg 5: Levanto (Cinque Terre) | 13-14.09 (niedziela-poniedzialek)
+# Nocleg 5: Levanto (Cinque Terre) | 12-14.09 (sobota-poniedzialek)
 ## Nocleg: Levanto
-## Ile nocy: 2
+## Ile nocy: 3
 
 ---
 
-## Dzien 8 | 13.09 (niedziela) - Garda -> Cinque Terre
+## Dzien 7 | 12.09 (sobota) - Dolomity -> Garda (przystanek) -> Cinque Terre
 
 ### Harmonogram
 | Godzina | Plan |
 |---|---|
 | 8:00 | Sniadanie, pakowanie |
-| 9:00 | Wyjazd z Bardolino |
-| ~12:30 | Przyjazd do Levanto, zakwaterowanie |
-| 13:00-13:30 | Pociag Levanto -> Riomaggiore (~20 min) |
-| 13:30-14:15 | **Riomaggiore** - spacer po wiosce, przekaska z widokiem na morze |
-| 14:15-14:30 | Pociag do Manarola |
-| 14:30-16:00 | **Manarola** - spacer, zdjecia z punktu widokowego, obiad |
-| 16:00-16:15 | Pociag do Corniglia |
-| 16:15-17:30 | **Corniglia** - 5. wioska na szczycie klifu, panorama (autobus lub 382 schody z dworca) |
-| 17:30-18:00 | Pociag powrotny do Levanto |
+| 8:30 | Wyjazd z Brixen |
+| ~11:30 | Przyjazd do Sirmione (przystanek nad Garda) |
+| 11:30-14:00 | **Sirmione** - zamek Scaligero, spacer po polwyspie, Grotte di Catullo, obiad |
+| 14:00-14:30 | Wyjazd w kierunku Cinque Terre |
+| ~18:00 | Przyjazd do Levanto, zakwaterowanie |
 | 18:00-19:30 | Relaks / plaza w Levanto |
 | 19:30 | Kolacja (gotowanie) |
 
 ### Trasa
-- Bardolino -> Levanto: **~330 km, ~3.5h** (A4 + A15 + A12)
-- Autostrady wloskie: oplaty na bramkach (~20-25 EUR na tym odcinku)
+- Brixen -> Sirmione: **~200 km, ~2.5-3h** (A22 przez Trento)
+- Sirmione -> Levanto: **~330 km, ~3.5h** (A4 + A15 + A12)
+- **Lacznie: ~530 km, ~6-6.5h jazdy** + przystanek nad Garda
+
+### Przystanek: Sirmione (Jezioro Garda, ~2-2.5h)
+- Zamek Scaligero (XIII w.) - twierdza na wodzie, wejscie ~8 EUR
+- Grotte di Catullo - ruiny rzymskiej willi na czubku polwyspu (piekne widoki)
+- Obiad w jednej z restauracji nad jeziorem, lody
+- **Koordynaty:** 45.4648, 10.6118
+- **UWAGA:** parking poza polwyspem (ruch w centrum ograniczony) - kilka minut spaceru
+
+### Nocleg
+- **Lokalizacja:** Levanto (baza na 3 noce)
+- **Typ:** apartament lub camping
+- **Szac. koszt:** 400-600 zl/noc (4 osoby)
+
+---
+
+## Dzien 8 | 13.09 (niedziela) - Cinque Terre - trzy wioski
+
+### Harmonogram
+| Godzina | Plan |
+|---|---|
+| 8:00 | Sniadanie |
+| 9:00-9:30 | Kupno Cinque Terre Card na stacji, pociag Levanto -> Riomaggiore (~20 min) |
+| 9:30-10:30 | **Riomaggiore** - spacer po wiosce, kawa z widokiem na morze |
+| 10:30-10:45 | Pociag do Manarola |
+| 10:45-12:30 | **Manarola** - spacer, zdjecia z punktu widokowego |
+| 12:30-12:45 | Pociag do Corniglia |
+| 12:45-14:30 | **Corniglia** - 5. wioska na szczycie klifu, panorama, obiad (autobus lub 382 schody z dworca) |
+| 14:30-15:00 | Pociag powrotny do Levanto |
+| 15:00-19:00 | Relaks / plaza w Levanto, kapiel |
+| 19:30 | Kolacja (gotowanie) |
+
+> Caly dzien na 3 wioski - bez przejazdu samochodem (jestescie juz w Levanto od wczoraj), wiec wiecej czasu i spokojniejsze tempo.
 
 ### Atrakcje
 #### Riomaggiore

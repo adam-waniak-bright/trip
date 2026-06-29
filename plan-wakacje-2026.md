@@ -76,15 +76,14 @@
 - **Wybor:** w zaleznosci od pogody i sil - Sorapis bardziej spektakularny, Federa latwiejszy
 - **Nocleg:** ten sam (Brixen/Val di Funes)
 
-### Dzien 7 | 12.09 (sobota) - Dolomity -> Jezioro Garda
-- **Trasa:** Dolomity -> Lago di Garda (~200 km, ~3h)
-- **Popoludnie:** Sirmione - polwysep z zamkiem Scaligero, termy, waskie uliczki
-- **Wieczor:** Malcesine lub Bardolino - kolacja z widokiem na jezioro, spacer
-- **Nocleg:** Bardolino (camping lub apartament)
+### Dzien 7 | 12.09 (sobota) - Dolomity -> Garda (przystanek) -> Cinque Terre
+- **Trasa:** Dolomity -> Sirmione (~200 km, ~2.5-3h) -> Levanto (~330 km, ~3.5h) = **~530 km, ~6-6.5h**
+- **Przystanek (poludnie):** Sirmione nad Garda - zamek Scaligero na wodzie, Grotte di Catullo, obiad (~2-2.5h)
+- **Wieczor:** dojazd do Levanto, zakwaterowanie, relaks
+- **Nocleg:** Levanto (baza na 3 noce)
 
-### Dzien 8 | 13.09 (niedziela) - Garda -> Cinque Terre
-- **Trasa:** Garda -> Cinque Terre (~330 km, ~3.5h)
-- **Plan:** dojazd do Levanto, do wiosek pociagiem
+### Dzien 8 | 13.09 (niedziela) - Cinque Terre - trzy wioski
+- **Plan:** caly dzien w Cinque Terre, do wiosek pociagiem z Levanto
 - **Popoludnie:** Riomaggiore, Manarola, Corniglia (3 wioski pociagiem)
 - **Wieczor:** relaks / plaza w Levanto
 - **Nocleg:** Levanto
@@ -137,8 +136,7 @@
 | 5.09 | Wroclaw | u znajomych | 0 zl |
 | 6-7.09 | Hallstatt/Obertraun | camping/apartament | 300-500 zl |
 | 8-11.09 | Dolomity (Brixen/Val di Funes) | apartament/camping | 300-500 zl |
-| 12.09 | Lazise / Bardolino (Garda) | Camping Lido Lazise / apartament | 200-350 zl |
-| 13-14.09 | La Spezia/Levanto | apartament | 400-600 zl |
+| 12-14.09 | Levanto (Cinque Terre) | apartament / camping | 400-600 zl |
 | 15-17.09 | San Gimignano (Camping Il Boschetto di Piemma) | camping | 200-350 zl |
 | 18.09 | Wroclaw | u znajomych | 0 zl |
 
@@ -167,6 +165,6 @@
 
 ### Glowne ryzyka
 1. **Powrot 18.09 (1300 km)** - najtrudniejszy dzien, miec plan B na nocleg po drodze
-2. **Garda w 1 dzien** - wybrac 1-2 atrakcje, nie probowac zobaczyc wszystkiego
+2. **Dzien 7 (12.09) dlugi przejazd** - ~530 km Dolomity -> Garda (przystanek) -> Levanto. Wczesny wyjazd, Sirmione tylko na obiad (~2-2.5h)
 3. **4 dni szlakow w Dolomitach** - miec plan B na deszcz (miasta: Brixen, Bolzano)
 4. **Winiety** - sprawdzic terminy waznosci przed powrotem!
