@@ -1,6 +1,9 @@
 .idea/
 *.iml
 
+# macOS
+.DS_Store
+
 ### Node template
 # Logs
 logs
