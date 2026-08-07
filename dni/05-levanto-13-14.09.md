@@ -1,5 +1,5 @@
 # Nocleg 5: Levanto (Cinque Terre) | 12-14.09 (sobota-poniedzialek)
-## Nocleg: Levanto
+## Nocleg: Apartament Corso, Levanto
 ## Ile nocy: 3
 
 ---
@@ -31,9 +31,13 @@
 - **UWAGA:** parking poza polwyspem (ruch w centrum ograniczony) - kilka minut spaceru
 
 ### Nocleg
-- **Lokalizacja:** Levanto (baza na 3 noce)
-- **Typ:** apartament lub camping
-- **Szac. koszt:** 400-600 zl/noc (4 osoby)
+- **Obiekt:** Apartament Corso, Levanto (ZAREZERWOWANE, baza na 3 noce)
+- **Adres:** Levanto (Plus Code 5JC6+HC), Province of La Spezia, Wlochy
+- **Typ:** apartament
+- **Koszt:** 2 414,20 zl / 3 noce (4 osoby)
+- **Zameldowanie:** 12.09, **wymeldowanie:** 15.09
+- **Rezerwacja:** https://www.airbnb.pl/rooms/871427864698746858
+- **Mapa:** https://www.google.com/maps/search/?api=1&query=5JC6%2BHC%20Levanto%2C%20Province%20of%20La%20Spezia%2C%20Italy
 
 ---
 
@@ -125,6 +129,9 @@
 - **Koordynaty:** 44.1739, 9.6157
 
 ### Nocleg
-- **Lokalizacja:** Levanto
+- **Obiekt:** Apartament Corso, Levanto (ZAREZERWOWANE)
+- **Adres:** Levanto (Plus Code 5JC6+HC), Province of La Spezia, Wlochy
 - **Typ:** apartament
-- **Szac. koszt:** 400-600 zl/noc (4 osoby)
+- **Koszt:** 2 414,20 zl / 3 noce (4 osoby)
+- **Rezerwacja:** https://www.airbnb.pl/rooms/871427864698746858
+- **Mapa:** https://www.google.com/maps/search/?api=1&query=5JC6%2BHC%20Levanto%2C%20Province%20of%20La%20Spezia%2C%20Italy

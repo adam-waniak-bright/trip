@@ -16,14 +16,14 @@
 |---|---|---|
 | Paliwo (~3500 km, 7l/100km, ~1.80 EUR/l) | ~1 900 zl | kurs ~4.29 zl/EUR; mix tanszej PL i drozszych IT/AT |
 | Winiety / autostrady | ~1 000 zl | CZ 2x10 dni (34 EUR), AT 2-mies. (28 EUR), Grossglockner (40 EUR), IT bramki (~60 EUR) |
-| Noclegi (13 nocy) | ~6 000 - 9 000 zl | mix camping / apartamenty |
+| Noclegi (13 nocy) | ~6 852 zl | ZAREZERWOWANE: apartamenty + 2 noce u znajomych (0 zl) |
 | Jedzenie | ~5 000 - 6 000 zl | obiady restauracja + gotowanie sniadania/kolacje |
 | Atrakcje / wstepy / kolejki | ~2 800 zl | Five Fingers+jaskinia 160 EUR, Seceda 160 EUR, CT Card 116 EUR, reszta ~140 EUR |
 | Rezerwa | ~1 500 zl | |
-| **RAZEM** | **~18 200 - 22 200 zl** | |
-| **Na osobe** | **~4 550 - 5 550 zl** | |
+| **RAZEM** | **~19 050 - 20 050 zl** | |
+| **Na osobe** | **~4 760 - 5 010 zl** | |
 
-> Uwaga: camping obniza koszty noclegow o ~40%. Apartamenty z kuchnia to dobry kompromis.
+> Uwaga: wszystkie noclegi zarezerwowane i oplacone wg cennika (apartamenty z kuchnia + 2 noce u znajomych). Przelicznik EUR->PLN: 4,29.
 
 ---
 
@@ -39,7 +39,7 @@
 ### Dzien 1 | 6.09 (niedziela) - Wroclaw -> Hallstatt
 - **Trasa:** Wroclaw -> Hallstatt (~620 km, ~6.5h przez Czechy)
 - **Po drodze:** Przystanek w Czeskim Krumlowie (1-2h spacer po starym miescie - piekne miasteczko z zamkiem nad Weltawa)
-- **Nocleg:** okolice Hallstatt / Obertraun (camping lub apartament)
+- **Nocleg:** Barbi Exclusive Apartment, Bad Mitterndorf (214,5 EUR / 2 noce)
 - **Wieczor:** spacer nad jeziorem Hallstatt o zachodzie slonca
 
 ### Dzien 2 | 7.09 (poniedzialek) - Hallstatt i okolice
@@ -54,7 +54,7 @@
   - Przystanek na Kaiser-Franz-Josefs-Hohe - widok na lodowiec Pasterze i Grossglockner (3798m)
   - Krotkie szlaki wzdluz drogi (30 min - 1.5h, latwe, z widokami)
 - **Oplata:** ~40 EUR za auto (Grossglockner)
-- **Nocleg:** okolice Bressanone/Brixen lub Val di Funes (apartament/camping) - baza na 4 noce
+- **Nocleg:** Ferienwohnung Frieda, Sillian (Austria) - baza na 4 noce, 530 EUR (~2 274 zl)
 
 ### Dzien 4 | 9.09 (sroda) - Dolomity - Lago di Braies & Val di Funes
 - **Trasa:** dojazd do Lago di Braies (~60 km z Brixen)
@@ -80,7 +80,7 @@
 - **Trasa:** Dolomity -> Sirmione (~200 km, ~2.5-3h) -> Levanto (~330 km, ~3.5h) = **~530 km, ~6-6.5h**
 - **Przystanek (poludnie):** Sirmione nad Garda - zamek Scaligero na wodzie, Grotte di Catullo, obiad (~2-2.5h)
 - **Wieczor:** dojazd do Levanto, zakwaterowanie, relaks
-- **Nocleg:** Levanto (baza na 3 noce)
+- **Nocleg:** Apartament Corso, Levanto (baza na 3 noce, 2 414,20 zl)
 
 ### Dzien 8 | 13.09 (niedziela) - Cinque Terre - trzy wioski
 - **Plan:** caly dzien w Cinque Terre, do wiosek pociagiem z Levanto
@@ -99,7 +99,7 @@
 - **Trasa:** La Spezia -> San Gimignano (~200 km, ~2.5h)
 - **Popoludnie:** spacer po San Gimignano - sredniowieczne wieze, Piazza della Cisterna
 - **Wieczor:** kolacja w lokalnej trattoria, lokalne wino Vernaccia di San Gimignano
-- **Nocleg:** Camping Il Boschetto di Piemma, San Gimignano - baza na 3 noce
+- **Nocleg:** Agriturismo La Magione, Quercegrossa - baza na 3 noce, 290 EUR (~1 244 zl)
 
 ### Dzien 11 | 16.09 (sroda) - Toskania - Volterra, Pienza i Val d'Orcia
 - **Rano:** Volterra (~30 km) - etruskie miasto na wzgorzu, panoramy, alabaster
@@ -112,7 +112,7 @@
 - **Rano:** dojazd do Sieny (~40 km) - Piazza del Campo, Duomo, Torre del Mangia
 - **Obiad:** w Sienie (pici, pappardelle al cinghiale, ribollita)
 - **Popoludnie:** Monteriggioni (mury obronne, 15 min od Sieny), powrot do bazy
-- **Wieczor:** relaks na campingu, ostatnia kolacja toskanska, pakowanie
+- **Wieczor:** relaks w agriturismo, ostatnia kolacja toskanska, pakowanie
 - **Nocleg:** ten sam
 
   ### Dzien 13 | 18.09 (piatek) - Toskania -> Wroclaw
@@ -129,16 +129,18 @@
 
 ---
 
-## Propozycja noclegow - mix oszczedny
+## Noclegi - ZAREZERWOWANE
 
-| Noc | Miejsce | Typ | Szac. koszt/noc (4os.) |
+| Noc | Obiekt | Typ | Koszt (4 os.) |
 |---|---|---|---|
-| 5.09 | Wroclaw | u znajomych | 0 zl |
-| 6-7.09 | Hallstatt/Obertraun | camping/apartament | 300-500 zl |
-| 8-11.09 | Dolomity (Brixen/Val di Funes) | apartament/camping | 300-500 zl |
-| 12-14.09 | Levanto (Cinque Terre) | apartament / camping | 400-600 zl |
-| 15-17.09 | San Gimignano (Camping Il Boschetto di Piemma) | camping | 200-350 zl |
-| 18.09 | Wroclaw | u znajomych | 0 zl |
+| 5.09 | Wroclaw - u znajomych | prywatnie | 0 zl |
+| 6-7.09 | Barbi Exclusive Apartment, Bad Mitterndorf | apartament | 214,5 EUR (~920 zl) / 2 noce |
+| 8-11.09 | Ferienwohnung Frieda, Sillian (Austria) | apartament | 530 EUR (~2 274 zl) / 4 noce |
+| 12-14.09 | Apartament Corso, Levanto | apartament | 2 414,20 zl / 3 noce |
+| 15-17.09 | Agriturismo La Magione, Quercegrossa | apartament | 290 EUR (~1 244 zl) / 3 noce |
+| 18.09 | Wroclaw - u znajomych | prywatnie | 0 zl |
+
+Adresy i linki do rezerwacji: patrz pliki w `dni/` oraz zakladka Noclegi na stronie.
 
 ---
 
@@ -152,7 +154,6 @@
 
 ### Co spakowac
 - Kuchenka turystyczna + garnki (sniadania/kolacje)
-- Namiot (jesli opcja campingowa)
 - Buty trekkingowe (Dolomity, szlaki)
 - Stroje kapielowe (Garda, Cinque Terre)
 - Ciepla kurtka / polar - na 2500m w Dolomitach moze byc 5-10 st.!

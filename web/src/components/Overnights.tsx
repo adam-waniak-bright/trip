@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react';
 import {
   overnights,
   getCheckInOut,
+  getOvernightMapsUrl,
   ACCOMMODATION_LABELS,
   ACCOMMODATION_COLORS,
   type AccommodationType,
@@ -109,19 +110,35 @@ export function Overnights() {
                     {option.note && (
                       <p className="text-sm text-stone-600 mt-1">{option.note}</p>
                     )}
+                    {option.address && (
+                      <p className="text-sm text-stone-500 mt-1">{option.address}</p>
+                    )}
                   </div>
                   <div className="text-right shrink-0">
                     <div className="font-semibold text-amber-700 text-sm">{option.price}</div>
-                    {option.url && (
-                      <a
-                        href={option.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block mt-1 px-3 py-1.5 text-xs font-medium rounded-lg bg-amber-100 text-amber-800 hover:bg-amber-200 transition-colors"
-                      >
-                        Rezerwuj
-                      </a>
-                    )}
+                    <div className="flex gap-1.5 justify-end mt-1">
+                      {option.address && (
+                        <a
+                          href={getOvernightMapsUrl(option)}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block px-3 py-1.5 text-xs font-medium rounded-lg bg-stone-100 text-stone-600 hover:bg-amber-100 hover:text-amber-800 transition-colors"
+                          title={`Otworz ${option.name} w Google Maps`}
+                        >
+                          Maps
+                        </a>
+                      )}
+                      {option.url && (
+                        <a
+                          href={option.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-block px-3 py-1.5 text-xs font-medium rounded-lg bg-amber-100 text-amber-800 hover:bg-amber-200 transition-colors"
+                        >
+                          Rezerwuj
+                        </a>
+                      )}
+                    </div>
                   </div>
                 </div>
               </div>
