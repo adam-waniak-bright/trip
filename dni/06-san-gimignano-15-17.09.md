@@ -1,5 +1,5 @@
 # Nocleg 6: San Gimignano (Toskania) | 15-17.09 (wtorek-czwartek)
-## Nocleg: Camping Il Boschetto di Piemma, San Gimignano
+## Nocleg: Agriturismo La Magione, Quercegrossa (Toskania)
 ## Ile nocy: 3
 
 ---
@@ -12,12 +12,12 @@
 | 8:00 | Sniadanie (gotowanie) |
 | 8:30-9:30 | Ostatni spacer / plaza w Levanto |
 | 10:00 | Wyjazd do San Gimignano |
-| ~12:30 | Przyjazd, zakwaterowanie na campingu |
+| ~12:30 | Przyjazd, zakwaterowanie w agriturismo |
 | 13:00-13:30 | Dojazd do centrum San Gimignano (parking poza murami) |
 | 13:30-15:00 | **Obiad w San Gimignano** - lokalna trattoria |
 | 15:00-18:00 | **Spacer po San Gimignano** - wieze, Piazza della Cisterna, Duomo |
 | 18:00-19:00 | **Vernaccia di San Gimignano Wine Experience La Rocca** - degustacja wina |
-| 19:30 | Powrot na camping |
+| 19:30 | Powrot do agriturismo |
 | 20:00 | Kolacja (gotowanie) z lokalnym winem |
 
 ### Trasa
@@ -94,7 +94,7 @@
 | 14:30-15:30 | Spacer po Sienie - spokojne tempo, zakupy, kawa |
 | 15:45-16:15 | **Monteriggioni** (~15 min od Sieny) - mury obronne, spacer |
 | 16:30 | Powrot do bazy |
-| 17:00-18:30 | **Relaks** - basen na campingu, spacer po okolicy |
+| 17:00-18:30 | **Relaks** - basen w agriturismo, spacer po okolicy |
 | 19:00 | **Ostatnia kolacja toskanska** (gotowanie z lokalnymi produktami) |
 | 21:00 | Pakowanie - jutro dlugi dzien powrotny |
 
@@ -112,12 +112,16 @@
 - Male, kameralne - 20-30 min wystarcza
 - **Koordynaty:** 43.3901, 11.2234
 
-#### Relaks na campingu
-- Camping Il Boschetto di Piemma - basen, bar, restauracja
+#### Relaks w agriturismo
+- Agriturismo La Magione - basen, widoki na toskanskie wzgorza
 - Okolica: toskanskie wzgorza, oliwki, cyprysy
 
 ### Nocleg
-- **Lokalizacja:** Camping Il Boschetto di Piemma, San Gimignano
-- **Koordynaty:** 43.4534, 11.0538
-- **Typ:** camping
-- **Szac. koszt:** 200-350 zl/noc (4 osoby)
+- **Obiekt:** Agriturismo La Magione (ZAREZERWOWANE)
+- **Adres:** Strada della Magione 9, 53035 Quercegrossa, Wlochy
+- **Typ:** apartament (agriturismo)
+- **Koszt:** 290 EUR (~1 244 zl) / 3 noce (4 osoby)
+- **Zameldowanie:** 15.09, **wymeldowanie:** 18.09
+- **Rezerwacja:** https://www.booking.com/Share-eKIc9K9
+- **Mapa:** https://www.google.com/maps/search/?api=1&query=Strada%20della%20Magione%209%2C%2053035%20Quercegrossa%2C%20Italy
+- **UWAGA:** Quercegrossa lezy kolo Sieny, ok. 30 km od San Gimignano

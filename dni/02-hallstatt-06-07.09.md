@@ -1,5 +1,5 @@
 # Nocleg 2: Hallstatt / Obertraun | 6-7.09 (niedziela-poniedzialek)
-## Nocleg: okolice Hallstatt / Obertraun (camping lub apartament)
+## Nocleg: Barbi Exclusive Apartment, Bad Mitterndorf
 ## Ile nocy: 2
 
 ---
@@ -71,6 +71,10 @@
 - Plaza w Obertraun (mniej ludzi niz w Hallstatt)
 
 ### Nocleg
-- **Lokalizacja:** Hallstatt / Obertraun
-- **Typ:** camping lub apartament
-- **Szac. koszt:** 300-500 zl/noc (4 osoby)
+- **Obiekt:** Barbi Exclusive Apartment (ZAREZERWOWANE)
+- **Adres:** Sonnenalm 8/28, 8983 Bad Mitterndorf, Austria
+- **Typ:** apartament
+- **Koszt:** 214,5 EUR (~920 zl) / 2 noce (4 osoby)
+- **Zameldowanie:** 6.09, **wymeldowanie:** 8.09
+- **Rezerwacja:** https://www.booking.com/Share-vsQwpCq
+- **Mapa:** https://www.google.com/maps/search/?api=1&query=Sonnenalm%208%2F28%2C%208983%20Bad%20Mitterndorf%2C%20Austria

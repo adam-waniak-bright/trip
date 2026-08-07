@@ -72,6 +72,10 @@ export interface OvernightOption {
   price: string;
   url: string;
   note?: string;
+  // Adres pokazywany na karcie noclegu
+  address?: string;
+  // Zapytanie do Google Maps, gdy sam adres nie wystarcza (np. Plus Code)
+  mapsQuery?: string;
 }
 
 export interface OvernightLocation {
@@ -108,34 +112,15 @@ export const overnights: OvernightLocation[] = [
     dates: '6-7.09',
     place: 'Hallstatt / Obertraun',
     nights: 2,
+    confirmed: true,
     options: [
-      {
-        name: 'Gasthof / hotel w Obertraun',
-        type: 'hotel',
-        price: '1 544 zł / 2 noce',
-        url: 'https://www.booking.com/Share-QneBK5',
-        note: 'Parking, blisko kolejki Dachstein',
-      },
-      {
-        name: 'Ferienwohnung Strick (Bad Mittendorf)',
-        type: 'apartament',
-        price: '1140 zł / 2 noce',
-        url: 'https://www.booking.com/Share-XClucfm',
-        note: '30 minut do Hallstatt, 1 sypialnia, kuchnia, parking. Tylko 9 opinii ale wygląda dobrze.',
-      },
-      {
-        name: 'Gartenappartement Leonsberg (Bad Ischl)',
-        type: 'apartament',
-        price: '1234 zł / 2 noce',
-        url: 'https://www.booking.com/Share-UON2h2',
-        note: 'Alternatywa z większą liczbą opinii. Ok nocleg.',
-      },
       {
         name: 'Barbi Exclusive Apartment (Bad Mitterndorf)',
         type: 'apartament',
-        price: '1142 zł / 2 noce',
-        url: 'https://www.booking.com/Share-rmD2CBB',
-        note: 'Alternatywa z większą liczbą opinii. Ok nocleg, nie tyle zdjęć.',
+        price: '214,5 EUR (~920 zł) / 2 noce',
+        url: 'https://www.booking.com/Share-vsQwpCq',
+        address: 'Sonnenalm 8/28, 8983 Bad Mitterndorf, Austria',
+        note: 'ZAREZERWOWANE. Zameldowanie 6.09, wymeldowanie 8.09.',
       },
     ],
   },
@@ -143,41 +128,16 @@ export const overnights: OvernightLocation[] = [
     dates: '8-11.09',
     place: 'Brixen / Val di Funes',
     nights: 4,
+    confirmed: true,
     options: [
-      {
-        name: 'Camping Brixen',
-        type: 'camping',
-        price: '~25-35 EUR / noc',
-        url: 'https://www.bookingsuedtirol.com/en/bressanonebrixen/camping',
-        note: 'Campingi w okolicach Brixen',
-      },
       {
         name: 'Ferienwohnung Frieda (Sillian Austria)',
         type: 'apartament',
-        price: '2 451 zł  /  4 noce',
-        url: 'https://www.booking.com/Share-IgPrim',
-        note: '2 sypialnie, kuchnia, parking. Alternatywa w Austrii, 1h od atrakcji. 37 opinii.',
-      },
-      {
-        name: 'Fabbricato Indipendente Centro (Lozzo Cadore Włochy)',
-        type: 'apartament',
-        price: '2 547 zł  /  4 noce',
-        url: 'https://www.booking.com/Share-nxg0g4',
-        note: '2 sypialnie, kuchnia, parking. ok 1h od atrakcji. 30 opinii.',
-      },
-      {
-        name: 'CONCO HOUSE (Calalzo di Cadore Włochy)',
-        type: 'apartament',
-        price: '2 186  zł  /  4 noce',
-        url: 'https://www.booking.com/Share-kyOTl5',
-        note: '2 sypialnie, kuchnia, parking. ok 1h od atrakcji. 88 opinii. Dosyć retro wygląda.',
-      },
-      {
-        name: 'Albergo Garnì Ajarnola (Auronzo di Cadore Włochy)',
-        type: 'hotel',
-        price: '3 036 zł  zł  /  4 noce',
-        url: 'https://www.booking.com/Share-X37nbf',
-        note: '1 pokój 20 m2, łóżko podwójne i piętro w jednym pokoju, ze śniadaniami parking. ok 45min od atrakcji. 74 opinii. Dosyć retro wygląda, zatrzymali się na Madagaskarze 2 i PES 2012 na PS3 XD',
+        price: '530 EUR (~2 274 zł) / 4 noce',
+        url: 'https://www.booking.com/Share-ac9Az7B',
+        address: '42 Sillian, 9920 Sillian, Austria',
+        mapsQuery: 'Ferienwohnung Frieda, 42 Sillian, 9920 Sillian, Austria',
+        note: 'ZAREZERWOWANE. 2 sypialnie, kuchnia, parking. 1h od atrakcji. Zameldowanie 8.09, wymeldowanie 12.09.',
       },
     ],
   },
@@ -185,20 +145,16 @@ export const overnights: OvernightLocation[] = [
     dates: '12-14.09',
     place: 'Levanto (Cinque Terre)',
     nights: 3,
+    confirmed: true,
     options: [
       {
-        name: 'Benedetta House (Levanto) ',
+        name: 'Apartament Corso (Levanto)',
         type: 'apartament',
-        price: '2392 zł / 4 noce',
-        url: 'https://www.booking.com/Share-tlg0Xj',
-        note: 'Faworyt, 2 sypialnie, brak klimy ale od wschodu, blisko dworzec i plaża (centrum)',
-      },
-      {
-        name: 'La Casa di Walter (Levanto) ',
-        type: 'apartament',
-        price: '2326 zł / 4 noce',
-        url: 'https://www.booking.com/Share-t27Uwg',
-        note: 'Coś podobnego do faworyta, blisko dworzec i plaża (centrum)',
+        price: '2 414,20 zł / 3 noce',
+        url: 'https://www.airbnb.pl/rooms/871427864698746858',
+        address: 'Levanto (Plus Code 5JC6+HC), Province of La Spezia, Włochy',
+        mapsQuery: '5JC6+HC Levanto, Province of La Spezia, Italy',
+        note: 'ZAREZERWOWANE (Airbnb). Zameldowanie 12.09, wymeldowanie 15.09.',
       },
     ],
   },
@@ -209,39 +165,12 @@ export const overnights: OvernightLocation[] = [
     confirmed: true,
     options: [
       {
-        name: 'Camping Il Boschetto di Piemma',
-        type: 'camping',
-        price: '1 064 zł / 3 noce',
-        url: 'https://www.booking.com/Share-v5UOCWQ',
-        note: 'WYBRANY! 2 baseny, restauracja, 2.5 km od San Gimignano. Ocena 8.1 na Booking. Podobno bardzo strome zejście do tych domków ',
-      },
-      {
-        name: 'Il Mandorlo nella Campagna di Certaldo',
-        type: 'apartament',
-        price: '1 338 zł / 3 noce',
-        url: 'https://www.booking.com/Share-OBkeF9',
-        note: 'Bardzo ładny apartament, z bardzo wysoką oceną na booking',
-      },
-      {
         name: 'Agriturismo La Magione',
         type: 'apartament',
-        price: '1 592 zł / 3 noce',
-        url: 'https://www.booking.com/Share-3IBnBV0',
-        note: 'Bardzo klimatyczne miejsce z basenem i widokami',
-      },
-      {
-        name: 'Podere Val di Gallo',
-        type: 'apartament',
-        price: '1 496 zł / 3 noce',
-        url: 'https://www.booking.com/Share-N836jT',
-        note: 'Bardzo klimatyczne miejsce z basenem i widokami, ciut gorszy standard niż La Magione, ale też tańsze',
-      },
-      {
-        name: 'Agriturismo Avanella Appartamenti a 150 mt dalla piscina 150 mt from swimming pool',
-        type: 'domek',
-        price: '1 608 zł / 3 noce',
-        url: 'https://www.booking.com/Share-pMZCOw',
-        note: 'Domek na wyłaczność, 150 m od basenu Ocena 8,4 na Booking',
+        price: '290 EUR (~1 244 zł) / 3 noce',
+        url: 'https://www.booking.com/Share-eKIc9K9',
+        address: 'Strada della Magione 9, 53035 Quercegrossa, Włochy',
+        note: 'ZAREZERWOWANE. Bardzo klimatyczne miejsce z basenem i widokami. Zameldowanie 15.09, wymeldowanie 18.09.',
       },
     ],
   },
@@ -271,19 +200,19 @@ export const config = {
   budget: [
     { label: 'Paliwo (~3500 km, 7l/100km, ~1.80 EUR/l, kurs ~4.29)', value: '~1 900 zl' },
     { label: 'Winiety / autostrady (CZ 2x, AT 2-mies., Grossglockner, IT bramki)', value: '~1 000 zl' },
-    { label: 'Noclegi (13 nocy, mix camping/apartamenty)', value: '~6 000 - 9 000 zl' },
+    { label: 'Noclegi (12 nocy apartamenty + 2 noce u znajomych)', value: '~6 852 zl (zarezerwowane)' },
     { label: 'Jedzenie (obiady restauracja + gotowanie)', value: '~5 000 - 6 000 zl' },
     { label: 'Atrakcje / wstepy / kolejki', value: '~2 800 zl' },
     { label: 'Rezerwa', value: '~1 500 zl' },
   ] as BudgetItem[],
-  budgetTotal: '~18 200 - 22 200 zl',
-  budgetPerPerson: '~4 550 - 5 550 zl',
+  budgetTotal: '~19 050 - 20 050 zl',
+  budgetPerPerson: '~4 760 - 5 010 zl',
   overnights: [
     { dates: '5.09', place: 'Wroclaw', nights: 1, type: 'u znajomych', cost: '0 zl' },
-    { dates: '6-7.09', place: 'Hallstatt / Obertraun', nights: 2, type: 'camping/apartament', cost: '300-500 zl/noc' },
-    { dates: '8-11.09', place: 'Brixen / Val di Funes', nights: 4, type: 'apartament/camping', cost: '300-500 zl/noc' },
-    { dates: '12-14.09', place: 'Levanto (Cinque Terre)', nights: 3, type: 'apartament', cost: '400-600 zl/noc' },
-    { dates: '15-17.09', place: 'San Gimignano (camping)', nights: 3, type: 'Camping Il Boschetto di Piemma', cost: '200-350 zl/noc' },
+    { dates: '6-7.09', place: 'Hallstatt / Obertraun', nights: 2, type: 'Barbi Exclusive Apartment (Bad Mitterndorf)', cost: '214,5 EUR (~920 zl) / 2 noce' },
+    { dates: '8-11.09', place: 'Brixen / Val di Funes', nights: 4, type: 'Ferienwohnung Frieda (Sillian)', cost: '530 EUR (~2 274 zl) / 4 noce' },
+    { dates: '12-14.09', place: 'Levanto (Cinque Terre)', nights: 3, type: 'Apartament Corso (Airbnb)', cost: '2 414,20 zl / 3 noce' },
+    { dates: '15-17.09', place: 'Toskania (Quercegrossa)', nights: 3, type: 'Agriturismo La Magione', cost: '290 EUR (~1 244 zl) / 3 noce' },
     { dates: '18.09', place: 'Wroclaw', nights: 1, type: 'u znajomych', cost: '0 zl' },
   ],
 };
@@ -295,8 +224,16 @@ export const INTENSITY_CONFIG: Record<Intensity, { label: string; icon: string; 
   intense: { label: 'Intensywny', icon: '🔥', color: 'bg-red-100 text-red-700' },
 };
 
+export function mapsSearchUrl(query: string) {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(query)}`;
+}
+
 export function getGoogleMapsUrl(attraction: Attraction) {
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(attraction.mapsQuery)}`;
+  return mapsSearchUrl(attraction.mapsQuery);
+}
+
+export function getOvernightMapsUrl(option: OvernightOption) {
+  return mapsSearchUrl(option.mapsQuery ?? option.address ?? option.name);
 }
 
 // Zdjecia z Unsplash - ID zweryfikowane z wynikow wyszukiwania
@@ -570,7 +507,7 @@ export const days: DayPlan[] = [
     intensity: 'moderate',
     image: '/trip/images/Gimignano.jpg',
     imageAlt: 'San Gimignano - sredniowieczne wieze w Toskanii',
-    overnight: 'Camping Il Boschetto di Piemma (baza na 3 noce)',
+    overnight: 'San Gimignano / Toskania (baza na 3 noce)',
     detailsFile: '06-san-gimignano-15-17.09.md',
     attractions: [
       { name: 'San Gimignano', desc: '14 sredniowiecznych wiez, Piazza della Cisterna, Gelateria Dondoli', longDesc: 'Sredniowieczny Manhattan - kiedys 72 wieze, zostalo 14. Kazda rodzina budowala wyzsza od sasiada jako symbol prestizu. Piazza della Cisterna (trojkatny plac z XIII-wieczna studnia), Duomo z freskami, Torre Grossa z panorama na cala Toskanie. Gelateria Dondoli na glownym placu to wielokrotny mistrz swiata gelato.', cost: 'Torre Grossa ~9 EUR/os', duration: '3-4h', mapsQuery: 'San Gimignano' },
@@ -596,7 +533,7 @@ export const days: DayPlan[] = [
     intensity: 'active',
     image: '/trip/images/Siena.jpg',
     imageAlt: 'Toskania - Val d\'Orcia',
-    overnight: 'Camping Il Boschetto di Piemma',
+    overnight: 'San Gimignano / Toskania',
     detailsFile: '06-san-gimignano-15-17.09.md',
     attractions: [
       { name: 'Volterra', desc: 'Etruskie miasto (800 p.n.e.!), Teatro Romano, Balze - klify erozyjne', longDesc: 'Jedno z najstarszych miast w Toskanii - Etruskowie zalozyli je ok. 800 p.n.e. Piazza dei Priori z najstarszym ratuszem w Toskanii, ruiny rzymskiego Teatro Romano, i Balze - spektakularne klify erozyjne na skraju miasta. Slynie tez z lokalnego rzemiosla alabastrowego. Mniej turystow niz San Gimignano - bardziej autentyczne.', duration: '2-2.5h', mapsQuery: 'Volterra Italy' },
@@ -623,7 +560,7 @@ export const days: DayPlan[] = [
     intensity: 'moderate',
     image: '/trip/images/Tuscany.jpg',
     imageAlt: 'Toskania - wzgorza z cyprysami',
-    overnight: 'Camping Il Boschetto di Piemma',
+    overnight: 'San Gimignano / Toskania',
     detailsFile: '06-san-gimignano-15-17.09.md',
     attractions: [
       { name: 'Siena - Piazza del Campo', desc: 'Muszlowy plac, miejsce wyscigow Palio. Torre del Mangia (400 schodow)', longDesc: 'Jeden z najpiekniejszych placow na swiecie - w ksztalcie muszli, opadajacy ku ratuszowi. Dwa razy w roku (lipiec i sierpien) odbywa sie tu Palio - wyscig konny z tradycja od 1633 r. Torre del Mangia (102m, 400 schodow) oferuje panorame na cala Siene i okolice - warto wejsc!', cost: 'Torre ~10 EUR/os', duration: '2-3h z wieza', mapsQuery: 'Piazza del Campo Siena' },
