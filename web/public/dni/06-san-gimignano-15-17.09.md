@@ -1,1 +1,0 @@
-../../../dni/06-san-gimignano-15-17.09.md

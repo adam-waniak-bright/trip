@@ -1,4 +1,4 @@
-# Nocleg 6: San Gimignano (Toskania) | 15-17.09 (wtorek-czwartek)
+# Nocleg 5: San Gimignano (Toskania) | 15-17.09 (wtorek-czwartek)
 ## Nocleg: Agriturismo La Magione, Quercegrossa (Toskania)
 ## Ile nocy: 3
 

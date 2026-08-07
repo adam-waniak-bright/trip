@@ -1,4 +1,4 @@
-# Nocleg 5: Levanto (Cinque Terre) | 12-14.09 (sobota-poniedzialek)
+# Nocleg 4: Levanto (Cinque Terre) | 12-14.09 (sobota-poniedzialek)
 ## Nocleg: Apartament Corso, Levanto
 ## Ile nocy: 3
 
@@ -9,26 +9,33 @@
 ### Harmonogram
 | Godzina | Plan |
 |---|---|
-| 8:00 | Sniadanie, pakowanie |
-| 8:30 | Wyjazd z Brixen |
-| ~11:30 | Przyjazd do Sirmione (przystanek nad Garda) |
-| 11:30-14:00 | **Sirmione** - zamek Scaligero, spacer po polwyspie, Grotte di Catullo, obiad |
-| 14:00-14:30 | Wyjazd w kierunku Cinque Terre |
-| ~18:00 | Przyjazd do Levanto, zakwaterowanie |
-| 18:00-19:30 | Relaks / plaza w Levanto |
+| 6:30 | Pobudka, sniadanie (pakowanie zrobione poprzedniego wieczoru!) |
+| 7:00 | **Wyjazd z Sillian** - wczesny start, dzien ma ~640 km |
+| ~8:00 | Przejazd Pustertal na zachod, wjazd na A22 pod Brixen |
+| ~10:30 | Przyjazd do Sirmione (przystanek nad Garda) |
+| 10:30-12:30 | **Sirmione (2h)** - zamek Scaligero, spacer po polwyspie, obiad |
+| 12:30 | Wyjazd w kierunku Cinque Terre |
+| ~16:30 | Przyjazd do Levanto, zakwaterowanie |
+| 16:30-19:30 | Relaks / plaza w Levanto |
 | 19:30 | Kolacja (gotowanie) |
 
 ### Trasa
-- Brixen -> Sirmione: **~200 km, ~2.5-3h** (A22 przez Trento)
+- Sillian -> Sirmione: **~310 km, ~3.5h** (Pustertal do Brixen ~1h, potem A22 przez Trento)
 - Sirmione -> Levanto: **~330 km, ~3.5h** (A4 + A15 + A12)
-- **Lacznie: ~530 km, ~6-6.5h jazdy** + przystanek nad Garda
+- **Lacznie: ~640 km, ~7h czystej jazdy** + przystanek nad Garda
 
-### Przystanek: Sirmione (Jezioro Garda, ~2-2.5h)
+**UWAGA:** Najdluzszy przejazd tripu poza dniem powrotnym. Baza w Sillian lezy na wschodnim krancu
+Pustertal, wiec pierwsza godzina to dojazd do Brixen zanim w ogole wjedziecie na autostrade.
+Spakowac auto **wieczorem 11.09**, zeby rano tylko wsiasc i ruszyc.
+
+### Przystanek: Sirmione (Jezioro Garda, 2h)
 - Zamek Scaligero (XIII w.) - twierdza na wodzie, wejscie ~8 EUR
-- Grotte di Catullo - ruiny rzymskiej willi na czubku polwyspu (piekne widoki)
 - Obiad w jednej z restauracji nad jeziorem, lody
 - **Koordynaty:** 45.4648, 10.6118
 - **UWAGA:** parking poza polwyspem (ruch w centrum ograniczony) - kilka minut spaceru
+- **Grotte di Catullo POMINIETE** - ruiny rzymskiej willi na czubku polwyspu leza ~1.2 km od
+  zamku (spacer tam i z powrotem + zwiedzanie = ~1.5h). Przy 2h postoju nie ma na to czasu.
+  Jesli jednak zdecydujecie sie na Grotte - odpuscic wejscie do zamku i ograniczyc obiad do lekkiego.
 
 ### Nocleg
 - **Obiekt:** Apartament Corso, Levanto (ZAREZERWOWANE, baza na 3 noce)
